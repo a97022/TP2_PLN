@@ -1,0 +1,927 @@
+
+<text top="243" left="750" width="42" height="25" font="12">113</text>
+<text top="426" left="176" width="285" height="16" font="14">Os termos coletados e aceitos como descri-</text>
+<text top="444" left="176" width="290" height="16" font="14">tores do VCMS são organizados segundo as </text>
+<text top="462" left="176" width="290" height="16" font="14">áreas temáticas, conforme demonstrado no </text>
+<text top="480" left="176" width="290" height="16" font="14">capítulo anterior e estão, também, aberto à </text>
+<text top="498" left="176" width="289" height="16" font="14">críticas e sugestões. Como a Saúde Pública é </text>
+<text top="516" left="176" width="285" height="16" font="14">uma área interdisciplinar, os descritores pode-</text>
+<text top="534" left="176" width="285" height="16" font="14">rão ser encontrados em mais de uma catego-</text>
+<text top="552" left="176" width="289" height="16" font="14">ria. Como, por exemplo, o descritor LEI DE </text>
+<text top="426" left="483" width="289" height="16" font="14">DIRETRIZES ORÇAMENTÁRIAS poderá </text>
+<text top="444" left="483" width="285" height="16" font="14">ser encontrado na categoria de “Administra-</text>
+<text top="462" left="483" width="290" height="16" font="14">ção e Planejamento em Saúde”, entendido </text>
+<text top="480" left="483" width="285" height="16" font="14">como um INSTRUMENTO DE PLANE-</text>
+<text top="498" left="483" width="290" height="16" font="14">JAMENTO, mas também na Categoria de </text>
+<text top="516" left="483" width="140" height="16" font="14">“Economia em Saúde</text>
+<text top="516" left="622" width="6" height="16" font="16"><i>”</i></text>
+<text top="516" left="629" width="139" height="16" font="14"> por se tratar das des-</text>
+<text top="534" left="483" width="271" height="16" font="14">pesas de capital para o exercício ﬁ nanceiro.</text>
+<text top="598" left="176" width="266" height="14" font="21"><b>Administração e Planejamento em Saúde</b></text>
+<text top="615" left="176" width="141" height="16" font="14">Acreditação hospitalar</text>
+<text top="633" left="176" width="106" height="16" font="14">Agenda de saúde</text>
+<text top="651" left="176" width="176" height="16" font="14">Atendimento pré-hospitalar</text>
+<text top="669" left="176" width="204" height="16" font="14">Atendimento pré-hospitalar ﬁ xo</text>
+<text top="687" left="176" width="219" height="16" font="14">Atendimento pré-hospitalar móvel</text>
+<text top="704" left="176" width="118" height="16" font="14">Auditoria analítica</text>
+<text top="722" left="176" width="138" height="16" font="14">Auditoria operacional</text>
+<text top="740" left="176" width="242" height="16" font="14">Autorização de Internação Hospitalar </text>
+<text top="758" left="193" width="40" height="16" font="14">(AIH)</text>
+<text top="776" left="176" width="60" height="16" font="14">Avaliação</text>
+<text top="794" left="176" width="255" height="16" font="14">Cadastro Nacional de Estabelecimentos </text>
+<text top="812" left="193" width="114" height="16" font="14">de Saúde (CNES)</text>
+<text top="830" left="176" width="166" height="16" font="14">Cartão Nacional de Saúde</text>
+<text top="848" left="176" width="144" height="16" font="14">Centrais farmacêuticas</text>
+<text top="866" left="176" width="196" height="16" font="14">Cobertura de serviços de saúde</text>
+<text top="884" left="176" width="104" height="16" font="14">Comando único</text>
+<text top="902" left="176" width="146" height="16" font="14">Comissão intergestores</text>
+<text top="920" left="176" width="204" height="16" font="14">Comissão intergestores bipartite</text>
+<text top="938" left="176" width="206" height="16" font="14">Comissão intergestores tripartite</text>
+<text top="956" left="176" width="152" height="16" font="14">Comissões intersetoriais</text>
+<text top="974" left="176" width="175" height="16" font="14">Consórcios intermunicipais</text>
+<text top="597" left="483" width="112" height="16" font="14">Contra-referência</text>
+<text top="615" left="483" width="202" height="16" font="14">Contrato de compra de serviços</text>
+<text top="633" left="483" width="121" height="16" font="14">Contrato de gestão</text>
+<text top="651" left="483" width="130" height="16" font="14">Controle assistencial</text>
+<text top="669" left="483" width="68" height="16" font="14">Convênios</text>
+<text top="687" left="483" width="248" height="16" font="14">Departamento de Informática do SUS </text>
+<text top="705" left="500" width="61" height="16" font="14">(Datasus)</text>
+<text top="723" left="483" width="117" height="16" font="14">Desburocratização</text>
+<text top="741" left="483" width="106" height="16" font="14">Descentralização</text>
+<text top="759" left="483" width="91" height="16" font="14">Distritalização</text>
+<text top="777" left="483" width="120" height="16" font="14">Gerência em saúde</text>
+<text top="795" left="483" width="231" height="16" font="14">Gestão avançada do sistema estadual</text>
+<text top="813" left="483" width="88" height="16" font="14">Gestão do sus</text>
+<text top="831" left="483" width="158" height="16" font="14">Gestão estadual de saúde</text>
+<text top="849" left="483" width="149" height="16" font="14">Gestão federal de saúde</text>
+<text top="867" left="483" width="171" height="16" font="14">Gestão municipal de saúde</text>
+<text top="885" left="483" width="196" height="16" font="14">Gestão plena da atenção básica</text>
+<text top="903" left="483" width="258" height="16" font="14">Gestão plena da atenção básica ampliada</text>
+<text top="921" left="483" width="208" height="16" font="14">Gestão plena do sistema estadual</text>
+<text top="939" left="483" width="221" height="16" font="14">Gestão plena do sistema municipal</text>
+<text top="957" left="483" width="74" height="16" font="14">Habilitação</text>
+<text top="975" left="483" width="62" height="16" font="14">Hemocad</text>
+<text top="280" left="176" width="459" height="44" font="11"><b>Descritores organizados </b></text>
+<text top="325" left="176" width="260" height="44" font="11"><b>por categorias</b></text>
+</page>
+<page number="114" position="absolute" top="0" left="0" height="1263" width="892">
+<text top="243" left="97" width="42" height="25" font="15">114</text>
+<text top="308" left="121" width="67" height="16" font="14">Hemoinsp</text>
+<text top="326" left="121" width="100" height="16" font="14">Hemovigilância</text>
+<text top="344" left="121" width="152" height="16" font="14">Hospitalização do idoso</text>
+<text top="362" left="121" width="120" height="16" font="14">Infecção hospitalar</text>
+<text top="380" left="121" width="222" height="16" font="14">Intituto Nacional de Câncer (Inca)</text>
+<text top="398" left="121" width="210" height="16" font="14">Instrumentos de gestão em saúde</text>
+<text top="416" left="121" width="134" height="16" font="14">Internação hospitalar</text>
+<text top="434" left="121" width="111" height="16" font="14">Intersetorialidade</text>
+<text top="452" left="121" width="136" height="16" font="14">Lavanderia hospitalar</text>
+<text top="470" left="121" width="252" height="16" font="14">Lei de Diretrizes Orçamentárias (LDO)</text>
+<text top="488" left="121" width="100" height="16" font="14">Leito hospitalar</text>
+<text top="506" left="121" width="57" height="16" font="14">Licitação</text>
+<text top="524" left="121" width="141" height="16" font="14">Microrregião de saúde</text>
+<text top="542" left="121" width="124" height="16" font="14">Módulo assistencial</text>
+<text top="560" left="121" width="101" height="16" font="14">Município-pólo</text>
+<text top="578" left="121" width="247" height="16" font="14">Município-sede do módulo assistencial</text>
+<text top="596" left="121" width="140" height="16" font="14">Observação hospitalar</text>
+<text top="614" left="121" width="124" height="16" font="14">Ouvidoria da saúde</text>
+<text top="632" left="121" width="202" height="16" font="14">Plano de saúde (gestão do SUS)</text>
+<text top="650" left="121" width="196" height="16" font="14">Plano diretor de regionalização</text>
+<text top="668" left="121" width="228" height="16" font="14">Plano nacional de saúde do sistema </text>
+<text top="686" left="138" width="83" height="16" font="14">penitenciário</text>
+<text top="704" left="121" width="246" height="16" font="14">Plano nacional de vacinas anti-hiv/aids</text>
+<text top="722" left="121" width="149" height="16" font="14">Plano Plurianual (PPA)</text>
+<text top="740" left="121" width="93" height="16" font="14">Posto de saúde</text>
+<text top="758" left="121" width="40" height="16" font="14">Profae</text>
+<text top="776" left="121" width="219" height="16" font="14">Programa de combate às carências </text>
+<text top="794" left="138" width="76" height="16" font="14">nutricionais</text>
+<text top="812" left="121" width="195" height="16" font="14">Programa qualidade do sangue</text>
+<text top="830" left="121" width="257" height="16" font="14">Programação Pactuada e Integrada (PPI)</text>
+<text top="848" left="121" width="125" height="16" font="14">Programas de saúde</text>
+<text top="866" left="121" width="108" height="16" font="14">Projeto bela vista</text>
+<text top="884" left="121" width="141" height="16" font="14">Projeto carteiro amigo</text>
+<text top="902" left="121" width="111" height="16" font="14">Projeto horizonte</text>
+<text top="920" left="121" width="119" height="16" font="14">Prontuário médico</text>
+<text top="938" left="121" width="110" height="16" font="14">Quadro de metas</text>
+<text top="956" left="121" width="98" height="16" font="14">Redes regionais</text>
+<text top="974" left="121" width="54" height="16" font="14">Reforsus</text>
+<text top="308" left="427" width="102" height="16" font="14">Região de saúde</text>
+<text top="326" left="427" width="121" height="16" font="14">Relatório de gestão</text>
+<text top="344" left="427" width="128" height="16" font="14">Relatório de vistoria</text>
+<text top="362" left="427" width="94" height="16" font="14">Resolutividade</text>
+<text top="380" left="427" width="124" height="16" font="14">Secretaria-executiva</text>
+<text top="398" left="427" width="248" height="16" font="14">Sistema de Informações Ambulatoriais </text>
+<text top="416" left="444" width="68" height="16" font="14">(SIA-SUS)</text>
+<text top="434" left="427" width="230" height="16" font="14">Sistema de Informações da Atenção </text>
+<text top="452" left="444" width="88" height="16" font="14">Básica (SIAB)</text>
+<text top="470" left="427" width="265" height="16" font="14">Sistema de Informações sobre Agravos de </text>
+<text top="488" left="444" width="124" height="16" font="14">Notiﬁ cação (Sinan)</text>
+<text top="506" left="427" width="240" height="16" font="14">Sistema de Informações do Programa </text>
+<text top="524" left="444" width="221" height="16" font="14">Nacional de Imunizações (SI-PNI)</text>
+<text top="542" left="427" width="237" height="16" font="14">Sistema de Informações Hospitalares </text>
+<text top="560" left="444" width="71" height="16" font="14">(SIH-SUS)</text>
+<text top="578" left="427" width="192" height="16" font="14">Sistema de Informações sobre </text>
+<text top="596" left="444" width="122" height="16" font="14">Mortalidade (SIM)</text>
+<text top="614" left="427" width="253" height="16" font="14">Sistema de Informações sobre Nascidos </text>
+<text top="632" left="444" width="97" height="16" font="14">Vivos (SINAV)</text>
+<text top="650" left="427" width="192" height="16" font="14">Sistema de Informações sobre </text>
+<text top="668" left="444" width="206" height="16" font="14">Orçamentos Públicos em Saúde </text>
+<text top="686" left="444" width="44" height="16" font="14">(Siops)</text>
+<text top="704" left="427" width="260" height="16" font="14">Sistema de Informações sobre Vigilância </text>
+<text top="722" left="444" width="207" height="16" font="14">Alimentar e Nutricional (Sisvan)</text>
+<text top="740" left="427" width="194" height="16" font="14">Sistema Nacional de Auditoria</text>
+<text top="758" left="427" width="237" height="16" font="14">Sistema Nacional de Laboratórios de </text>
+<text top="776" left="444" width="125" height="16" font="14">Sorologia Para HIV</text>
+<text top="794" left="427" width="196" height="16" font="14">Sistema Único de Saúde (SUS)</text>
+<text top="812" left="427" width="149" height="16" font="14">Sistemas de informação</text>
+<text top="830" left="427" width="212" height="16" font="14">Sistemas de informação em saúde</text>
+<text top="848" left="427" width="150" height="16" font="14">Termo de compromisso</text>
+<text top="866" left="427" width="93" height="16" font="14">Unidade mista</text>
+<text top="884" left="427" width="144" height="16" font="14">Unidades de referência</text>
+<text top="903" left="427" width="137" height="14" font="21"><b>Acidentes e Violência</b></text>
+<text top="920" left="427" width="175" height="16" font="14">Abuso ﬁ nanceiro aos idosos</text>
+<text top="938" left="427" width="111" height="16" font="14">Abuso incestuoso</text>
+<text top="956" left="427" width="157" height="16" font="14">Abuso sexual na infância</text>
+<text top="974" left="427" width="130" height="16" font="14">Acidentes ampliados</text>
+</page>
+<page number="115" position="absolute" top="0" left="0" height="1263" width="892">
+<text top="243" left="750" width="42" height="25" font="15">115</text>
+<text top="308" left="176" width="137" height="16" font="14">Acidentes de trabalho</text>
+<text top="326" left="176" width="174" height="16" font="14">Acidentes de trabalho fatais</text>
+<text top="344" left="176" width="180" height="16" font="14">Acidentes de trabalho graves</text>
+<text top="362" left="176" width="133" height="16" font="14">Acidentes de trânsito</text>
+<text top="380" left="176" width="149" height="16" font="14">Acidentes de transporte</text>
+<text top="398" left="176" width="102" height="16" font="14">Autonegligência</text>
+<text top="416" left="176" width="215" height="16" font="14">Casas de apoio para mulheres em </text>
+<text top="434" left="193" width="104" height="16" font="14">situação de risco</text>
+<text top="452" left="176" width="242" height="16" font="14">Comunicação de acidente do trabalho</text>
+<text top="470" left="176" width="106" height="16" font="14">Conselho tutelar</text>
+<text top="488" left="176" width="228" height="16" font="14">Conselhos de defesa dos direitos da </text>
+<text top="506" left="193" width="153" height="16" font="14">criança e do adolescente</text>
+<text top="524" left="176" width="212" height="16" font="14">Conselhos dos direitos da mulher</text>
+<text top="542" left="176" width="61" height="16" font="14">Delegacia</text>
+<text top="560" left="176" width="50" height="16" font="14">Estupro</text>
+<text top="578" left="176" width="210" height="16" font="14">Informação tóxico-farmacológica</text>
+<text top="596" left="176" width="103" height="16" font="14">Medida cautelar</text>
+<text top="614" left="176" width="75" height="16" font="14">Negligência</text>
+<text top="632" left="176" width="170" height="16" font="14">Notiﬁ cação de maus-tratos</text>
+<text top="650" left="176" width="77" height="16" font="14">Reabilitação</text>
+<text top="668" left="176" width="126" height="16" font="14">Riscos ocupacionais</text>
+<text top="686" left="176" width="173" height="16" font="14">Sexo forçado no casamento</text>
+<text top="704" left="176" width="198" height="16" font="14">Síndrome da criança espancada</text>
+<text top="722" left="176" width="196" height="16" font="14">Síndrome de munchausen por </text>
+<text top="740" left="193" width="71" height="16" font="14">provocação</text>
+<text top="758" left="176" width="177" height="16" font="14">Síndrome do bebê sacudido</text>
+<text top="776" left="176" width="162" height="16" font="14">Suporte avançado de vida</text>
+<text top="794" left="176" width="143" height="16" font="14">Suporte básico de vida</text>
+<text top="812" left="176" width="261" height="16" font="14">Veículos para atendimento pré-hospitalar</text>
+<text top="830" left="176" width="132" height="16" font="14">Violência econômica</text>
+<text top="848" left="176" width="96" height="16" font="14">Violência física</text>
+<text top="866" left="176" width="143" height="16" font="14">Violência institucional</text>
+<text top="884" left="176" width="143" height="16" font="14">Violência intrafamiliar</text>
+<text top="902" left="176" width="134" height="16" font="14">Violência psicológica</text>
+<text top="920" left="176" width="102" height="16" font="14">Violência sexual</text>
+<text top="939" left="176" width="152" height="14" font="21"><b>Alimentação e Nutrição</b></text>
+<text top="956" left="176" width="137" height="16" font="14">Alimentação saudável</text>
+<text top="974" left="176" width="116" height="16" font="14">Alimento artiﬁ cial</text>
+<text top="308" left="483" width="156" height="16" font="14">Alimento complementar</text>
+<text top="326" left="483" width="119" height="16" font="14">Alimento dietético</text>
+<text top="344" left="483" width="64" height="16" font="14">Alimento </text>
+<text top="344" left="547" width="58" height="16" font="16"><i>in natura</i></text>
+<text top="362" left="483" width="112" height="16" font="14">Alimento integral</text>
+<text top="380" left="483" width="151" height="16" font="14">Amamentação exclusiva</text>
+<text top="398" left="483" width="109" height="16" font="14">Anorexia nervosa</text>
+<text top="416" left="483" width="161" height="16" font="14">Avaliação antropométrica</text>
+<text top="434" left="483" width="130" height="16" font="14">Baixo peso ao nascer</text>
+<text top="452" left="483" width="147" height="16" font="14">Banco de leite humano</text>
+<text top="470" left="483" width="138" height="16" font="14">Bem-estar nutricional</text>
+<text top="488" left="483" width="50" height="16" font="14">Bulimia</text>
+<text top="506" left="483" width="171" height="16" font="14">Composição dos alimentos</text>
+<text top="524" left="483" width="81" height="16" font="14">Crescimento</text>
+<text top="542" left="483" width="179" height="16" font="14">Crescimento compensatório</text>
+<text top="560" left="483" width="72" height="16" font="14">Cretinismo</text>
+<text top="578" left="483" width="125" height="16" font="14">Deﬁ ciência de ferro</text>
+<text top="596" left="483" width="196" height="16" font="14">Deﬁ ciência de micronutrientes</text>
+<text top="614" left="483" width="182" height="16" font="14">Deﬁ ciência primária de iodo</text>
+<text top="632" left="483" width="157" height="16" font="14">Deﬁ ciências nutricionais</text>
+<text top="650" left="483" width="41" height="16" font="16"><i>Deﬁ cit</i></text>
+<text top="650" left="524" width="60" height="16" font="14"> de altura</text>
+<text top="668" left="483" width="64" height="16" font="14">Desmame</text>
+<text top="686" left="483" width="78" height="16" font="14">Desnutrição</text>
+<text top="704" left="483" width="128" height="16" font="14">Desnutrição crônica</text>
+<text top="722" left="483" width="203" height="16" font="14">Desnutrição energético-protéica</text>
+<text top="740" left="483" width="35" height="16" font="14">Dieta</text>
+<text top="758" left="483" width="56" height="16" font="14">Digestão</text>
+<text top="776" left="483" width="82" height="16" font="14">Dislipidemia</text>
+<text top="794" left="483" width="143" height="16" font="14">Distúrbios alimentares</text>
+<text top="812" left="483" width="131" height="16" font="14">Doenças da nutrição</text>
+<text top="830" left="483" width="127" height="16" font="14">Endemias carenciais</text>
+<text top="848" left="483" width="168" height="16" font="14">Enriquecimento alimentar</text>
+<text top="866" left="483" width="138" height="16" font="14">Ferro medicamentoso</text>
+<text top="884" left="483" width="181" height="16" font="14">Fracionamento de alimentos</text>
+<text top="902" left="483" width="127" height="16" font="14">Gelados comestíveis</text>
+<text top="920" left="483" width="117" height="16" font="14">Hipovitaminose A</text>
+<text top="938" left="483" width="42" height="16" font="14">Idiotia</text>
+<text top="956" left="483" width="168" height="16" font="14">Índice de pobreza humana</text>
+<text top="974" left="483" width="106" height="16" font="14">Macronutrientes</text>
+</page>
+<page number="116" position="absolute" top="0" left="0" height="1263" width="892">
+<text top="243" left="97" width="42" height="25" font="15">116</text>
+<text top="308" left="121" width="103" height="16" font="14">Micronutrientes</text>
+<text top="326" left="121" width="77" height="16" font="14">Nutrimento</text>
+<text top="344" left="121" width="67" height="16" font="14">Obesidade</text>
+<text top="362" left="121" width="135" height="16" font="14">Orientação alimentar</text>
+<text top="380" left="121" width="122" height="16" font="14">Pirâmide alimentar</text>
+<text top="398" left="121" width="145" height="16" font="14">Produção de alimentos</text>
+<text top="416" left="121" width="219" height="16" font="14">Programa de combate às carências </text>
+<text top="434" left="138" width="76" height="16" font="14">nutricionais</text>
+<text top="452" left="121" width="141" height="16" font="14">Projeto carteiro amigo</text>
+<text top="470" left="121" width="181" height="16" font="14">Recomendações nutricionais</text>
+<text top="488" left="121" width="144" height="16" font="14">Rotulagem nutricional</text>
+<text top="506" left="121" width="129" height="16" font="14">Segurança alimentar</text>
+<text top="524" left="121" width="97" height="16" font="14">Vegetarianismo</text>
+<text top="543" left="121" width="118" height="14" font="21"><b>Ambiente e Saúde</b></text>
+<text top="560" left="121" width="54" height="16" font="14">Benzeno</text>
+<text top="578" left="121" width="58" height="16" font="14">Chumbo</text>
+<text top="596" left="121" width="114" height="16" font="14">Controle químico</text>
+<text top="614" left="121" width="81" height="16" font="14">Desinfetante</text>
+<text top="632" left="121" width="71" height="16" font="14">Detergente</text>
+<text top="650" left="121" width="119" height="16" font="14">Estudos ecológicos</text>
+<text top="668" left="121" width="139" height="16" font="14">Explosão demográﬁ ca</text>
+<text top="686" left="121" width="133" height="16" font="14">Inseticidas piretóides</text>
+<text top="704" left="121" width="126" height="16" font="14">Riscos ocupacionais</text>
+<text top="722" left="121" width="40" height="16" font="14">Ruído</text>
+<text top="740" left="121" width="142" height="16" font="14">Salubridade ambiental</text>
+<text top="758" left="121" width="124" height="16" font="14">Solventes orgânicos</text>
+<text top="777" left="121" width="108" height="14" font="21"><b>Atenção à Saúde</b></text>
+<text top="794" left="121" width="265" height="16" font="14">Abordagem médica tradicional do adulto </text>
+<text top="812" left="138" width="84" height="16" font="14">hospitalizado</text>
+<text top="830" left="121" width="86" height="16" font="14">Ação racional</text>
+<text top="848" left="121" width="137" height="16" font="14">Acidentes de trabalho</text>
+<text top="866" left="121" width="112" height="16" font="14">Ações estratégicas</text>
+<text top="884" left="121" width="233" height="16" font="14">Acompanhamento do crescimento e </text>
+<text top="902" left="138" width="158" height="16" font="14">desenvolvimento infantil</text>
+<text top="920" left="121" width="106" height="16" font="14">Aconselhamento</text>
+<text top="938" left="121" width="159" height="16" font="14">Aconselhamento coletivo</text>
+<text top="956" left="121" width="196" height="16" font="14">Agentes comunitários da saúde</text>
+<text top="974" left="121" width="118" height="16" font="14">Alta complexidade</text>
+<text top="308" left="427" width="151" height="16" font="14">Amamentação exclusiva</text>
+<text top="326" left="427" width="189" height="16" font="14">Anticoncepção de emergência</text>
+<text top="344" left="427" width="105" height="16" font="14">Árvore de causas</text>
+<text top="362" left="427" width="119" height="16" font="14">Assistência à saúde</text>
+<text top="380" left="427" width="153" height="16" font="14">Assistência ambulatorial</text>
+<text top="398" left="427" width="182" height="16" font="14">Assistência aos trabalhadores</text>
+<text top="416" left="427" width="153" height="16" font="14">Assistência farmacêutica</text>
+<text top="434" left="427" width="195" height="16" font="14">Assistência farmacêutica básica</text>
+<text top="452" left="427" width="102" height="16" font="14">Atenção à saúde</text>
+<text top="470" left="427" width="94" height="16" font="14">Atenção básica</text>
+<text top="488" left="427" width="252" height="16" font="14">Atenção humanizada ao recém-nascido </text>
+<text top="506" left="444" width="86" height="16" font="14">de baixo peso</text>
+<text top="524" left="427" width="211" height="16" font="14">Atividade de apoio diagnóstico e </text>
+<text top="542" left="444" width="71" height="16" font="14">terapêutico</text>
+<text top="560" left="427" width="102" height="16" font="14">Autonegligência</text>
+<text top="578" left="427" width="240" height="16" font="14">Avaliação da autonomia e capacidade </text>
+<text top="596" left="444" width="60" height="16" font="14">funcional</text>
+<text top="614" left="427" width="166" height="16" font="14">Avaliação da saúde mental</text>
+<text top="632" left="427" width="130" height="16" font="14">Baixo peso ao nascer</text>
+<text top="650" left="427" width="147" height="16" font="14">Banco de leite humano</text>
+<text top="668" left="427" width="93" height="16" font="14">Biblioteca viva</text>
+<text top="686" left="427" width="209" height="16" font="14">Centrais de regulação médica de </text>
+<text top="704" left="444" width="59" height="16" font="14">urgências</text>
+<text top="722" left="427" width="199" height="16" font="14">Central nacional de transplante</text>
+<text top="740" left="427" width="237" height="16" font="14">Centro de referência em assistência à </text>
+<text top="758" left="444" width="94" height="16" font="14">saúde do idoso</text>
+<text top="776" left="427" width="104" height="16" font="14">Centro de saúde</text>
+<text top="794" left="427" width="245" height="16" font="14">Centro de testagem e aconselhamento </text>
+<text top="812" left="444" width="48" height="16" font="14">em aids</text>
+<text top="830" left="427" width="236" height="16" font="14">Centro nacional de regulação de alta </text>
+<text top="848" left="444" width="88" height="16" font="14">complexidade</text>
+<text top="866" left="427" width="206" height="16" font="14">Centro regional de especialidade</text>
+<text top="884" left="427" width="199" height="16" font="14">Centros de atenção psicossocial</text>
+<text top="902" left="427" width="259" height="16" font="14">Centros de orientação e apoio sorológico</text>
+<text top="920" left="427" width="109" height="16" font="14">Centros de saúde</text>
+<text top="938" left="427" width="69" height="16" font="14">Climatério</text>
+<text top="956" left="427" width="126" height="16" font="14">Coito interrompido</text>
+<text top="974" left="427" width="242" height="16" font="14">Comunicação de acidente do trabalho</text>
+</page>
+<page number="117" position="absolute" top="0" left="0" height="1263" width="892">
+<text top="243" left="750" width="42" height="25" font="15">117</text>
+<text top="308" left="176" width="120" height="16" font="14">Consulta geriátrica</text>
+<text top="326" left="176" width="81" height="16" font="14">Crescimento</text>
+<text top="344" left="176" width="197" height="16" font="14">Cuidado comunitário do idoso</text>
+<text top="362" left="176" width="45" height="16" font="16"><i>Deﬁ cit </i></text>
+<text top="362" left="222" width="55" height="16" font="14">de altura</text>
+<text top="380" left="176" width="161" height="16" font="14">Dermatoses ocupacionais</text>
+<text top="398" left="176" width="64" height="16" font="14">Desmame</text>
+<text top="416" left="176" width="91" height="16" font="14">Distritalização</text>
+<text top="434" left="176" width="126" height="16" font="14">Doença proﬁ ssional</text>
+<text top="452" left="176" width="132" height="16" font="14">Doenças do trabalho</text>
+<text top="470" left="176" width="139" height="16" font="14">Domiciliação do risco</text>
+<text top="488" left="176" width="168" height="16" font="14">Estabelecimentos de saúde</text>
+<text top="506" left="176" width="138" height="16" font="14">Gestação de alto risco</text>
+<text top="524" left="176" width="158" height="16" font="14">Grupo de apoio ao idoso</text>
+<text top="542" left="176" width="114" height="16" font="14">Hábitos saudáveis</text>
+<text top="560" left="176" width="81" height="16" font="14">Hemocentro</text>
+<text top="578" left="176" width="109" height="16" font="14">Herança genética</text>
+<text top="596" left="176" width="96" height="16" font="14">Hierarquização</text>
+<text top="614" left="176" width="55" height="16" font="14">Hospital</text>
+<text top="632" left="176" width="166" height="16" font="14">Hospital amigo da criança</text>
+<text top="650" left="176" width="105" height="16" font="14">Hospital de base</text>
+<text top="668" left="176" width="182" height="16" font="14">Hospital de capacidade extra</text>
+<text top="686" left="176" width="143" height="16" font="14">Hospital-dia geriátrico</text>
+<text top="704" left="176" width="141" height="16" font="14">Hospital especializado</text>
+<text top="722" left="176" width="88" height="16" font="14">Hospital local</text>
+<text top="740" left="176" width="110" height="16" font="14">Hospital regional</text>
+<text top="758" left="176" width="152" height="16" font="14">Hospitalização do idoso</text>
+<text top="776" left="176" width="88" height="16" font="14">Humanização</text>
+<text top="794" left="176" width="193" height="16" font="14">Humanização do atendimento</text>
+<text top="812" left="176" width="74" height="16" font="14">Imunologia</text>
+<text top="830" left="176" width="83" height="16" font="14">Integralidade</text>
+<text top="848" left="176" width="77" height="16" font="14">Mamograﬁ a</text>
+<text top="866" left="176" width="133" height="16" font="14">Média complexidade</text>
+<text top="884" left="176" width="113" height="16" font="14">Médico regulador</text>
+<text top="902" left="176" width="73" height="16" font="14">Menopausa</text>
+<text top="920" left="176" width="152" height="16" font="14">Métodos contraceptivos</text>
+<text top="938" left="176" width="133" height="16" font="14">Métodos de barreiras</text>
+<text top="956" left="176" width="113" height="16" font="14">Modelo ecológico</text>
+<text top="974" left="176" width="52" height="16" font="14">Mutirão</text>
+<text top="308" left="483" width="151" height="16" font="14">Níveis de complexidade</text>
+<text top="326" left="483" width="220" height="16" font="14">Núcleos de educação em urgências</text>
+<text top="344" left="483" width="214" height="16" font="14">Perda auditiva induzida por ruído</text>
+<text top="362" left="483" width="140" height="16" font="14">Planejamento familiar</text>
+<text top="380" left="483" width="228" height="16" font="14">Plano nacional de saúde do sistema </text>
+<text top="398" left="500" width="83" height="16" font="14">penitenciário</text>
+<text top="416" left="483" width="222" height="16" font="14">Política nacional de saúde do idoso</text>
+<text top="434" left="483" width="150" height="16" font="14">Posto de medicamentos</text>
+<text top="452" left="483" width="138" height="16" font="14">Preservativo feminino</text>
+<text top="470" left="483" width="145" height="16" font="14">Preservativo masculino</text>
+<text top="488" left="483" width="264" height="16" font="14">Programa de humanização no pré-natal e </text>
+<text top="506" left="500" width="73" height="16" font="14">nascimento</text>
+<text top="524" left="483" width="252" height="16" font="14">Programa de interiorização do trabalho </text>
+<text top="542" left="500" width="59" height="16" font="14">em saúde</text>
+<text top="560" left="483" width="249" height="16" font="14">Programa nacional de humanização da </text>
+<text top="578" left="500" width="131" height="16" font="14">assistência hospitalar</text>
+<text top="596" left="483" width="168" height="16" font="14">Programa saúde da família</text>
+<text top="614" left="483" width="76" height="16" font="14">Quarentena</text>
+<text top="632" left="483" width="77" height="16" font="14">Reabilitação</text>
+<text top="650" left="483" width="159" height="16" font="14">Rede de suporte ao idoso</text>
+<text top="668" left="483" width="195" height="16" font="14">Rede nacional de genotipagem</text>
+<text top="686" left="483" width="82" height="16" font="14">Redes sociais</text>
+<text top="704" left="483" width="140" height="16" font="14">Reposição de nicotina</text>
+<text top="722" left="483" width="106" height="16" font="14">Saúde da criança</text>
+<text top="740" left="483" width="107" height="16" font="14">Saúde da mulher</text>
+<text top="758" left="483" width="209" height="16" font="14">Saúde do adolescente e do jovem</text>
+<text top="776" left="483" width="136" height="16" font="14">Saúde do trabalhador</text>
+<text top="794" left="483" width="97" height="16" font="14">Saúde indígena</text>
+<text top="812" left="483" width="219" height="16" font="14">Serviço de assistência especializada</text>
+<text top="830" left="483" width="185" height="16" font="14">Sistemas formais de cuidados</text>
+<text top="848" left="483" width="198" height="16" font="14">Sistemas informais de cuidados</text>
+<text top="866" left="483" width="89" height="16" font="14">Suporte social</text>
+<text top="884" left="483" width="180" height="16" font="14">Unidade de saúde da família</text>
+<text top="902" left="483" width="112" height="16" font="14">Unidade sanitária</text>
+<text top="921" left="483" width="198" height="14" font="21"><b>Ciência e Tecnologia em Saúde</b></text>
+<text top="938" left="483" width="89" height="16" font="14">Biossegurança</text>
+<text top="956" left="483" width="87" height="16" font="14">Biotecnologia</text>
+<text top="974" left="483" width="166" height="16" font="14">Cartão Nacional de Saúde</text>
+</page>
+<page number="118" position="absolute" top="0" left="0" height="1263" width="892">
+<text top="243" left="97" width="42" height="25" font="15">118</text>
+<text top="308" left="121" width="128" height="16" font="14">Ciência e tecnologia</text>
+<text top="326" left="121" width="248" height="16" font="14">Departamento de Informática do SUS </text>
+<text top="344" left="138" width="61" height="16" font="14">(Datasus)</text>
+<text top="362" left="121" width="189" height="16" font="14">Desenvolvimento tecnológico</text>
+<text top="380" left="121" width="118" height="16" font="14">Ensaio terapêutico</text>
+<text top="398" left="121" width="100" height="16" font="14">Ensaios clínicos</text>
+<text top="416" left="121" width="150" height="16" font="14">Ensaios de comunidade</text>
+<text top="434" left="121" width="113" height="16" font="14">Ética em pesquisa</text>
+<text top="452" left="121" width="62" height="16" font="14">Hemocad</text>
+<text top="470" left="121" width="67" height="16" font="14">Hemoinsp</text>
+<text top="488" left="121" width="100" height="16" font="14">Hemovigilância</text>
+<text top="506" left="121" width="144" height="16" font="14">Instituição de pesquisa</text>
+<text top="524" left="121" width="53" height="16" font="14">Pesquisa</text>
+<text top="542" left="121" width="208" height="16" font="14">Pesquisa em reprodução humana</text>
+<text top="560" left="121" width="116" height="16" font="14">Pesquisa em saúde</text>
+<text top="578" left="121" width="226" height="16" font="14">Pesquisa envolvendo seres humanos</text>
+<text top="596" left="121" width="151" height="16" font="14">Pesquisador responsável</text>
+<text top="614" left="121" width="108" height="16" font="14">Projeto bela vista</text>
+<text top="632" left="121" width="138" height="16" font="14">Protocolo de pesquisa</text>
+<text top="650" left="121" width="248" height="16" font="14">Sistema de Informações Ambulatoriais </text>
+<text top="668" left="138" width="68" height="16" font="14">(SIA-SUS)</text>
+<text top="686" left="121" width="237" height="16" font="14">Sistema de Informações Hospitalares </text>
+<text top="704" left="138" width="71" height="16" font="14">(SIH-SUS)</text>
+<text top="722" left="121" width="230" height="16" font="14">Sistema de Informações da Atenção </text>
+<text top="740" left="138" width="88" height="16" font="14">Básica (SIAB)</text>
+<text top="758" left="121" width="246" height="16" font="14">Sistema de Informações sobre Agravos </text>
+<text top="776" left="138" width="147" height="16" font="14">De Notiﬁ cação (Sinan)</text>
+<text top="794" left="121" width="202" height="16" font="14">Sistema de Informações de Hiv </text>
+<text top="812" left="138" width="174" height="16" font="14">Soropositivo Assintomático</text>
+<text top="830" left="121" width="240" height="16" font="14">Sistema de Informações do Programa </text>
+<text top="848" left="138" width="225" height="16" font="14">Nacional De Imunizações (SI-PNI)</text>
+<text top="866" left="121" width="192" height="16" font="14">Sistema de Informações sobre </text>
+<text top="884" left="138" width="122" height="16" font="14">Mortalidade (SIM)</text>
+<text top="902" left="121" width="253" height="16" font="14">Sistema de Informações sobre Nascidos </text>
+<text top="920" left="138" width="85" height="16" font="14">Vivos (Sinav)</text>
+<text top="938" left="121" width="260" height="16" font="14">Sistema de Informações sobre Vigilância </text>
+<text top="956" left="138" width="207" height="16" font="14">Alimentar e Nutricional (Sisvan)</text>
+<text top="974" left="121" width="149" height="16" font="14">Sistemas de informação</text>
+<text top="308" left="427" width="216" height="16" font="14">Sistemas de Informação em Saúde</text>
+<text top="327" left="427" width="168" height="14" font="21"><b>Ciências Sociais em Saúde</b></text>
+<text top="344" left="427" width="76" height="16" font="14">Adolescente</text>
+<text top="362" left="427" width="130" height="16" font="14">Aprendizagem social</text>
+<text top="380" left="427" width="125" height="16" font="14">Estrutura de gênero</text>
+<text top="398" left="427" width="47" height="16" font="14">Família</text>
+<text top="416" left="427" width="129" height="16" font="14">Garoto de programa</text>
+<text top="434" left="427" width="47" height="16" font="14">Gênero</text>
+<text top="452" left="427" width="103" height="16" font="14">Grupo matricial</text>
+<text top="470" left="427" width="110" height="16" font="14">Identidade sexual</text>
+<text top="488" left="427" width="35" height="16" font="14">Idoso</text>
+<text top="506" left="427" width="130" height="16" font="14">Proﬁ ssionais do sexo</text>
+<text top="524" left="427" width="75" height="16" font="14">Sexualidade</text>
+<text top="542" left="427" width="114" height="16" font="14">Sistema de gênero</text>
+<text top="561" left="427" width="155" height="14" font="21"><b>Comunicação em Saúde</b></text>
+<text top="578" left="427" width="178" height="16" font="14">Biblioteca Virtual em Saúde</text>
+<text top="596" left="427" width="93" height="16" font="14">Biblioteca viva</text>
+<text top="614" left="427" width="246" height="16" font="14">Propaganda de produtos farmacêuticos</text>
+<text top="633" left="427" width="77" height="14" font="21"><b>Demograﬁ a</b></text>
+<text top="650" left="427" width="166" height="16" font="14">Composição populacional</text>
+<text top="668" left="427" width="189" height="16" font="14">Envelhecimento populacional</text>
+<text top="686" left="427" width="185" height="16" font="14">Expectativa de vida ao nascer</text>
+<text top="704" left="427" width="139" height="16" font="14">Explosão demográﬁ ca</text>
+<text top="722" left="427" width="212" height="16" font="14">Feminilização no envelhecimento</text>
+<text top="740" left="427" width="162" height="16" font="14">Indicadores demográﬁ cos</text>
+<text top="758" left="427" width="199" height="16" font="14">Método direto de padronização</text>
+<text top="776" left="427" width="117" height="16" font="14">Morbimortalidade</text>
+<text top="794" left="427" width="79" height="16" font="14">Pátrio poder</text>
+<text top="812" left="427" width="211" height="16" font="14">População economicamente ativa</text>
+<text top="830" left="427" width="77" height="16" font="14">Trabalhador</text>
+<text top="848" left="427" width="131" height="16" font="14">Trabalhador coletivo</text>
+<text top="866" left="427" width="108" height="16" font="14">Trabalho precoce</text>
+<text top="884" left="427" width="142" height="16" font="14">Transição demográﬁ ca</text>
+<text top="903" left="427" width="106" height="14" font="21"><b>Direito Sanitário</b></text>
+<text top="920" left="427" width="167" height="16" font="14">Autorização de exportação</text>
+<text top="938" left="427" width="171" height="16" font="14">Autorização de importação</text>
+<text top="956" left="427" width="133" height="16" font="14">Autorização sanitária</text>
+<text top="974" left="427" width="262" height="16" font="14">Certiﬁ cado de boas práticas de fabricação</text>
+</page>
+<page number="119" position="absolute" top="0" left="0" height="1263" width="892">
+<text top="243" left="750" width="42" height="25" font="15">119</text>
+<text top="308" left="176" width="217" height="16" font="14">Certiﬁ cado de registro de produto</text>
+<text top="326" left="176" width="212" height="16" font="14">Conselhos dos direitos da mulher</text>
+<text top="344" left="176" width="125" height="16" font="14">Cuidados paliativos</text>
+<text top="362" left="176" width="152" height="16" font="14">Direitos civis e políticos</text>
+<text top="380" left="176" width="103" height="16" font="14">Medida cautelar</text>
+<text top="398" left="176" width="165" height="16" font="14">Norma operacional básica</text>
+<text top="416" left="176" width="234" height="16" font="14">Norma Operacional de Assistência à </text>
+<text top="434" left="193" width="96" height="16" font="14">Saúde (NOAS)</text>
+<text top="452" left="176" width="127" height="16" font="14">Registro de produto</text>
+<text top="471" left="176" width="56" height="14" font="21"><b>Doenças</b></text>
+<text top="488" left="176" width="28" height="16" font="14">Aids</text>
+<text top="506" left="176" width="95" height="16" font="14">Aids pediátrica</text>
+<text top="524" left="176" width="61" height="16" font="14">Amebíase</text>
+<text top="542" left="176" width="49" height="16" font="14">Anemia</text>
+<text top="560" left="176" width="118" height="16" font="14">Anemia falciforme</text>
+<text top="578" left="176" width="109" height="16" font="14">Anorexia nervosa</text>
+<text top="596" left="176" width="42" height="16" font="14">Antraz</text>
+<text top="614" left="176" width="119" height="16" font="14">Artrite reumatóide</text>
+<text top="632" left="176" width="61" height="16" font="14">Asbestose</text>
+<text top="650" left="176" width="35" height="16" font="14">Asma</text>
+<text top="668" left="176" width="77" height="16" font="14">Benzenismo</text>
+<text top="686" left="176" width="37" height="16" font="14">Bócio</text>
+<text top="704" left="176" width="50" height="16" font="14">Bulimia</text>
+<text top="722" left="176" width="115" height="16" font="14">Câncer de esôfago</text>
+<text top="740" left="176" width="129" height="16" font="14">Câncer de estômago</text>
+<text top="758" left="176" width="108" height="16" font="14">Câncer de mama</text>
+<text top="776" left="176" width="123" height="16" font="14">Câncer de pâncreas</text>
+<text top="794" left="176" width="94" height="16" font="14">Câncer de pele</text>
+<text top="812" left="176" width="102" height="16" font="14">Câncer de pênis</text>
+<text top="830" left="176" width="119" height="16" font="14">Câncer de próstata</text>
+<text top="848" left="176" width="155" height="16" font="14">Câncer do colo do útero</text>
+<text top="866" left="176" width="84" height="16" font="14">Cancerologia</text>
+<text top="884" left="176" width="81" height="16" font="14">Cancro duro</text>
+<text top="902" left="176" width="83" height="16" font="14">Cancro mole</text>
+<text top="920" left="176" width="71" height="16" font="14">Candidíase</text>
+<text top="938" left="176" width="54" height="16" font="14">Catarata</text>
+<text top="956" left="176" width="33" height="16" font="14">CD4</text>
+<text top="974" left="176" width="64" height="16" font="14">Célula T4</text>
+<text top="308" left="483" width="64" height="16" font="14">Célula T8</text>
+<text top="326" left="483" width="149" height="16" font="14">Chlamydia trachomatis</text>
+<text top="344" left="483" width="105" height="16" font="14">Citomegalovírus</text>
+<text top="362" left="483" width="87" height="16" font="14">Citopatologia</text>
+<text top="380" left="483" width="72" height="16" font="14">Clamidiose</text>
+<text top="398" left="483" width="42" height="16" font="14">Cólera</text>
+<text top="416" left="483" width="65" height="16" font="14">Colesterol</text>
+<text top="434" left="483" width="147" height="16" font="14">Condiloma acuminado</text>
+<text top="452" left="483" width="60" height="16" font="14">Contágio</text>
+<text top="470" left="483" width="77" height="16" font="14">Coqueluche</text>
+<text top="488" left="483" width="76" height="16" font="14">Corrimento</text>
+<text top="506" left="483" width="72" height="16" font="14">Cretinismo</text>
+<text top="524" left="483" width="125" height="16" font="14">Deﬁ ciência de ferro</text>
+<text top="542" left="483" width="196" height="16" font="14">Deﬁ ciência de micronutrientes</text>
+<text top="560" left="483" width="182" height="16" font="14">Deﬁ ciência primária de iodo</text>
+<text top="578" left="483" width="50" height="16" font="14">Dengue</text>
+<text top="596" left="483" width="65" height="16" font="14">Depressão</text>
+<text top="614" left="483" width="115" height="16" font="14">Dermatite atópica</text>
+<text top="632" left="483" width="188" height="16" font="14">Dermatite de contato alérgica</text>
+<text top="650" left="483" width="195" height="16" font="14">Dermatite de contato irritativa</text>
+<text top="668" left="483" width="132" height="16" font="14">Dermatite seborréica</text>
+<text top="686" left="483" width="91" height="16" font="14">Dermatoﬁ tose</text>
+<text top="704" left="483" width="161" height="16" font="14">Dermatoses ocupacionais</text>
+<text top="722" left="483" width="82" height="16" font="14">Desidratação</text>
+<text top="740" left="483" width="78" height="16" font="14">Desnutrição</text>
+<text top="758" left="483" width="128" height="16" font="14">Desnutrição crônica</text>
+<text top="776" left="483" width="203" height="16" font="14">Desnutrição energético-protéica</text>
+<text top="794" left="483" width="55" height="16" font="14">Diabetes</text>
+<text top="812" left="483" width="52" height="16" font="14">Diarréia</text>
+<text top="830" left="483" width="93" height="16" font="14">Diarréia aguda</text>
+<text top="848" left="483" width="50" height="16" font="14">Difteria</text>
+<text top="866" left="483" width="82" height="16" font="14">Dislipidemia</text>
+<text top="884" left="483" width="267" height="16" font="14">Distúrbio Osteomuscular Relacionado ao </text>
+<text top="902" left="500" width="118" height="16" font="14">Trabalho (DORT)</text>
+<text top="920" left="483" width="143" height="16" font="14">Distúrbios alimentares</text>
+<text top="938" left="483" width="118" height="16" font="14">Doença de Chagas</text>
+<text top="956" left="483" width="136" height="16" font="14">Doença de Parkinson</text>
+<text top="974" left="483" width="118" height="16" font="14">Doença de Wilson</text>
+</page>
+<page number="120" position="absolute" top="0" left="0" height="1263" width="892">
+<text top="243" left="97" width="42" height="25" font="15">120</text>
+<text top="308" left="121" width="126" height="16" font="14">Doença proﬁ ssional</text>
+<text top="326" left="121" width="160" height="16" font="14">Doenças cardiovasculares</text>
+<text top="344" left="121" width="196" height="16" font="14">Doenças crônico-degenerativas</text>
+<text top="362" left="121" width="131" height="16" font="14">Doenças da nutrição</text>
+<text top="380" left="121" width="148" height="16" font="14">Doenças das vias aéreas</text>
+<text top="398" left="121" width="137" height="16" font="14">Doença de Alzheimer</text>
+<text top="416" left="121" width="143" height="16" font="14">Doenças degenerativas</text>
+<text top="434" left="121" width="132" height="16" font="14">Doenças do trabalho</text>
+<text top="452" left="121" width="124" height="16" font="14">Doenças dos idosos</text>
+<text top="470" left="121" width="128" height="16" font="14">Doenças falciformes</text>
+<text top="488" left="121" width="137" height="16" font="14">Doenças oportunistas</text>
+<text top="506" left="121" width="129" height="16" font="14">Doenças prevalentes</text>
+<text top="524" left="121" width="95" height="16" font="14">Doenças renais</text>
+<text top="542" left="121" width="227" height="16" font="14">Doenças sexualmente transmissíveis</text>
+<text top="560" left="121" width="79" height="16" font="14">Donovanose</text>
+<text top="578" left="121" width="48" height="16" font="14">Eczema</text>
+<text top="596" left="121" width="127" height="16" font="14">Endemias carenciais</text>
+<text top="614" left="121" width="57" height="16" font="14">Epilepsia</text>
+<text top="632" left="121" width="61" height="16" font="14">Escabiose</text>
+<text top="650" left="121" width="88" height="16" font="14">Febre amarela</text>
+<text top="668" left="121" width="147" height="16" font="14">Febre do nilo ocidental</text>
+<text top="686" left="121" width="80" height="16" font="14">Febre tifóide</text>
+<text top="704" left="121" width="67" height="16" font="14">Furúnculo</text>
+<text top="722" left="121" width="65" height="16" font="14">Gonorréia</text>
+<text top="740" left="121" width="206" height="16" font="14">Guias terapêuticos padronizados</text>
+<text top="758" left="121" width="72" height="16" font="14">Hanseníase</text>
+<text top="776" left="121" width="64" height="16" font="14">Hemoﬁ lia</text>
+<text top="794" left="121" width="55" height="16" font="14">Hepatite</text>
+<text top="812" left="121" width="87" height="16" font="14">Hepatite viral</text>
+<text top="830" left="121" width="102" height="16" font="14">Hepatite viral A</text>
+<text top="848" left="121" width="101" height="16" font="14">Hepatite viral B</text>
+<text top="866" left="121" width="103" height="16" font="14">Hepatite viral C</text>
+<text top="884" left="121" width="104" height="16" font="14">Hepatite viral D</text>
+<text top="902" left="121" width="101" height="16" font="14">Hepatite viral E</text>
+<text top="920" left="121" width="96" height="16" font="14">Herpes simples</text>
+<text top="938" left="121" width="126" height="16" font="14">Hipertensão arterial</text>
+<text top="956" left="121" width="117" height="16" font="14">Hipovitaminose A</text>
+<text top="974" left="121" width="42" height="16" font="14">Idiotia</text>
+<text top="308" left="427" width="58" height="16" font="14">Impetigo</text>
+<text top="326" left="427" width="110" height="16" font="14">Imunodeprimido</text>
+<text top="344" left="427" width="113" height="16" font="14">Imunopatogênico</text>
+<text top="362" left="427" width="120" height="16" font="14">Infecção hospitalar</text>
+<text top="380" left="427" width="115" height="16" font="14">Insuﬁ ciência renal</text>
+<text top="398" left="427" width="80" height="16" font="14">Leptospirose</text>
+<text top="416" left="427" width="249" height="16" font="14">Linfadenopatia persistente generalizada</text>
+<text top="434" left="427" width="156" height="16" font="14">Linfogranuloma venéreo</text>
+<text top="452" left="427" width="49" height="16" font="14">Malária</text>
+<text top="470" left="427" width="67" height="16" font="14">Obesidade</text>
+<text top="488" left="427" width="208" height="16" font="14">Papiloma Vírus Humano (HPV)</text>
+<text top="506" left="427" width="72" height="16" font="14">Pediculoses</text>
+<text top="524" left="427" width="32" height="16" font="14">Peste</text>
+<text top="542" left="427" width="101" height="16" font="14">Pneumoconiose</text>
+<text top="560" left="427" width="146" height="16" font="14">Portador assintomático</text>
+<text top="578" left="427" width="134" height="16" font="14">Portador sintomático</text>
+<text top="596" left="427" width="91" height="16" font="14">Raiva humana</text>
+<text top="614" left="427" width="135" height="16" font="14">Retinopatia diabética</text>
+<text top="632" left="427" width="56" height="16" font="14">Sarampo</text>
+<text top="650" left="427" width="121" height="16" font="14">Sarcoma de Kaposi</text>
+<text top="668" left="427" width="64" height="16" font="14">Saturismo</text>
+<text top="686" left="427" width="159" height="16" font="14">Sensibilidade diagnóstica</text>
+<text top="704" left="427" width="34" height="16" font="14">Síﬁ lis</text>
+<text top="722" left="427" width="100" height="16" font="14">Síﬁ lis congênita</text>
+<text top="740" left="427" width="47" height="16" font="14">Silicose</text>
+<text top="758" left="427" width="92" height="16" font="14">Soroconversão</text>
+<text top="776" left="427" width="80" height="16" font="14">Soropositivo</text>
+<text top="794" left="427" width="44" height="16" font="14">Tétano</text>
+<text top="812" left="427" width="55" height="16" font="14">Tracoma</text>
+<text top="830" left="427" width="76" height="16" font="14">Tuberculose</text>
+<text top="848" left="427" width="55" height="16" font="14">Uretrites</text>
+<text top="866" left="427" width="56" height="16" font="14">Urticária</text>
+<text top="885" left="427" width="225" height="14" font="21"><b>Drogas de Uso Terapêutico e Social</b></text>
+<text top="902" left="427" width="72" height="16" font="14">Alcoolismo</text>
+<text top="920" left="427" width="65" height="16" font="14">Alcoólatra</text>
+<text top="938" left="427" width="122" height="16" font="14">Bebedor moderado</text>
+<text top="956" left="427" width="119" height="16" font="14">Bebedor-problema</text>
+<text top="974" left="427" width="168" height="16" font="14">Comunidades terapêuticas</text>
+</page>
+<page number="121" position="absolute" top="0" left="0" height="1263" width="892">
+<text top="243" left="750" width="42" height="25" font="15">121</text>
+<text top="308" left="176" width="139" height="16" font="14">Dependente de álcool</text>
+<text top="326" left="176" width="160" height="16" font="14">Doenças cardiovasculares</text>
+<text top="344" left="176" width="90" height="16" font="14">Drogas ilícitas</text>
+<text top="362" left="176" width="108" height="16" font="14">Drogas injetáveis</text>
+<text top="380" left="176" width="86" height="16" font="14">Drogas lícitas</text>
+<text top="398" left="176" width="76" height="16" font="14">Embriaguez</text>
+<text top="416" left="176" width="115" height="16" font="14">Redução de danos</text>
+<text top="434" left="176" width="171" height="16" font="14">Usuários de droga injetável</text>
+<text top="453" left="176" width="125" height="14" font="21"><b>Economia de saúde</b></text>
+<text top="470" left="176" width="52" height="16" font="14">AIDS II</text>
+<text top="488" left="176" width="255" height="16" font="14">Fator de Incentivo ao Desenvolvimento </text>
+<text top="506" left="193" width="187" height="16" font="14">de Ensino e Pesquisa (Fideps)</text>
+<text top="524" left="176" width="199" height="16" font="14">Fração assistencial especializada</text>
+<text top="542" left="176" width="162" height="16" font="14">Fundo Estadual de Saúde</text>
+<text top="560" left="176" width="173" height="16" font="14">Fundo Municipal de Saúde</text>
+<text top="578" left="176" width="165" height="16" font="14">Fundo Nacional de Saúde</text>
+<text top="596" left="176" width="106" height="16" font="14">Fundos de saúde</text>
+<text top="614" left="176" width="226" height="16" font="14">Incentivo de Integração ao Sistema </text>
+<text top="632" left="193" width="179" height="16" font="14">Único de Saúde (Integrasus)</text>
+<text top="650" left="176" width="66" height="16" font="14">Incentivos</text>
+<text top="668" left="176" width="214" height="16" font="14">Índice de valorização de resultado</text>
+<text top="686" left="176" width="252" height="16" font="14">Lei de Diretrizes Orçamentárias (LDO)</text>
+<text top="704" left="176" width="110" height="16" font="14">Limite ﬁ nanceiro</text>
+<text top="722" left="176" width="203" height="16" font="14">Orçamento da seguridade social</text>
+<text top="740" left="176" width="188" height="16" font="14">Piso da Atenção Básica (PAB)</text>
+<text top="758" left="176" width="149" height="16" font="14">Plano Plurianual (PPA)</text>
+<text top="776" left="176" width="255" height="16" font="14">Programação pactuada e integrada (PPI)</text>
+<text top="794" left="176" width="241" height="16" font="14">Remuneração por serviços produzidos</text>
+<text top="812" left="176" width="260" height="16" font="14">Teto ﬁ nanceiro da Assistência do Estado </text>
+<text top="830" left="193" width="50" height="16" font="14">(TFAE)</text>
+<text top="848" left="176" width="212" height="16" font="14">Teto ﬁ nanceiro da Assistência do </text>
+<text top="866" left="193" width="127" height="16" font="14">Município (TFAM)</text>
+<text top="885" left="176" width="94" height="14" font="21"><b>Epidemiologia</b></text>
+<text top="902" left="176" width="130" height="16" font="14">Baixo peso ao nascer</text>
+<text top="920" left="176" width="222" height="16" font="14">Centro Nacional de Epidemiologia</text>
+<text top="938" left="176" width="164" height="16" font="14">Coeﬁ ciente de morbidade</text>
+<text top="956" left="176" width="150" height="16" font="14">Comportamento sexual</text>
+<text top="974" left="176" width="140" height="16" font="14">Controle de endemias</text>
+<text top="308" left="483" width="45" height="16" font="14">Coorte</text>
+<text top="326" left="483" width="57" height="16" font="14">Endemia</text>
+<text top="344" left="483" width="61" height="16" font="14">Epidemia</text>
+<text top="362" left="483" width="156" height="16" font="14">Epidemiologia descritiva</text>
+<text top="380" left="483" width="121" height="16" font="14">Estudos descritivos</text>
+<text top="398" left="483" width="127" height="16" font="14">Feminização da aids</text>
+<text top="416" left="483" width="243" height="16" font="14">Fundação Nacional de Saúde (Funasa)</text>
+<text top="434" left="483" width="66" height="16" font="14">Incidência</text>
+<text top="452" left="483" width="168" height="16" font="14">Índice de pobreza humana</text>
+<text top="470" left="483" width="135" height="16" font="14">Interiorização da aids</text>
+<text top="488" left="483" width="121" height="16" font="14">Janela imunológica</text>
+<text top="506" left="483" width="152" height="16" font="14">Método epidemiológico</text>
+<text top="524" left="483" width="96" height="16" font="14">Nascido morto</text>
+<text top="542" left="483" width="82" height="16" font="14">Nascido vivo</text>
+<text top="560" left="483" width="70" height="16" font="14">Óbito fetal</text>
+<text top="578" left="483" width="105" height="16" font="14">Óbito hospitalar</text>
+<text top="596" left="483" width="96" height="16" font="14">Óbito materno</text>
+<text top="614" left="483" width="97" height="16" font="14">Óbito neonatal</text>
+<text top="632" left="483" width="149" height="16" font="14">Óbito neonatal precoce</text>
+<text top="650" left="483" width="77" height="16" font="14">Paciente-dia</text>
+<text top="668" left="483" width="130" height="16" font="14">Pauperização da aids</text>
+<text top="686" left="483" width="105" height="16" font="14">Perﬁ l nosológico</text>
+<text top="704" left="483" width="71" height="16" font="14">Prevalência</text>
+<text top="722" left="483" width="111" height="16" font="14">Projeto horizonte</text>
+<text top="740" left="483" width="249" height="16" font="14">Rede sentinela nacional de parturientes</text>
+<text top="758" left="483" width="196" height="16" font="14">Sistema de informações de hiv </text>
+<text top="776" left="500" width="168" height="16" font="14">soropositivo assintomático</text>
+<text top="794" left="483" width="100" height="16" font="14">Soroprevalência</text>
+<text top="812" left="483" width="94" height="16" font="14">Taxa de ataque</text>
+<text top="830" left="483" width="164" height="16" font="14">Vigilância epidemiológica</text>
+<text top="848" left="483" width="124" height="16" font="14">Vigilância sentinela</text>
+<text top="866" left="483" width="100" height="16" font="14">Vulnerabilidade</text>
+<text top="885" left="483" width="178" height="14" font="21"><b>Eqüidade em saúde e social</b></text>
+<text top="902" left="483" width="214" height="16" font="14">Centro Regional de Especialidade</text>
+<text top="920" left="483" width="109" height="16" font="14">Centros de saúde</text>
+<text top="938" left="483" width="60" height="16" font="14">Eqüidade</text>
+<text top="956" left="483" width="135" height="16" font="14">Perﬁ l epidemiológico</text>
+<text top="974" left="483" width="71" height="16" font="14">Prevalência</text>
+</page>
+<page number="122" position="absolute" top="0" left="0" height="1263" width="892">
+<text top="243" left="97" width="42" height="25" font="15">122</text>
+<text top="308" left="121" width="141" height="16" font="14">Regulação Assistencial</text>
+<text top="326" left="121" width="94" height="16" font="14">Universalidade</text>
+<text top="345" left="121" width="97" height="14" font="21"><b>Ética e Bioética</b></text>
+<text top="362" left="121" width="51" height="16" font="14">Bioética</text>
+<text top="380" left="121" width="113" height="16" font="14">Ética em pesquisa</text>
+<text top="398" left="121" width="208" height="16" font="14">Pesquisa em reprodução humana</text>
+<text top="416" left="121" width="116" height="16" font="14">Pesquisa em saúde</text>
+<text top="434" left="121" width="226" height="16" font="14">Pesquisa envolvendo seres humanos</text>
+<text top="452" left="121" width="151" height="16" font="14">Pesquisador responsável</text>
+<text top="470" left="121" width="138" height="16" font="14">Transplante de órgãos</text>
+<text top="489" left="121" width="164" height="14" font="21"><b>História da Saúde Pública</b></text>
+<text top="506" left="121" width="182" height="16" font="14">Franca explosão demográﬁ ca</text>
+<text top="525" left="121" width="220" height="14" font="21"><b>Medicamentos, Vacinas e Insumos</b></text>
+<text top="542" left="121" width="104" height="16" font="14">Aditivo químico</text>
+<text top="560" left="121" width="162" height="16" font="14">Adjuvantes farmacêuticos</text>
+<text top="578" left="121" width="144" height="16" font="14">Analgésicos adjuvantes</text>
+<text top="596" left="121" width="162" height="16" font="14">Análogos de nucleosídeos</text>
+<text top="614" left="121" width="78" height="16" font="14">Antibióticos</text>
+<text top="632" left="121" width="116" height="16" font="14">Antibioticoterapia</text>
+<text top="650" left="121" width="107" height="16" font="14">Antimicrobianos</text>
+<text top="668" left="121" width="91" height="16" font="14">Anti-retroviral</text>
+<text top="686" left="121" width="153" height="16" font="14">Assistência farmacêutica</text>
+<text top="704" left="121" width="195" height="16" font="14">Assistência farmacêutica básica</text>
+<text top="722" left="121" width="98" height="16" font="14">Automedicação</text>
+<text top="740" left="121" width="92" height="16" font="14">Azitodimidina</text>
+<text top="758" left="121" width="214" height="16" font="14">Banco de Preços em Saúde – Aids</text>
+<text top="776" left="121" width="229" height="16" font="14">Banco de Preços Praticados na Área </text>
+<text top="794" left="138" width="67" height="16" font="14">Hospitalar</text>
+<text top="812" left="121" width="120" height="16" font="14">Biodisponibilidade</text>
+<text top="830" left="121" width="100" height="16" font="14">Bioequivalência</text>
+<text top="848" left="121" width="69" height="16" font="14">Carga viral</text>
+<text top="866" left="121" width="144" height="16" font="14">Centrais farmacêuticas</text>
+<text top="884" left="121" width="84" height="16" font="14">Componente</text>
+<text top="902" left="121" width="88" height="16" font="14">Concentração</text>
+<text top="920" left="121" width="117" height="16" font="14">Coquetel anti-aids</text>
+<text top="938" left="121" width="172" height="16" font="14">Corantes de medicamentos</text>
+<text top="956" left="121" width="66" height="16" font="14">Correlatos</text>
+<text top="974" left="121" width="32" height="16" font="14">D4T</text>
+<text top="308" left="427" width="204" height="16" font="14">Denominação comum brasileira</text>
+<text top="326" left="427" width="97" height="16" font="14">Dideoxiinosine</text>
+<text top="344" left="427" width="88" height="16" font="14">Dideoxitidina</text>
+<text top="362" left="427" width="79" height="16" font="14">Dispensação</text>
+<text top="380" left="427" width="191" height="16" font="14">Dispensário de medicamentos</text>
+<text top="398" left="427" width="45" height="16" font="14">Drogas</text>
+<text top="416" left="427" width="171" height="16" font="14">Eﬁ cácia dos medicamentos</text>
+<text top="434" left="427" width="30" height="16" font="14">Elisa</text>
+<text top="452" left="427" width="118" height="16" font="14">Ensaio terapêutico</text>
+<text top="470" left="427" width="100" height="16" font="14">Ensaios clínicos</text>
+<text top="488" left="427" width="150" height="16" font="14">Ensaios de comunidade</text>
+<text top="506" left="427" width="183" height="16" font="14">Equipamento de diagnóstico</text>
+<text top="524" left="427" width="85" height="16" font="14">Equivalência </text>
+<text top="524" left="512" width="46" height="16" font="16"><i>in vitro</i></text>
+<text top="542" left="427" width="244" height="16" font="14">Estudo de utilização de medicamentos</text>
+<text top="560" left="427" width="184" height="16" font="14">Estudo terapêutico ampliado</text>
+<text top="578" left="427" width="162" height="16" font="14">Estudo terapêutico piloto</text>
+<text top="596" left="427" width="96" height="16" font="14">Evento adverso</text>
+<text top="614" left="427" width="168" height="16" font="14">Evento adverso inesperado</text>
+<text top="632" left="427" width="130" height="16" font="14">Evento adverso sério</text>
+<text top="650" left="427" width="148" height="16" font="14">Exame de genotipagem</text>
+<text top="668" left="427" width="111" height="16" font="14">Farmácia popular</text>
+<text top="686" left="427" width="130" height="16" font="14">Farmácias magistrais</text>
+<text top="704" left="427" width="54" height="16" font="14">Fármaco</text>
+<text top="722" left="427" width="103" height="16" font="14">Farmacocinética</text>
+<text top="740" left="427" width="113" height="16" font="14">Farmacodinâmica</text>
+<text top="758" left="427" width="144" height="16" font="14">Farmacoepidemiologia</text>
+<text top="776" left="427" width="141" height="16" font="14">Farmacopéia brasileira</text>
+<text top="794" left="427" width="98" height="16" font="14">Farmacoterapia</text>
+<text top="812" left="427" width="99" height="16" font="14">Farmoquímicos</text>
+<text top="830" left="427" width="164" height="16" font="14">Forma de comercialização</text>
+<text top="848" left="427" width="160" height="16" font="14">Formulação farmacêutica</text>
+<text top="866" left="427" width="205" height="16" font="14">Formulário terapêutico nacional</text>
+<text top="884" left="427" width="135" height="16" font="14">Insumo farmacêutico</text>
+<text top="902" left="427" width="115" height="16" font="14">Intercambialidade</text>
+<text top="920" left="427" width="117" height="16" font="14">Laboratório oﬁ cial</text>
+<text top="938" left="427" width="128" height="16" font="14">Margem terapêutica</text>
+<text top="956" left="427" width="93" height="16" font="14">Matéria-prima</text>
+<text top="974" left="427" width="196" height="16" font="14">Medicamentos bioequivalentes</text>
+</page>
+<page number="123" position="absolute" top="0" left="0" height="1263" width="892">
+<text top="243" left="750" width="42" height="25" font="15">123</text>
+<text top="308" left="176" width="162" height="16" font="14">Medicamentos biológicos</text>
+<text top="326" left="176" width="197" height="16" font="14">Medicamentos biotecnológicos</text>
+<text top="344" left="176" width="222" height="16" font="14">Medicamentos de controle especial</text>
+<text top="362" left="176" width="266" height="16" font="14">Medicamentos de dispensação em caráter </text>
+<text top="380" left="193" width="73" height="16" font="14">excepcional</text>
+<text top="398" left="176" width="178" height="16" font="14">Medicamentos de referência</text>
+<text top="416" left="176" width="200" height="16" font="14">Medicamentos de saúde mental</text>
+<text top="434" left="176" width="201" height="16" font="14">Medicamentos de uso contínuo</text>
+<text top="452" left="176" width="186" height="16" font="14">Medicamentos de venda livre</text>
+<text top="470" left="176" width="170" height="16" font="14">Medicamentos estratégicos</text>
+<text top="488" left="176" width="177" height="16" font="14">Medicamentos excepcionais</text>
+<text top="506" left="176" width="176" height="16" font="14">Medicamentos ﬁ toterápicos</text>
+<text top="524" left="176" width="157" height="16" font="14">Medicamentos genéricos</text>
+<text top="542" left="176" width="186" height="16" font="14">Medicamentos homeopáticos</text>
+<text top="560" left="176" width="230" height="16" font="14">Medicamentos para a atenção básica</text>
+<text top="578" left="176" width="153" height="16" font="14">Medicamentos similares</text>
+<text top="596" left="176" width="148" height="16" font="14">Medicamentos tarjados</text>
+<text top="614" left="176" width="197" height="16" font="14">Módulo-padrão de suprimento</text>
+<text top="632" left="176" width="105" height="16" font="14">Nome comercial</text>
+<text top="650" left="176" width="137" height="16" font="14">Notiﬁ cação de receita</text>
+<text top="668" left="176" width="259" height="16" font="14">Órgão de vigilância sanitária competente</text>
+<text top="686" left="176" width="257" height="16" font="14">Plano nacional de vacinas anti-HIV/aids</text>
+<text top="704" left="176" width="150" height="16" font="14">Posto de medicamentos</text>
+<text top="722" left="176" width="94" height="16" font="14">Princípio ativo</text>
+<text top="740" left="176" width="115" height="16" font="14">Produto biológico</text>
+<text top="758" left="176" width="121" height="16" font="14">Produto de higiene</text>
+<text top="776" left="176" width="111" height="16" font="14">Produto dietético</text>
+<text top="794" left="176" width="138" height="16" font="14">Produto farmacêutico</text>
+<text top="812" left="176" width="143" height="16" font="14">Produto intermediário</text>
+<text top="830" left="176" width="144" height="16" font="14">Produto médico estéril</text>
+<text top="848" left="176" width="158" height="16" font="14">Produto médico invasivo</text>
+<text top="866" left="176" width="113" height="16" font="14">Produtos médicos</text>
+<text top="884" left="176" width="214" height="16" font="14">Produtos para diagnóstico de uso </text>
+<text top="884" left="391" width="47" height="16" font="16"><i>in-vitro</i></text>
+<text top="902" left="176" width="119" height="16" font="14">Protocolos clínicos</text>
+<text top="920" left="176" width="84" height="16" font="14">Psicotrópicos</text>
+<text top="938" left="176" width="42" height="16" font="14">Pureza</text>
+<text top="956" left="176" width="107" height="16" font="14">Quimioterápicos</text>
+<text top="974" left="176" width="95" height="16" font="14">Reação adversa</text>
+<text top="308" left="483" width="231" height="16" font="14">Relação Nacional de Medicamentos </text>
+<text top="326" left="500" width="129" height="16" font="14">Essenciais (Rename)</text>
+<text top="344" left="483" width="101" height="16" font="14">Substância ativa</text>
+<text top="362" left="483" width="127" height="16" font="14">Substância proscrita</text>
+<text top="380" left="483" width="127" height="16" font="14">Testagem sorológica</text>
+<text top="398" left="483" width="195" height="16" font="14">Uso racional de medicamentos</text>
+<text top="416" left="483" width="75" height="16" font="16"><i>Western blot</i></text>
+<text top="435" left="483" width="165" height="14" font="21"><b>Políticas Públicas e Saúde</b></text>
+<text top="452" left="483" width="219" height="16" font="14">Agência Nacional de Saúde (ANS)</text>
+<text top="470" left="483" width="152" height="16" font="14">Comissões Intergestores</text>
+<text top="488" left="483" width="250" height="16" font="14">Conselho de Secretários Municipais de </text>
+<text top="506" left="500" width="38" height="16" font="14">Saúde</text>
+<text top="524" left="483" width="180" height="16" font="14">Conselho Estadual de Saúde</text>
+<text top="542" left="483" width="192" height="16" font="14">Conselho Municipal de Saúde</text>
+<text top="560" left="483" width="183" height="16" font="14">Conselho Nacional de Saúde</text>
+<text top="578" left="483" width="217" height="16" font="14">Conselho Nacional de Secretários </text>
+<text top="596" left="500" width="121" height="16" font="14">Estaduais de Saúde</text>
+<text top="614" left="483" width="217" height="16" font="14">Conselho Nacional de Secretários </text>
+<text top="632" left="500" width="132" height="16" font="14">Municipais de Saúde</text>
+<text top="650" left="483" width="127" height="16" font="14">Conselhos de Saúde</text>
+<text top="668" left="483" width="96" height="16" font="14">Controle social</text>
+<text top="686" left="483" width="138" height="16" font="14">Cooperativas médicas</text>
+<text top="704" left="483" width="111" height="16" font="14">Farmácia popular</text>
+<text top="722" left="483" width="127" height="16" font="14">Operadora de saúde</text>
+<text top="740" left="483" width="95" height="16" font="14">Plano de saúde</text>
+<text top="758" left="483" width="241" height="16" font="14">Unidade territorial de qualiﬁ cação na </text>
+<text top="776" left="500" width="115" height="16" font="14">assistência à saúde</text>
+<text top="795" left="483" width="209" height="14" font="21"><b>Promoção e Educação em Saúde</b></text>
+<text top="812" left="483" width="141" height="16" font="14">Acreditação hospitalar</text>
+<text top="830" left="483" width="144" height="16" font="14">Banco de preservativos</text>
+<text top="848" left="483" width="96" height="16" font="14">Controle social</text>
+<text top="866" left="483" width="114" height="16" font="14">Crenças em saúde</text>
+<text top="884" left="483" width="103" height="16" font="14">Educação sexual</text>
+<text top="902" left="483" width="152" height="16" font="14">Métodos contraceptivos</text>
+<text top="920" left="483" width="89" height="16" font="14">Suporte social</text>
+<text top="939" left="483" width="90" height="14" font="21"><b>Saúde Animal</b></text>
+<text top="939" left="483" width="90" height="14" font="21"><b></b></text>
+<text top="957" left="483" width="165" height="14" font="21"><b>Políticas Públicas e Saúde</b></text>
+<text top="974" left="483" width="121" height="16" font="14">Análise de controle</text>
+</page>
+<page number="124" position="absolute" top="0" left="0" height="1263" width="892">
+<text top="243" left="97" width="42" height="25" font="15">124</text>
+<text top="308" left="121" width="81" height="16" font="14">Análise ﬁ scal</text>
+<text top="326" left="121" width="88" height="16" font="14">Análise prévia</text>
+<text top="344" left="121" width="181" height="16" font="14">Assistência aos trabalhadores</text>
+<text top="362" left="121" width="128" height="16" font="14">Autoridade sanitária</text>
+<text top="380" left="121" width="147" height="16" font="14">Autorização de modelo</text>
+<text top="398" left="121" width="188" height="16" font="14">Certiﬁ cação de conformidade</text>
+<text top="416" left="121" width="142" height="16" font="14">Controle de qualidade</text>
+<text top="434" left="121" width="129" height="16" font="14">Data de vencimento</text>
+<text top="452" left="121" width="202" height="16" font="14">Declaração de saúde do viajante</text>
+<text top="470" left="121" width="191" height="16" font="14">Declaração marítima de saúde</text>
+<text top="488" left="121" width="81" height="16" font="14">Desinfetante</text>
+<text top="506" left="121" width="71" height="16" font="14">Detergente</text>
+<text top="524" left="121" width="114" height="16" font="14">Farmacovigilância</text>
+<text top="542" left="121" width="62" height="16" font="14">Hemocad</text>
+<text top="560" left="121" width="86" height="16" font="14">Hemocentros</text>
+<text top="578" left="121" width="101" height="16" font="14">Hemoderivados</text>
+<text top="596" left="121" width="67" height="16" font="14">Hemoinsp</text>
+<text top="614" left="121" width="100" height="16" font="14">Hemovigilância</text>
+<text top="632" left="121" width="74" height="16" font="14">Imunologia</text>
+<text top="650" left="121" width="61" height="16" font="14">Inseticida</text>
+<text top="668" left="121" width="140" height="16" font="14">Inspeção de qualidade</text>
+<text top="686" left="121" width="113" height="16" font="14">Inspeção sanitária</text>
+<text top="704" left="121" width="48" height="16" font="14">Licença</text>
+<text top="722" left="121" width="29" height="16" font="14">Lote</text>
+<text top="740" left="121" width="122" height="16" font="14">Marca de comércio</text>
+<text top="758" left="121" width="93" height="16" font="14">Matéria-prima</text>
+<text top="776" left="121" width="149" height="16" font="14">Material de embalagem</text>
+<text top="794" left="121" width="259" height="16" font="14">Órgão de vigilância sanitária competente</text>
+<text top="812" left="121" width="102" height="16" font="14">Poder de polícia</text>
+<text top="830" left="121" width="169" height="16" font="14">Porto de controle sanitário</text>
+<text top="848" left="121" width="250" height="16" font="14">Procedimento operacional padronizado</text>
+<text top="866" left="121" width="106" height="16" font="14">Produto a granel</text>
+<text top="884" left="121" width="107" height="16" font="14">Produto acabado</text>
+<text top="902" left="121" width="152" height="16" font="14">Produto semi-elaborado</text>
+<text top="920" left="121" width="195" height="16" font="14">Programa qualidade do sangue</text>
+<text top="938" left="121" width="42" height="16" font="14">Pureza</text>
+<text top="956" left="121" width="53" height="16" font="14">Raticida</text>
+<text top="974" left="121" width="135" height="16" font="14">Regulamento técnico</text>
+<text top="308" left="427" width="144" height="16" font="14">Rotulagem nutricional</text>
+<text top="326" left="427" width="44" height="16" font="14">Rótulo</text>
+<text top="344" left="427" width="165" height="16" font="14">Saneantes domissanitários</text>
+<text top="362" left="427" width="136" height="16" font="14">Saúde do trabalhador</text>
+<text top="380" left="427" width="98" height="16" font="14">Tecnovigilância</text>
+<text top="398" left="427" width="115" height="16" font="14">Titular de registro</text>
+<text top="416" left="427" width="77" height="16" font="14">Trabalhador</text>
+<text top="434" left="427" width="221" height="16" font="14">Vigilância nacional de parturientes</text>
+<text top="453" left="427" width="190" height="14" font="21"><b>Recursos Humanos em Saúde</b></text>
+<text top="470" left="427" width="137" height="16" font="14">Educação continuada</text>
+<text top="488" left="427" width="157" height="16" font="14">Equipe multiproﬁ ssional</text>
+<text top="506" left="427" width="140" height="16" font="14">Formação proﬁ ssional</text>
+<text top="524" left="427" width="101" height="16" font="14">Gestor de saúde</text>
+<text top="542" left="427" width="129" height="16" font="14">Pólos de capacitação</text>
+<text top="560" left="427" width="40" height="16" font="14">Profae</text>
+<text top="578" left="427" width="156" height="16" font="14">Qualiﬁ cação proﬁ ssional</text>
+</page>
+<page number="125" position="absolute" top="0" left="0" height="1263" width="892">
+	<fontspec id="34" size="21" family="LNBEKE+MyriadPro" color="#000000"/>
+<image top="182" left="42" width="621" height="192" src="glossario_ministerio_saude-125_1.jpg"/>
+<image top="182" left="662" width="189" height="193" src="glossario_ministerio_saude-125_2.jpg"/>
+<image top="242" left="751" width="45" height="26" src="glossario_ministerio_saude-125_3.png"/>
+<image top="235" left="742" width="11" height="37" src="glossario_ministerio_saude-125_4.png"/>
+<image top="276" left="174" width="566" height="93" src="glossario_ministerio_saude-125_5.jpg"/>
+<text top="243" left="750" width="42" height="25" font="12">125</text>

@@ -1,0 +1,41 @@
+{
+    "Categories lèxiques": {
+        "n": "nom",
+        "n pl": "nom plural",
+        "nm": "nom masculí",
+        "n m pl": "nom masculí plural",
+        "nf": "nom femení",
+        "n f pl": "nom femení plural",
+        "n m, f": "nom masculí i femení",
+        "n m/f": "nom masculí o femení",
+        "adj": "adjectiu",
+        "v tr": "verb transitiu",
+        "v tr/intr": "verb transitiu o intransitiu"
+    },
+    "Indicadors de llengua": {
+        "oc": "occità",
+        "eu": "basc",
+        "gl": "gallec",
+        "es": "castellà",
+        "en": "anglès",
+        "fr": "francès",
+        "pt": [
+            "portuguès",
+            "[PT] portuguès de Portugal",
+            "[BR] portuguès del Brasil"
+        ],
+        "nl": "neerlandès",
+        "ar": "àrab"
+    },
+    "Altres codis": {
+        "v intr": "verb intransitiu",
+        "sin.": "sinònim absolut",
+        "sin. compl.": "sinònim complementari",
+        "den. com.": "denominació comercial"
+    },
+    "Remissions": {
+        "sbl": "símbol",
+        "nc": "nom científic",
+        "CAS": "número CAS"
+    }
+}

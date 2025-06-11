@@ -1,0 +1,127 @@
+QUADERNS 50 DICCIONARI MULTILINGÜE DE LA COVID-19
+
+Abreviacions
+Categories lèxiques
+
+Indicadors de llengua
+
+n
+
+nom
+
+oc
+
+occità
+
+n pl
+
+nom plural
+
+eu
+
+basc
+
+nm
+
+nom masculí
+
+gl
+
+gallec
+
+n m pl
+
+nom masculí plural
+
+es
+
+castellà
+
+nf
+
+nom femení
+
+en
+
+anglès
+
+n f pl
+
+nom femení plural
+
+fr
+
+francès
+
+n m, f
+
+nom masculí i femení
+
+pt
+
+portuguès
+
+n m/f
+
+nom masculí o femení
+
+pt
+
+[PT] portuguès de Portugal
+
+adj
+
+adjectiu
+
+pt
+
+[BR] portuguès del Brasil
+
+v tr
+
+verb transitiu
+
+nl
+
+neerlandès
+
+v tr/intr
+
+verb transitiu o intransitiu
+
+ar
+
+àrab
+
+v intr
+
+verb intransitiu
+Altres codis
+
+Remissions
+
+sbl
+
+símbol
+
+sin.
+
+sinònim absolut
+
+nc
+
+nom científic
+
+sin. compl.
+
+sinònim complementari
+
+CAS
+
+número CAS
+
+den. com.
+
+denominació comercial
+
+27
