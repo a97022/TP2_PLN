@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h2>Conceitos Médicos</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Termo</th>
+                <th>Categoria Léxica</th>
+                <th>Definição Resumida</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for termo, info in conceitos.items() %}
+            <tr>
+                <td><a href="/conceito/{{ termo }}">{{ termo }}</a></td>
+                <td>{{ info.categoria_lexica[0] if info.categoria_lexica else '-' }}</td>
+                <td>{{ info.definicoes[0][0][:100] }}...</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+{% endblock %}

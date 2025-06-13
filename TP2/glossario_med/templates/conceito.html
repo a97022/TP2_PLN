@@ -1,0 +1,60 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h2>{{ nome }}</h2>
+    
+    <div class="info-box">
+        <h3>Informações Gerais</h3>
+        <p><strong>Categoria Léxica:</strong> {{ conceito.categoria_lexica[0] }}</p>
+        
+        {% if conceito.sigla %}
+        <p><strong>Sigla:</strong> 
+            <a href="/sigla/{{ conceito.sigla }}" class="tooltip" title="{{ dados.SIGLAS[conceito.sigla] }}">
+                {{ conceito.sigla }}
+            </a>
+        </p>
+        {% endif %}
+    </div>
+    
+    <div class="info-box">
+        <h3>Definições</h3>
+        <ul>
+            {% for definicao, fonte in conceito.definicoes_processadas %}
+            <li>{{ definicao }} <em>(Fonte: {{ fonte }})</em></li>
+            {% endfor %}
+        </ul>
+    </div>
+    
+    {% if conceito.traducoes.en or conceito.traducoes.es %}
+    <div class="info-box">
+        <h3>Traduções</h3>
+        <p><strong>Inglês:</strong> {{ conceito.traducoes.en|join(', ') }}</p>
+        <p><strong>Espanhol:</strong> {{ conceito.traducoes.es|join(', ') }}</p>
+    </div>
+    {% endif %}
+    
+    {% if conceito.info_enc_processada %}
+    <div class="info-box">
+        <h3>Informações Enciclopédicas</h3>
+        <div>{{ conceito.info_enc_processada }}</div>
+    </div>
+    {% endif %}
+    
+    {% if conceito.artigos %}
+    <div class="info-box">
+        <h3>Artigos Relacionados</h3>
+        <ul>
+            {% for artigo_id in conceito.artigos %}
+                {% set artigo = dados.ANEXOS | selectattr("Número", "equalto", artigo_id|string) | first %}
+                {% if artigo %}
+                <li>
+                    <a href="/anexos#artigo-{{ artigo_id }}">
+                        {{ artigo['Título do Artigo'] }} (Edição {{ artigo['Número da Edição'] }})
+                    </a>
+                </li>
+                {% endif %}
+            {% endfor %}
+        </ul>
+    </div>
+    {% endif %}
+{% endblock %}
