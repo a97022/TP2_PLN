@@ -5,26 +5,28 @@
     
     <div class="info-box">
         <h3>Informações Gerais</h3>
-        <p><strong>Categoria Léxica:</strong> {{ conceito.categoria_lexica[0] }}</p>
-        
+        <p><strong>Categoria Léxica:</strong> {{ conceito.categoria_lexica[0] if conceito.categoria_lexica else '-' }}</p>
+
         {% if conceito.sigla %}
-        <p><strong>Sigla:</strong> 
-            <a href="/sigla/{{ conceito.sigla }}" class="tooltip" title="{{ dados.SIGLAS[conceito.sigla] }}">
+        <p><strong>Sigla:</strong>
+            <a href="/sigla/{{ conceito.sigla }}" class="tooltip" title="{{ dados.SIGLAS.get(conceito.sigla, '') }}">
                 {{ conceito.sigla }}
             </a>
         </p>
         {% endif %}
     </div>
-    
+
+    {% if definicoes_processadas %}
     <div class="info-box">
         <h3>Definições</h3>
         <ul>
-            {% for definicao, fonte in conceito.definicoes_processadas %}
+            {% for definicao, fonte in definicoes_processadas %}
             <li>{{ definicao }} <em>(Fonte: {{ fonte }})</em></li>
             {% endfor %}
         </ul>
     </div>
-    
+    {% endif %}
+
     {% if conceito.traducoes.en or conceito.traducoes.es %}
     <div class="info-box">
         <h3>Traduções</h3>
@@ -32,11 +34,11 @@
         <p><strong>Espanhol:</strong> {{ conceito.traducoes.es|join(', ') }}</p>
     </div>
     {% endif %}
-    
-    {% if conceito.info_enc_processada %}
+
+    {% if info_enc_processada %}
     <div class="info-box">
         <h3>Informações Enciclopédicas</h3>
-        <div>{{ conceito.info_enc_processada }}</div>
+        <div>{{ info_enc_processada }}</div>
     </div>
     {% endif %}
     

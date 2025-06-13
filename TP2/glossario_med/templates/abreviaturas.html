@@ -1,10 +1,22 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+{% extends "base.html" %}
 
-</body>
-</html>
+{% block content %}
+    <h2>Abreviaturas</h2>
+    
+    <table>
+        <thead>
+            <tr>
+                <th>Abreviatura</th>
+                <th>Significados</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for abrev, significados in abreviaturas.items() %}
+            <tr>
+                <td><a href="/abreviatura/{{ abrev }}">{{ abrev }}</a></td>
+                <td>{{ significados|join(', ') }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+{% endblock %}

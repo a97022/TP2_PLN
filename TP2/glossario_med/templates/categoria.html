@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h2>{{ nome }}</h2>
+
+    <div class="info-box">
+        <h3>Definição</h3>
+        <p>{{ categoria.definicao }}</p>
+    </div>
+
+    {% if categoria.subcategorias %}
+    <div class="info-box">
+        <h3>Subcategorias ({{ categoria.subcategorias|length }})</h3>
+        <ul class="subcategorias-list">
+            {% for sub in categoria.subcategorias %}
+            <li>{{ sub }}</li>
+            {% endfor %}
+        </ul>
+    </div>
+    {% endif %}
+
+    <div class="info-box">
+        <h3>Conceitos Relacionados</h3>
+        {% if conceitos_relacionados %}
+            <ul>
+                {% for termo in conceitos_relacionados %}
+                <li><a href="/conceito/{{ termo|urlencode }}">{{ termo }}</a></li>
+                {% endfor %}
+            </ul>
+        {% else %}
+            <p>Nenhum conceito encontrado nesta categoria.</p>
+        {% endif %}
+    </div>
+
+    <div class="back-link">
+        <a href="/categorias">← Voltar à lista de categorias</a>
+    </div>
+{% endblock %}

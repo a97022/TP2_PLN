@@ -1,4 +1,4 @@
-from flask import Flask, render_template, json, request
+from flask import Flask, render_template, json, request, redirect, url_for
 from markupsafe import Markup
 
 app = Flask(__name__)
@@ -29,7 +29,15 @@ def processar_links(texto):
 
 @app.route('/')
 def index():
-    return render_template('index.html')
+    # Calcular estatísticas para a página inicial
+    stats = {
+        'conceitos': len(dados['CONCEITOS']),
+        'siglas': len(dados['SIGLAS']),
+        'abreviaturas': len(dados['ABREVS']),
+        'categorias': len(dados['CATEGORIAS']),
+        'anexos': len(dados['ANEXOS'])
+    }
+    return render_template('index.html', stats=stats)
 
 
 @app.route('/conceitos')
@@ -44,17 +52,22 @@ def detalhe_conceito(nome):
     if not conceito:
         return "Conceito não encontrado", 404
 
-    # Processar informações com links
-    conceito['definicoes_processadas'] = [
-        [processar_links(definicao), fonte]
-        for definicao, fonte in conceito['definicoes']
-    ]
-    conceito['info_enc_processada'] = processar_links(conceito['info_enc'])
+    # Processar definições (lidando com listas vazias)
+    definicoes_processadas = []
+    for definicao, fonte in conceito.get('definicoes', []):
+        definicoes_processadas.append([processar_links(definicao), fonte])
+
+    # Processar informações enciclopédicas
+    info_enc = conceito.get('info_enc', '')
+    info_enc_processada = processar_links(info_enc) if info_enc else ""
 
     return render_template('conceito.html',
                            nome=nome,
                            conceito=conceito,
-                           categorias=dados['CATEGORIAS'])
+                           definicoes_processadas=definicoes_processadas,
+                           info_enc_processada=info_enc_processada,
+                           categorias=dados['CATEGORIAS'],
+                           dados=dados)
 
 
 @app.route('/siglas')
@@ -63,6 +76,7 @@ def listar_siglas():
     return render_template('siglas.html', siglas=siglas)
 
 
+# Rota para detalhe de sigla
 @app.route('/sigla/<sigla>')
 def detalhe_sigla(sigla):
     significado = dados['SIGLAS'].get(sigla)
@@ -77,6 +91,7 @@ def listar_abreviaturas():
     return render_template('abreviaturas.html', abreviaturas=abreviaturas)
 
 
+# Rota para detalhe de abreviatura
 @app.route('/abreviatura/<abrev>')
 def detalhe_abreviatura(abrev):
     significados = dados['ABREVS'].get(abrev)
@@ -85,24 +100,210 @@ def detalhe_abreviatura(abrev):
     return render_template('abreviatura.html', abrev=abrev, significados=significados)
 
 
+# Rota para listar categorias
 @app.route('/categorias')
 def listar_categorias():
     categorias = dados['CATEGORIAS']
-    return render_template('categorias.html', categorias=categorias)
+    return render_template('categorias.html',
+                           categorias=categorias,
+                           dados=dados)
 
 
-@app.route('/categoria/<nome>')
+# Rota para detalhe de uma categoria
+@app.route('/categoria/<path:nome>')
 def detalhe_categoria(nome):
-    categoria = dados['CATEGORIAS'].get(nome)
+    # Decodificar o nome da categoria
+    nome_decodificado = nome.strip('"')
+    categoria = dados['CATEGORIAS'].get(nome_decodificado)
+
     if not categoria:
         return "Categoria não encontrada", 404
-    return render_template('categoria.html', nome=nome, categoria=categoria)
+
+    # Construir lista de conceitos relacionados
+    conceitos_relacionados = []
+    for termo, info in dados['CONCEITOS'].items():
+        if 'categoria_area' in info and nome_decodificado in info['categoria_area']:
+            conceitos_relacionados.append(termo)
+
+    return render_template('categoria.html',
+                           nome=nome_decodificado,
+                           categoria=categoria,
+                           conceitos_relacionados=conceitos_relacionados)
 
 
 @app.route('/anexos')
 def listar_anexos():
     anexos = dados['ANEXOS']
     return render_template('anexos.html', anexos=anexos)
+
+
+# Funções auxiliares de pesquisa
+def pesquisar_conceitos(query, exata=False):
+    resultados = {}
+    query_lower = query.lower()
+
+    for termo, info in dados['CONCEITOS'].items():
+        contextos = []
+        termo_lower = termo.lower()
+
+        # Pesquisa no próprio termo
+        if exata:
+            if query_lower == termo_lower:
+                contextos.append("Termo exato")
+            # Verifica se o termo contém a query como palavra completa
+            elif query_lower in termo_lower.split():
+                contextos.append("Termo contém palavra")
+        else:
+            if query_lower in termo_lower:
+                contextos.append("Termo contém")
+
+        # Pesquisa nas definições
+        for definicao, fonte in info.get('definicoes', []):
+            definicao_lower = definicao.lower()
+            if exata:
+                palavras = definicao_lower.split()
+                if query_lower in palavras:
+                    contextos.append(f"Definição: {definicao[:50]}...")
+            else:
+                if query_lower in definicao_lower:
+                    contextos.append(f"Definição: {definicao[:50]}...")
+
+        # Pesquisa nas traduções
+        for lang, traducoes in info.get('traducoes', {}).items():
+            for trad in traducoes:
+                trad_lower = trad.lower()
+                if exata:
+                    if query_lower == trad_lower:
+                        contextos.append(f"Tradução ({lang}) exata: {trad}")
+                    elif query_lower in trad_lower.split():
+                        contextos.append(f"Tradução ({lang}) contém palavra: {trad}")
+                else:
+                    if query_lower in trad_lower:
+                        contextos.append(f"Tradução ({lang}): {trad}")
+
+        # Se encontrou correspondências, adiciona ao resultado
+        if contextos:
+            resultados[termo] = {
+                'info': info,
+                'contextos': contextos
+            }
+
+    return resultados
+
+def pesquisar_siglas(query, exata=False):
+    resultados = []
+    query_lower = query.lower()
+
+    for sigla, significado in dados['SIGLAS'].items():
+        sigla_lower = sigla.lower()
+        significado_lower = significado.lower()
+
+        if exata:
+            # Verifica se a query é exatamente igual à sigla (case-insensitive)
+            if query_lower == sigla_lower:
+                resultados.append((sigla, significado, "Sigla exata"))
+            # Verifica se a query é uma palavra completa no significado
+            elif query_lower in significado_lower.split():
+                resultados.append((sigla, significado, "Significado exato"))
+        else:
+            # Verifica se a query está contida na sigla
+            if query_lower in sigla_lower:
+                resultados.append((sigla, significado, "Sigla contém"))
+            # Verifica se a query está contida no significado
+            elif query_lower in significado_lower:
+                resultados.append((sigla, significado, "Significado contém"))
+
+    return resultados
+
+def pesquisar_abreviaturas(query, exata=False):
+    resultados = []
+    for abrev, significados in dados['ABREVS'].items():
+        if exata:
+            if query == abrev:
+                resultados.append((abrev, significados, "Abreviatura exata"))
+        else:
+            if query in abrev:
+                resultados.append((abrev, significados, "Abreviatura contém"))
+            else:
+                for significado in significados:
+                    if query in significado:
+                        resultados.append((abrev, significados, f"Significado: {significado}"))
+    return resultados
+
+
+def pesquisar_categorias(query, exata=False):
+    resultados = []
+    for nome, info in dados['CATEGORIAS'].items():
+        if exata:
+            if query.lower() == nome.lower():
+                resultados.append((nome, info, "Categoria exata"))
+            else:
+                for sub in info.get('subcategorias', []):
+                    if query.lower() == sub.lower():
+                        resultados.append((nome, info, f"Subcategoria: {sub}"))
+        else:
+            if query.lower() in nome.lower():
+                resultados.append((nome, info, "Categoria contém"))
+            elif query.lower() in info['definicao'].lower():
+                resultados.append((nome, info, "Definição contém"))
+            else:
+                for sub in info.get('subcategorias', []):
+                    if query.lower() in sub.lower():
+                        resultados.append((nome, info, f"Subcategoria: {sub}"))
+    return resultados
+
+
+def pesquisar_anexos(query, exata=False):
+    resultados = []
+    for anexo in dados['ANEXOS']:
+        titulo = anexo['Título do Artigo']
+        if exata:
+            if query.lower() == titulo.lower():
+                resultados.append(anexo)
+        else:
+            if query.lower() in titulo.lower():
+                resultados.append(anexo)
+    return resultados
+
+
+# Rota de pesquisa
+@app.route('/pesquisar')
+def pesquisar():
+    query = request.args.get('q', '').strip().lower()
+    tipo = request.args.get('tipo', 'tudo')
+    exata = request.args.get('exata') == 'true'
+
+    if not query:
+        return redirect(url_for('index'))
+
+    resultados = {
+        'conceitos': {},
+        'siglas': [],
+        'abreviaturas': [],
+        'categorias': [],
+        'anexos': []
+    }
+
+    if tipo in ['tudo', 'conceitos']:
+        resultados['conceitos'] = pesquisar_conceitos(query, exata)
+
+    if tipo in ['tudo', 'siglas']:
+        resultados['siglas'] = pesquisar_siglas(query, exata)
+
+    if tipo in ['tudo', 'abreviaturas']:
+        resultados['abreviaturas'] = pesquisar_abreviaturas(query, exata)
+
+    if tipo in ['tudo', 'categorias']:
+        resultados['categorias'] = pesquisar_categorias(query, exata)
+
+    if tipo in ['tudo', 'anexos']:
+        resultados['anexos'] = pesquisar_anexos(query, exata)
+
+    return render_template('resultados_pesquisa.html',
+                           query=query,
+                           resultados=resultados,
+                           tipo=tipo,
+                           exata=exata)
 
 
 if __name__ == '__main__':

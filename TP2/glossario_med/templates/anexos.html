@@ -1,10 +1,26 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+{% extends "base.html" %}
 
-</body>
-</html>
+{% block content %}
+    <h2>Anexos</h2>
+    
+    <table>
+        <thead>
+            <tr>
+                <th>Número</th>
+                <th>Título do Artigo</th>
+                <th>Edição</th>
+                <th>Ano</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for anexo in anexos %}
+            <tr>
+                <td>{{ anexo.Número }}</td>
+                <td>{{ anexo['Título do Artigo'] }}</td>
+                <td>Nº {{ anexo['Número da Edição'] }} ({{ anexo['Mês da Edição'] }})</td>
+                <td>{{ anexo['Ano da Edição'] }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+{% endblock %}

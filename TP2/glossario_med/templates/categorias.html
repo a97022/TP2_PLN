@@ -1,10 +1,30 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+{% extends "base.html" %}
 
-</body>
-</html>
+{% block content %}
+    <h2>Categorias Médicas</h2>
+    
+    <div class="categorias-container">
+        {% for nome, info in categorias.items() %}
+        <div class="categoria-card">
+            <h3><a href="/categoria/{{ nome|urlencode }}">{{ nome }}</a></h3>
+            <p class="definicao">{{ info.definicao[:200] }}...</p>
+            
+            {% if info.subcategorias %}
+            <div class="subcategorias">
+                <strong>Subcategorias:</strong>
+                <ul>
+                    {% for sub in info.subcategorias[:5] %}
+                    <li>{{ sub }}</li>
+                    {% endfor %}
+                    {% if info.subcategorias|length > 5 %}
+                    <li>e mais {{ info.subcategorias|length - 5 }}...</li>
+                    {% endif %}
+                </ul>
+            </div>
+            {% endif %}
+            
+            <a href="/categoria/{{ nome|urlencode }}" class="ver-mais">Ver detalhes →</a>
+        </div>
+        {% endfor %}
+    </div>
+{% endblock %}

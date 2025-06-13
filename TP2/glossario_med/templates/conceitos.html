@@ -16,7 +16,13 @@
             <tr>
                 <td><a href="/conceito/{{ termo }}">{{ termo }}</a></td>
                 <td>{{ info.categoria_lexica[0] if info.categoria_lexica else '-' }}</td>
-                <td>{{ info.definicoes[0][0][:100] }}...</td>
+                <td>
+                    {% if info.definicoes and info.definicoes[0] and info.definicoes[0][0] %}
+                        {{ info.definicoes[0][0][:100] }}...
+                    {% else %}
+                        (Sem definição disponível)
+                    {% endif %}
+                </td>
             </tr>
             {% endfor %}
         </tbody>

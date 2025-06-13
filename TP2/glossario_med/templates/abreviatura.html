@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h2>{{ abrev }}</h2>
+    
+    <div class="info-box">
+        <h3>Significados</h3>
+        <ul>
+            {% for significado in significados %}
+            <li>{{ significado }}</li>
+            {% endfor %}
+        </ul>
+    </div>
+    
+    <div class="back-link">
+        <a href="/abreviaturas">← Voltar à lista de abreviaturas</a>
+    </div>
+{% endblock %}

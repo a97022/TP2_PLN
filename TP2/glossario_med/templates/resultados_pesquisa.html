@@ -1,0 +1,106 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h2>Resultados da pesquisa: "{{ query }}"</h2>
+    <p>
+        Tipo: 
+        {% if tipo == 'tudo' %}Tudo{% endif %}
+        {% if tipo == 'conceitos' %}Conceitos{% endif %}
+        {% if tipo == 'siglas' %}Siglas{% endif %}
+        {% if tipo == 'abreviaturas' %}Abreviaturas{% endif %}
+        {% if tipo == 'categorias' %}Categorias{% endif %}
+        {% if tipo == 'anexos' %}Anexos{% endif %}
+        | 
+        Modo: {% if exata %}Exata{% else %}Parcial{% endif %}
+    </p>
+    
+    <div class="resultados">
+        {% if resultados.conceitos %}
+        <section class="resultado-categoria">
+            <h3>Conceitos ({{ resultados.conceitos|length }})</h3>
+            <ul>
+                {% for termo, data in resultados.conceitos.items() %}
+                <li>
+                    <a href="/conceito/{{ termo }}">{{ termo }}</a>
+                    <div class="contextos">
+                        {% for contexto in data.contextos %}
+                        <div class="contexto">{{ contexto }}</div>
+                        {% endfor %}
+                    </div>
+                    <p class="resumo">
+                        {{ data.info.definicoes[0][0][:100] if data.info.definicoes and data.info.definicoes[0] else '' }}...
+                    </p>
+                </li>
+                {% endfor %}
+            </ul>
+        </section>
+        {% endif %}
+        
+        {% if resultados.siglas %}
+        <section class="resultado-categoria">
+            <h3>Siglas ({{ resultados.siglas|length }})</h3>
+            <ul>
+                {% for sigla, significado, contexto in resultados.siglas %}
+                <li>
+                    <a href="/sigla/{{ sigla }}">{{ sigla }}</a>: 
+                    {{ significado }}
+                    <span class="contexto">{{ contexto }}</span>
+                </li>
+                {% endfor %}
+            </ul>
+        </section>
+        {% endif %}
+        
+        {% if resultados.abreviaturas %}
+        <section class="resultado-categoria">
+            <h3>Abreviaturas ({{ resultados.abreviaturas|length }})</h3>
+            <ul>
+                {% for abrev, significados, contexto in resultados.abreviaturas %}
+                <li>
+                    <a href="/abreviatura/{{ abrev }}">{{ abrev }}</a>: 
+                    {{ significados|join(', ') }}
+                    <span class="contexto">{{ contexto }}</span>
+                </li>
+                {% endfor %}
+            </ul>
+        </section>
+        {% endif %}
+        
+        {% if resultados.categorias %}
+        <section class="resultado-categoria">
+            <h3>Categorias ({{ resultados.categorias|length }})</h3>
+            <ul>
+                {% for nome, info, contexto in resultados.categorias %}
+                <li>
+                    <a href="/categoria/{{ nome }}">{{ nome }}</a>
+                    <span class="contexto">{{ contexto }}</span>
+                    <p>{{ info.definicao[:100] }}...</p>
+                </li>
+                {% endfor %}
+            </ul>
+        </section>
+        {% endif %}
+        
+        {% if resultados.anexos %}
+        <section class="resultado-categoria">
+            <h3>Anexos ({{ resultados.anexos|length }})</h3>
+            <ul>
+                {% for anexo in resultados.anexos %}
+                <li>
+                    <a href="/anexos#artigo-{{ anexo.Número }}">
+                        {{ anexo['Título do Artigo'] }}
+                    </a>
+                    (Edição {{ anexo['Número da Edição'] }})
+                </li>
+                {% endfor %}
+            </ul>
+        </section>
+        {% endif %}
+        
+        {% if not resultados.conceitos and not resultados.siglas and 
+              not resultados.abreviaturas and not resultados.categorias and 
+              not resultados.anexos %}
+        <p class="sem-resultados">Nenhum resultado encontrado para sua pesquisa.</p>
+        {% endif %}
+    </div>
+{% endblock %}

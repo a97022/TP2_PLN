@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h2>{{ sigla }}</h2>
+
+    <div class="info-box">
+        <h3>Significado</h3>
+        <p>{{ significado }}</p>
+    </div>
+
+    <div class="back-link">
+        <a href="/siglas">← Voltar à lista de siglas</a>
+    </div>
+{% endblock %}

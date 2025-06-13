@@ -88,3 +88,241 @@ footer {
     background: #ecf0f1;
     margin-top: 2rem;
 }
+
+/* Estilos para a página inicial */
+.welcome {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.quick-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin: 30px 0;
+}
+
+.card {
+    flex: 1 1 200px;
+    background: #e3f2fd;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: #1565c0;
+    transition: transform 0.3s, box-shadow 0.3s;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.search-box {
+    margin-top: 40px;
+    padding: 20px;
+    background: #f5f5f5;
+    border-radius: 8px;
+}
+
+.search-box input[type="text"] {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.search-box button {
+    padding: 10px 20px;
+    background: #1976d2;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.search-box button:hover {
+    background: #1565c0;
+}
+
+/* Estilos gerais */
+.back-link {
+    margin-top: 20px;
+}
+
+.back-link a {
+    color: #1976d2;
+    text-decoration: none;
+}
+
+.back-link a:hover {
+    text-decoration: underline;
+}
+
+
+.search-options {
+    background: #f8f9fa;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 10px 0;
+    text-align: left;
+}
+
+.search-options label {
+    display: block;
+    margin: 5px 0;
+}
+
+.search-type {
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px solid #eee;
+}
+
+.search-type label {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.resultados {
+    text-align: left;
+}
+
+.resultado-categoria {
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eee;
+}
+
+.resultado-categoria h3 {
+    color: #2c3e50;
+    border-left: 4px solid #3498db;
+    padding-left: 10px;
+}
+
+.resultado-categoria ul {
+    list-style: none;
+    padding: 0;
+}
+
+.resultado-categoria li {
+    margin: 15px 0;
+    padding: 10px;
+    background: #f8f9fa;
+    border-radius: 4px;
+}
+
+.resultado-categoria .contexto {
+    background: #e3f2fd;
+    color: #1976d2;
+    padding: 2px 5px;
+    border-radius: 3px;
+    font-size: 0.9em;
+    margin-left: 10px;
+}
+
+.sem-resultados {
+    text-align: center;
+    padding: 30px;
+    font-style: italic;
+    color: #777;
+}
+
+.contextos {
+    margin: 8px 0;
+}
+
+.contexto {
+    background: #e3f2fd;
+    color: #1976d2;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 0.9em;
+    margin: 4px 0;
+    display: inline-block;
+}
+
+.resumo {
+    margin-top: 8px;
+    font-style: italic;
+    color: #555;
+}
+
+.categorias-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.categoria-card {
+    background: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    transition: transform 0.3s, box-shadow 0.3s;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.categoria-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.categoria-card h3 {
+    margin-top: 0;
+    color: #2c3e50;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 10px;
+}
+
+.definicao {
+    color: #555;
+    flex-grow: 1;
+}
+
+.subcategorias {
+    margin: 15px 0;
+    background: #f8f9fa;
+    padding: 10px;
+    border-radius: 5px;
+    border-left: 3px solid #3498db;
+}
+
+.subcategorias ul {
+    margin: 5px 0 0 0;
+    padding-left: 20px;
+}
+
+.subcategorias li {
+    margin-bottom: 5px;
+}
+
+.ver-mais {
+    display: inline-block;
+    margin-top: 10px;
+    color: #1976d2;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.ver-mais:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para página de categoria */
+.subcategorias-list {
+    columns: 3;
+    column-gap: 20px;
+}
+
+.subcategorias-list li {
+    break-inside: avoid;
+    margin-bottom: 8px;
+}
