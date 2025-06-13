@@ -9,6 +9,10 @@
     </div>
 
     <div class="back-link">
-        <a href="/siglas">← Voltar à lista de siglas</a>
+        {% if request.args.get('origem') %}
+            <a href="/conceito/{{ request.args.get('origem')|urlencode }}">← Voltar ao conceito</a>
+        {% else %}
+            <a href="/siglas">← Voltar à lista de siglas</a>
+        {% endif %}
     </div>
 {% endblock %}

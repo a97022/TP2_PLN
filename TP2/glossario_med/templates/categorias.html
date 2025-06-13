@@ -2,7 +2,33 @@
 
 {% block content %}
     <h2>Categorias Médicas</h2>
-    
+
+    <div class="search-box">
+        <form method="get" action="/categorias">
+            <input type="text" name="q" placeholder="Digite o nome da categoria ou subcategoria..." value="{{ q|default('') }}" required>
+            <div class="search-options" style="margin: 0.5em 0;">
+                <label>
+                    <input type="checkbox" name="exata" value="true" {% if exata %}checked{% endif %}>
+                    Pesquisa exata (palavra completa)
+                </label>
+                <span style="margin-left: 2em;">Pesquisar em:</span>
+                <label style="margin-left: 1em;">
+                    <input type="radio" name="campo" value="categoria" {% if campo != 'subcategoria' %}checked{% endif %}>
+                    Nome da categoria
+                </label>
+                <label style="margin-left: 1em;">
+                    <input type="radio" name="campo" value="subcategoria" {% if campo == 'subcategoria' %}checked{% endif %}>
+                    Subcategorias
+                </label>
+            </div>
+            <button type="submit">Procurar</button>
+        </form>
+    </div>
+
+    {% if q %}
+        <p style="margin-top: 1em;">Resultados para: <strong>{{ q }}</strong>{% if exata %} (exato){% endif %} {% if campo == 'subcategoria' %}(em subcategorias){% else %}(em categorias){% endif %}</p>
+    {% endif %}
+
     <div class="categorias-container">
         {% for nome, info in categorias.items() %}
         <div class="categoria-card">

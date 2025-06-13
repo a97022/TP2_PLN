@@ -2,7 +2,24 @@
 
 {% block content %}
     <h2>Anexos</h2>
-    
+
+    <div class="search-box">
+        <form method="get" action="/anexos">
+            <input type="text" name="q" placeholder="Digite o título do artigo..." value="{{ q|default('') }}" required>
+            <div class="search-options" style="margin: 0.5em 0;">
+                <label>
+                    <input type="checkbox" name="exata" value="true" {% if exata %}checked{% endif %}>
+                    Pesquisa exata (palavra completa)
+                </label>
+            </div>
+            <button type="submit">Procurar</button>
+        </form>
+    </div>
+
+    {% if q %}
+        <p style="margin-top: 1em;">Resultados para: <strong>{{ q }}</strong>{% if exata %} (exato){% endif %}</p>
+    {% endif %}
+
     <table>
         <thead>
             <tr>

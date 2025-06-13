@@ -13,6 +13,10 @@
     </div>
     
     <div class="back-link">
-        <a href="/abreviaturas">← Voltar à lista de abreviaturas</a>
+        {% if request.args.get('origem') %}
+            <a href="/conceito/{{ request.args.get('origem')|urlencode }}">← Voltar ao conceito</a>
+        {% else %}
+            <a href="/abreviaturas">← Voltar à lista de abreviaturas</a>
+        {% endif %}
     </div>
 {% endblock %}

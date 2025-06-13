@@ -1,5 +1,7 @@
 from flask import Flask, render_template, json, request, redirect, url_for
 from markupsafe import Markup
+import re
+import urllib.parse
 
 app = Flask(__name__)
 
@@ -9,20 +11,28 @@ with open('dados.json', 'r', encoding='utf-8') as f:
 
 
 # Processar links nos textos
-def processar_links(texto):
+def processar_links(texto, origem=None):
     if not texto:
         return ""
 
     # Siglas (ex: FAPESP)
     for sigla, significado in dados['SIGLAS'].items():
-        texto = texto.replace(sigla, f'<a href="/sigla/{sigla}" class="tooltip" title="{significado}">{sigla}</a>')
+        if origem:
+            origem_url = urllib.parse.quote(origem) #para garantir que o nome do conceito (caso tenha espaços, acentos ou caracteres especiais) não cause problemas na URL
+            link = f'<a href="/sigla/{sigla}?origem={origem_url}" class="tooltip" title="{significado}">{sigla}</a>'
+        else:
+            link = f'<a href="/sigla/{sigla}" class="tooltip" title="{significado}">{sigla}</a>'
+        texto = re.sub(rf'\b{re.escape(sigla)}\b', link, texto)
 
     # Abreviaturas (ex: et al.)
     for abrev, significados in dados['ABREVS'].items():
-        if abrev in texto:
-            significado = ', '.join(significados)
-            texto = texto.replace(abrev,
-                                  f'<a href="/abreviatura/{abrev}" class="tooltip" title="{significado}">{abrev}</a>')
+        significado = ', '.join(significados)
+        if origem:
+            origem_url = urllib.parse.quote(origem)
+            link = f'<a href="/abreviatura/{abrev}?origem={origem_url}" class="tooltip" title="{significado}">{abrev}</a>'
+        else:
+            link = f'<a href="/abreviatura/{abrev}" class="tooltip" title="{significado}">{abrev}</a>'
+        texto = re.sub(rf'\b{re.escape(abrev)}\b', link, texto)
 
     return Markup(texto)
 
@@ -42,8 +52,16 @@ def index():
 
 @app.route('/conceitos')
 def listar_conceitos():
+    q = request.args.get('q', '').strip()
+    exata = request.args.get('exata') == 'true'
     conceitos = dados['CONCEITOS']
-    return render_template('conceitos.html', conceitos=conceitos)
+    if q:
+        q_lower = q.lower()
+        if exata:
+            conceitos = {termo: info for termo, info in dados['CONCEITOS'].items() if termo.lower() == q_lower}
+        else:
+            conceitos = {termo: info for termo, info in dados['CONCEITOS'].items() if q_lower in termo.lower()}
+    return render_template('conceitos.html', conceitos=conceitos, q=q, exata=exata)
 
 
 @app.route('/conceito/<nome>')
@@ -55,11 +73,11 @@ def detalhe_conceito(nome):
     # Processar definições (lidando com listas vazias)
     definicoes_processadas = []
     for definicao, fonte in conceito.get('definicoes', []):
-        definicoes_processadas.append([processar_links(definicao), fonte])
+        definicoes_processadas.append([processar_links(definicao, origem=nome), fonte])
 
     # Processar informações enciclopédicas
     info_enc = conceito.get('info_enc', '')
-    info_enc_processada = processar_links(info_enc) if info_enc else ""
+    info_enc_processada = processar_links(info_enc, origem=nome) if info_enc else ""
 
     return render_template('conceito.html',
                            nome=nome,
@@ -72,8 +90,14 @@ def detalhe_conceito(nome):
 
 @app.route('/siglas')
 def listar_siglas():
-    siglas = dados['SIGLAS']
-    return render_template('siglas.html', siglas=siglas)
+    q = request.args.get('q', '').strip()
+    exata = request.args.get('exata') == 'true'
+    if q:
+        siglas_result = pesquisar_siglas(q, exata)
+        siglas = {sigla: significado for sigla, significado, _ in siglas_result}
+    else:
+        siglas = dados['SIGLAS']
+    return render_template('siglas.html', siglas=siglas, q=q, exata=exata)
 
 
 # Rota para detalhe de sigla
@@ -87,8 +111,17 @@ def detalhe_sigla(sigla):
 
 @app.route('/abreviaturas')
 def listar_abreviaturas():
-    abreviaturas = dados['ABREVS']
-    return render_template('abreviaturas.html', abreviaturas=abreviaturas)
+    q = request.args.get('q', '').strip()
+    exata = request.args.get('exata') == 'true'
+    if q:
+        q_lower = q.lower()
+        if exata:
+            abreviaturas = {abrev: significados for abrev, significados in dados['ABREVS'].items() if abrev.lower() == q_lower}
+        else:
+            abreviaturas = {abrev: significados for abrev, significados in dados['ABREVS'].items() if q_lower in abrev.lower()}
+    else:
+        abreviaturas = dados['ABREVS']
+    return render_template('abreviaturas.html', abreviaturas=abreviaturas, q=q, exata=exata)
 
 
 # Rota para detalhe de abreviatura
@@ -103,10 +136,24 @@ def detalhe_abreviatura(abrev):
 # Rota para listar categorias
 @app.route('/categorias')
 def listar_categorias():
-    categorias = dados['CATEGORIAS']
-    return render_template('categorias.html',
-                           categorias=categorias,
-                           dados=dados)
+    q = request.args.get('q', '').strip()
+    exata = request.args.get('exata') == 'true'
+    campo = request.args.get('campo', 'categoria')
+    if q:
+        q_lower = q.lower()
+        if campo == 'subcategoria':
+            if exata:
+                categorias = {nome: info for nome, info in dados['CATEGORIAS'].items() if any(sub.lower() == q_lower for sub in info.get('subcategorias', []))}
+            else:
+                categorias = {nome: info for nome, info in dados['CATEGORIAS'].items() if any(q_lower in sub.lower() for sub in info.get('subcategorias', []))}
+        else:
+            if exata:
+                categorias = {nome: info for nome, info in dados['CATEGORIAS'].items() if nome.lower() == q_lower}
+            else:
+                categorias = {nome: info for nome, info in dados['CATEGORIAS'].items() if q_lower in nome.lower()}
+    else:
+        categorias = dados['CATEGORIAS']
+    return render_template('categorias.html', categorias=categorias, q=q, exata=exata, campo=campo, dados=dados)
 
 
 # Rota para detalhe de uma categoria
@@ -133,8 +180,17 @@ def detalhe_categoria(nome):
 
 @app.route('/anexos')
 def listar_anexos():
-    anexos = dados['ANEXOS']
-    return render_template('anexos.html', anexos=anexos)
+    q = request.args.get('q', '').strip()
+    exata = request.args.get('exata') == 'true'
+    if q:
+        q_lower = q.lower()
+        if exata:
+            anexos = [anexo for anexo in dados['ANEXOS'] if anexo['Título do Artigo'].lower() == q_lower]
+        else:
+            anexos = [anexo for anexo in dados['ANEXOS'] if q_lower in anexo['Título do Artigo'].lower()]
+    else:
+        anexos = dados['ANEXOS']
+    return render_template('anexos.html', anexos=anexos, q=q, exata=exata)
 
 
 # Funções auxiliares de pesquisa
