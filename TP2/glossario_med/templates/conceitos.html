@@ -3,6 +3,22 @@
 {% block content %}
     <h2>Conceitos Médicos</h2>
 
+    {% if erro %}
+    <div class="error-message">
+        {{ erro }}
+    </div>
+    {% endif %}
+
+    {% if sucesso %}
+    <div class="success-message">
+        {{ sucesso }}
+    </div>
+    {% endif %}
+
+    <div class="actions-bar">
+        <a href="{{ url_for('adicionar_conceito') }}" class="btn-save">Adicionar Novo Conceito</a>
+    </div>
+
     <div class="search-box">
         <form method="get" action="/conceitos">
             <input type="text" name="q" placeholder="Digite um termo médico..." value="{{ q|default('') }}" required>

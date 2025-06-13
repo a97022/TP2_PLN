@@ -2,18 +2,35 @@ from flask import Flask, render_template, json, request, redirect, url_for
 from markupsafe import Markup
 import re
 import urllib.parse
+import os
 
 app = Flask(__name__)
 
 # Carregar dados do JSON
-with open('dados.json', 'r', encoding='utf-8') as f:
-    dados = json.load(f)
+def carregar_dados():
+    with open('dados.json', 'r', encoding='utf-8') as f:
+        return json.load(f)
 
+def salvar_dados(dados):
+    with open('dados.json', 'w', encoding='utf-8') as f:
+        json.dump(dados, f, ensure_ascii=False, indent=4)
+
+# Carregar dados iniciais
+dados = carregar_dados()
 
 # Processar links nos textos
 def processar_links(texto, origem=None):
     if not texto:
         return ""
+
+    # Conceitos
+    for termo, info in dados['CONCEITOS'].items():
+        if origem and termo != origem:  # Não criar link para o próprio termo
+            origem_url = urllib.parse.quote(origem)
+            link = f'<a href="/conceito/{termo}?origem={origem_url}">{termo}</a>'
+        else:
+            link = f'<a href="/conceito/{termo}">{termo}</a>'
+        texto = re.sub(rf'\b{re.escape(termo)}\b', link, texto)
 
     # Siglas (ex: FAPESP)
     for sigla, significado in dados['SIGLAS'].items():
@@ -93,8 +110,11 @@ def listar_siglas():
     q = request.args.get('q', '').strip()
     exata = request.args.get('exata') == 'true'
     if q:
-        siglas_result = pesquisar_siglas(q, exata)
-        siglas = {sigla: significado for sigla, significado, _ in siglas_result}
+        q_lower = q.lower()
+        if exata:
+            siglas = {sigla: significado for sigla, significado in dados['SIGLAS'].items() if sigla.lower() == q_lower}
+        else:
+            siglas = {sigla: significado for sigla, significado in dados['SIGLAS'].items() if q_lower in sigla.lower()}
     else:
         siglas = dados['SIGLAS']
     return render_template('siglas.html', siglas=siglas, q=q, exata=exata)
@@ -361,6 +381,258 @@ def pesquisar():
                            tipo=tipo,
                            exata=exata)
 
+
+@app.route('/siglas/adicionar', methods=['GET', 'POST'])
+def adicionar_sigla():
+    if request.method == 'POST':
+        sigla = request.form['sigla'].strip().upper()
+        significado = request.form['significado'].strip()
+        
+        if not sigla or not significado:
+            return redirect(url_for('adicionar_sigla', erro='Todos os campos são obrigatórios.'))
+        
+        if sigla in dados['SIGLAS']:
+            return redirect(url_for('adicionar_sigla', erro='Esta sigla já existe.'))
+        
+        dados['SIGLAS'][sigla] = significado
+        salvar_dados(dados)
+        return redirect(url_for('listar_siglas', sucesso='Sigla adicionada com sucesso!'))
+    
+    erro = request.args.get('erro')
+    return render_template('editar_sigla.html', erro=erro)
+
+@app.route('/siglas/editar/<sigla>', methods=['GET', 'POST'])
+def editar_sigla(sigla):
+    if sigla not in dados['SIGLAS']:
+        return redirect(url_for('listar_siglas', erro='Sigla não encontrada.'))
+    
+    if request.method == 'POST':
+        significado = request.form['significado'].strip()
+        
+        if not significado:
+            return redirect(url_for('editar_sigla', sigla=sigla, erro='O significado é obrigatório.'))
+        
+        dados['SIGLAS'][sigla] = significado
+        salvar_dados(dados)
+        return redirect(url_for('listar_siglas', sucesso='Sigla atualizada com sucesso!'))
+    
+    erro = request.args.get('erro')
+    return render_template('editar_sigla.html', sigla=sigla, significado=dados['SIGLAS'][sigla], erro=erro)
+
+@app.route('/siglas/eliminar/<sigla>', methods=['POST'])
+def eliminar_sigla(sigla):
+    if sigla in dados['SIGLAS']:
+        del dados['SIGLAS'][sigla]
+        salvar_dados(dados)
+        return redirect(url_for('listar_siglas', sucesso='Sigla eliminada com sucesso!'))
+    return redirect(url_for('listar_siglas', erro='Sigla não encontrada.'))
+
+@app.route('/abreviaturas/adicionar', methods=['GET', 'POST'])
+def adicionar_abreviatura():
+    if request.method == 'POST':
+        abrev = request.form['abrev'].strip()
+        significados = [s.strip() for s in request.form['significados'].split('\n') if s.strip()]
+        if not abrev or not significados:
+            return redirect(url_for('adicionar_abreviatura', erro='Todos os campos são obrigatórios.'))
+        if abrev in dados['ABREVS']:
+            return redirect(url_for('adicionar_abreviatura', erro='Esta abreviatura já existe.'))
+        dados['ABREVS'][abrev] = significados
+        salvar_dados(dados)
+        return redirect(url_for('listar_abreviaturas', sucesso='Abreviatura adicionada com sucesso!'))
+    erro = request.args.get('erro')
+    return render_template('editar_abreviatura.html', erro=erro)
+
+@app.route('/abreviaturas/editar/<abrev>', methods=['GET', 'POST'])
+def editar_abreviatura(abrev):
+    if abrev not in dados['ABREVS']:
+        return redirect(url_for('listar_abreviaturas', erro='Abreviatura não encontrada.'))
+    if request.method == 'POST':
+        significados = [s.strip() for s in request.form['significados'].split('\n') if s.strip()]
+        if not significados:
+            return redirect(url_for('editar_abreviatura', abrev=abrev, erro='O significado é obrigatório.'))
+        dados['ABREVS'][abrev] = significados
+        salvar_dados(dados)
+        return redirect(url_for('listar_abreviaturas', sucesso='Abreviatura atualizada com sucesso!'))
+    erro = request.args.get('erro')
+    return render_template('editar_abreviatura.html', abrev=abrev, significados=dados['ABREVS'][abrev], erro=erro)
+
+@app.route('/abreviaturas/eliminar/<abrev>', methods=['POST'])
+def eliminar_abreviatura(abrev):
+    if abrev in dados['ABREVS']:
+        del dados['ABREVS'][abrev]
+        salvar_dados(dados)
+        return redirect(url_for('listar_abreviaturas', sucesso='Abreviatura eliminada com sucesso!'))
+    return redirect(url_for('listar_abreviaturas', erro='Abreviatura não encontrada.'))
+
+@app.route('/conceitos/adicionar', methods=['GET', 'POST'])
+def adicionar_conceito():
+    if request.method == 'POST':
+        nome = request.form['nome'].strip()
+        definicao = request.form['definicao'].strip()
+        info_enc = request.form.get('info_enc', '').strip()
+        categoria_lexica = request.form.get('categoria_lexica', '').strip()
+        sigla = request.form.get('sigla', '').strip()
+        cas = request.form.get('cas', '').strip()
+        sinonimos_pt = [s.strip() for s in request.form.get('sinonimos_pt', '').split(',') if s.strip()]
+        sinonimos_en = [s.strip() for s in request.form.get('sinonimos_en', '').split(',') if s.strip()]
+        sinonimos_es = [s.strip() for s in request.form.get('sinonimos_es', '').split(',') if s.strip()]
+        traducoes_ar = [t.strip() for t in request.form.get('traducoes_ar', '').split(',') if t.strip()]
+        traducoes_ca = [t.strip() for t in request.form.get('traducoes_ca', '').split(',') if t.strip()]
+        traducoes_en = [t.strip() for t in request.form.get('traducoes_en', '').split(',') if t.strip()]
+        traducoes_es = [t.strip() for t in request.form.get('traducoes_es', '').split(',') if t.strip()]
+        traducoes_eu = [t.strip() for t in request.form.get('traducoes_eu', '').split(',') if t.strip()]
+        traducoes_fr = [t.strip() for t in request.form.get('traducoes_fr', '').split(',') if t.strip()]
+        traducoes_gl = [t.strip() for t in request.form.get('traducoes_gl', '').split(',') if t.strip()]
+        traducoes_nl = [t.strip() for t in request.form.get('traducoes_nl', '').split(',') if t.strip()]
+        traducoes_oc = [t.strip() for t in request.form.get('traducoes_oc', '').split(',') if t.strip()]
+        categoria_area = [c.strip() for c in request.form.get('categoria_area', '').split(',') if c.strip()]
+        artigos_input = [a.strip() for a in request.form.get('artigos', '').split(',') if a.strip()]
+
+        # Validar artigos relacionados
+        anexos_validos = {anexo['Número'] for anexo in dados['ANEXOS']}
+        artigos_validos = [artigo for artigo in artigos_input if artigo in anexos_validos]
+        
+        if not definicao:
+            return redirect(url_for('adicionar_conceito', erro='A definição é obrigatória.'))
+        if not nome:
+            return redirect(url_for('adicionar_conceito', erro='O nome do conceito é obrigatório.'))
+        if nome in dados['CONCEITOS']:
+            return redirect(url_for('adicionar_conceito', erro='Este conceito já existe.'))
+
+        # Construir o conceito na ordem desejada
+        novo_conceito = {
+            'CAS': cas,
+            'artigos': artigos_validos,
+            'categoria_area': categoria_area,
+            'categoria_lexica': [c.strip() for c in categoria_lexica.split(',') if c.strip()] if categoria_lexica else [],
+            'definicoes': [[definicao, 'Utilizador']],
+            'info_enc': info_enc,
+            'sigla': sigla,
+            'sinonimos': {
+                'pt': sinonimos_pt,
+                'en': sinonimos_en,
+                'es': sinonimos_es
+            },
+            'traducoes': {
+                'ar': traducoes_ar,
+                'ca': traducoes_ca,
+                'en': traducoes_en,
+                'es': traducoes_es,
+                'eu': traducoes_eu,
+                'fr': traducoes_fr,
+                'gl': traducoes_gl,
+                'nl': traducoes_nl,
+                'oc': traducoes_oc
+            },
+        }
+
+        dados['CONCEITOS'][nome] = novo_conceito
+        salvar_dados(dados)
+        return redirect(url_for('listar_conceitos', sucesso='Conceito adicionado com sucesso!'))
+    erro = request.args.get('erro')
+    return render_template('editar_conceito.html', erro=erro)
+
+@app.route('/conceitos/editar/<nome>', methods=['GET', 'POST'])
+def editar_conceito(nome):
+    conceito = dados['CONCEITOS'].get(nome)
+    if not conceito:
+        return redirect(url_for('listar_conceitos', erro='Conceito não encontrado.'))
+    if request.method == 'POST':
+        definicao = request.form['definicao'].strip()
+        info_enc = request.form.get('info_enc', '').strip()
+        categoria_lexica_input = request.form.get('categoria_lexica', '').strip()
+        sigla = request.form.get('sigla', '').strip()
+        cas = request.form.get('cas', '').strip()
+        sinonimos_pt_input = [s.strip() for s in request.form.get('sinonimos_pt', '').split(',') if s.strip()]
+        sinonimos_en_input = [s.strip() for s in request.form.get('sinonimos_en', '').split(',') if s.strip()]
+        sinonimos_es_input = [s.strip() for s in request.form.get('sinonimos_es', '').split(',') if s.strip()]
+        traducoes_ar = [t.strip() for t in request.form.get('traducoes_ar', '').split(',') if t.strip()]
+        traducoes_ca = [t.strip() for t in request.form.get('traducoes_ca', '').split(',') if t.strip()]
+        traducoes_en = [t.strip() for t in request.form.get('traducoes_en', '').split(',') if t.strip()]
+        traducoes_es = [t.strip() for t in request.form.get('traducoes_es', '').split(',') if t.strip()]
+        traducoes_eu = [t.strip() for t in request.form.get('traducoes_eu', '').split(',') if t.strip()]
+        traducoes_fr = [t.strip() for t in request.form.get('traducoes_fr', '').split(',') if t.strip()]
+        traducoes_gl = [t.strip() for t in request.form.get('traducoes_gl', '').split(',') if t.strip()]
+        traducoes_nl = [t.strip() for t in request.form.get('traducoes_nl', '').split(',') if t.strip()]
+        traducoes_oc = [t.strip() for t in request.form.get('traducoes_oc', '').split(',') if t.strip()]
+        categoria_area = [c.strip() for c in request.form.get('categoria_area', '').split(',') if c.strip()]
+        artigos_input = [a.strip() for a in request.form.get('artigos', '').split(',') if a.strip()]
+
+        # Validar artigos relacionados
+        anexos_validos = {anexo['Número'] for anexo in dados['ANEXOS']}
+        artigos_validos = [artigo for artigo in artigos_input if artigo in anexos_validos]
+        
+        if not definicao:
+            return redirect(url_for('editar_conceito', nome=nome, erro='A definição é obrigatória.'))
+        
+        # Atualiza a primeira definição. Se não houver, cria uma nova.
+        if conceito.get('definicoes'):
+            conceito['definicoes'][0][0] = definicao
+        else:
+            conceito['definicoes'] = [[definicao, 'Utilizador']]
+
+        # Atualizar os campos na ordem correta
+        conceito_atualizado = {
+            'CAS': cas,
+            'artigos': artigos_validos,
+            'categoria_area': categoria_area,
+            'categoria_lexica': [c.strip() for c in categoria_lexica_input.split(',') if c.strip()] if categoria_lexica_input else [],
+            'definicoes': conceito['definicoes'],
+            'info_enc': info_enc,
+            'sigla': sigla,
+            'sinonimos': {
+                'pt': sinonimos_pt_input,
+                'en': sinonimos_en_input,
+                'es': sinonimos_es_input
+            },
+            'traducoes': {
+                'ar': traducoes_ar,
+                'ca': traducoes_ca,
+                'en': traducoes_en,
+                'es': traducoes_es,
+                'eu': traducoes_eu,
+                'fr': traducoes_fr,
+                'gl': traducoes_gl,
+                'nl': traducoes_nl,
+                'oc': traducoes_oc
+            },
+        }
+        
+        # Atualiza o conceito existente com o dicionário na ordem desejada
+        dados['CONCEITOS'][nome] = conceito_atualizado
+
+        salvar_dados(dados)
+        return redirect(url_for('listar_conceitos', sucesso='Conceito atualizado com sucesso!'))
+    erro = request.args.get('erro')
+    return render_template('editar_conceito.html', nome=nome,
+        definicao=conceito['definicoes'][0][0] if conceito.get('definicoes') and conceito['definicoes'] else '',
+        info_enc=conceito.get('info_enc', ''),
+        categoria_lexica=','.join(conceito.get('categoria_lexica', [])),
+        sigla=conceito.get('sigla', ''),
+        cas=conceito.get('CAS', ''),
+        sinonimos_pt=','.join(conceito.get('sinonimos', {}).get('pt', [])),
+        sinonimos_en=','.join(conceito.get('sinonimos', {}).get('en', [])),
+        sinonimos_es=','.join(conceito.get('sinonimos', {}).get('es', [])),
+        traducoes_ar=','.join(conceito.get('traducoes', {}).get('ar', [])),
+        traducoes_ca=','.join(conceito.get('traducoes', {}).get('ca', [])),
+        traducoes_en=','.join(conceito.get('traducoes', {}).get('en', [])),
+        traducoes_es=','.join(conceito.get('traducoes', {}).get('es', [])),
+        traducoes_eu=','.join(conceito.get('traducoes', {}).get('eu', [])),
+        traducoes_fr=','.join(conceito.get('traducoes', {}).get('fr', [])),
+        traducoes_gl=','.join(conceito.get('traducoes', {}).get('gl', [])),
+        traducoes_nl=','.join(conceito.get('traducoes', {}).get('nl', [])),
+        traducoes_oc=','.join(conceito.get('traducoes', {}).get('oc', [])),
+        categoria_area=','.join(conceito.get('categoria_area', [])),
+        artigos=','.join(conceito.get('artigos', [])),
+        erro=erro)
+
+@app.route('/conceitos/eliminar/<nome>', methods=['POST'])
+def eliminar_conceito(nome):
+    if nome in dados['CONCEITOS']:
+        del dados['CONCEITOS'][nome]
+        salvar_dados(dados)
+        return redirect(url_for('listar_conceitos', sucesso='Conceito eliminado com sucesso!'))
+    return redirect(url_for('listar_conceitos', erro='Conceito não encontrado.'))
 
 if __name__ == '__main__':
     app.run(debug=True)

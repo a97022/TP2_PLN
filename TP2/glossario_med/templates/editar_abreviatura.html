@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h2>{% if abrev %}Editar{% else %}Adicionar{% endif %} Abreviatura</h2>
+
+    {% if erro %}
+    <div class="error-message">
+        {{ erro }}
+    </div>
+    {% endif %}
+
+    <div class="form-container">
+        <form method="POST" action="{{ url_for('editar_abreviatura', abrev=abrev) if abrev else url_for('adicionar_abreviatura') }}">
+            <div class="form-group">
+                <label for="abrev">Abreviatura:</label>
+                <input type="text" id="abrev" name="abrev" value="{{ abrev }}" required {% if abrev %}readonly{% endif %}>
+            </div>
+
+            <div class="form-group">
+                <label for="significados">Significados (um por linha):</label>
+                <textarea id="significados" name="significados" required>{% if significados %}{{ significados|join('\n') }}{% endif %}</textarea>
+            </div>
+
+            <div class="form-actions">
+                <button type="submit" class="btn-save">Salvar</button>
+                <a href="/abreviaturas" class="btn-secondary">Cancelar</a>
+            </div>
+        </form>
+    </div>
+{% endblock %} 

@@ -8,6 +8,13 @@
         <p>{{ significado }}</p>
     </div>
 
+    <div class="actions-bar">
+        <a href="{{ url_for('editar_sigla', sigla=sigla) }}" class="btn-save">Editar</a>
+        <form method="POST" action="{{ url_for('eliminar_sigla', sigla=sigla) }}" style="display:inline;" onsubmit="return confirm('Tem a certeza que deseja eliminar esta sigla?');">
+            <button type="submit" class="btn-secondary">Eliminar</button>
+        </form>
+    </div>
+
     <div class="back-link">
         {% if request.args.get('origem') %}
             <a href="/conceito/{{ request.args.get('origem')|urlencode }}">← Voltar ao conceito</a>

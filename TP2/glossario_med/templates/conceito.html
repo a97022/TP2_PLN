@@ -3,6 +3,13 @@
 {% block content %}
     <h2>{{ nome }}</h2>
     
+    <div class="actions-bar">
+        <a href="{{ url_for('editar_conceito', nome=nome) }}" class="btn-save">Editar</a>
+        <form method="POST" action="{{ url_for('eliminar_conceito', nome=nome) }}" style="display:inline;" onsubmit="return confirm('Tem a certeza que deseja eliminar este conceito?');">
+            <button type="submit" class="btn-secondary">Eliminar</button>
+        </form>
+    </div>
+
     <div class="info-box">
         <h3>Informações Gerais</h3>
         <p><strong>Categoria Léxica:</strong> {{ conceito.categoria_lexica[0] if conceito.categoria_lexica else '-' }}</p>
@@ -27,11 +34,27 @@
     </div>
     {% endif %}
 
-    {% if conceito.traducoes.en or conceito.traducoes.es %}
+    {% if conceito.traducoes.en or conceito.traducoes.es or conceito.traducoes.ar or conceito.traducoes.ca or conceito.traducoes.eu or conceito.traducoes.fr or conceito.traducoes.gl or conceito.traducoes.nl or conceito.traducoes.oc %}
     <div class="info-box">
         <h3>Traduções</h3>
-        <p><strong>Inglês:</strong> {{ conceito.traducoes.en|join(', ') }}</p>
-        <p><strong>Espanhol:</strong> {{ conceito.traducoes.es|join(', ') }}</p>
+        {% if conceito.traducoes.ar %}<p><strong>Árabe:</strong> {{ conceito.traducoes.ar|join(', ') }}</p>{% endif %}
+        {% if conceito.traducoes.ca %}<p><strong>Catalão:</strong> {{ conceito.traducoes.ca|join(', ') }}</p>{% endif %}
+        {% if conceito.traducoes.en %}<p><strong>Inglês:</strong> {{ conceito.traducoes.en|join(', ') }}</p>{% endif %}
+        {% if conceito.traducoes.es %}<p><strong>Espanhol:</strong> {{ conceito.traducoes.es|join(', ') }}</p>{% endif %}
+        {% if conceito.traducoes.eu %}<p><strong>Basco:</strong> {{ conceito.traducoes.eu|join(', ') }}</p>{% endif %}
+        {% if conceito.traducoes.fr %}<p><strong>Francês:</strong> {{ conceito.traducoes.fr|join(', ') }}</p>{% endif %}
+        {% if conceito.traducoes.gl %}<p><strong>Galego:</strong> {{ conceito.traducoes.gl|join(', ') }}</p>{% endif %}
+        {% if conceito.traducoes.nl %}<p><strong>Holandês:</strong> {{ conceito.traducoes.nl|join(', ') }}</p>{% endif %}
+        {% if conceito.traducoes.oc %}<p><strong>Occitano:</strong> {{ conceito.traducoes.oc|join(', ') }}</p>{% endif %}
+    </div>
+    {% endif %}
+
+    {% if conceito.sinonimos.pt or conceito.sinonimos.en or conceito.sinonimos.es %}
+    <div class="info-box">
+        <h3>Sinónimos</h3>
+        {% if conceito.sinonimos.pt %}<p><strong>Português:</strong> {{ conceito.sinonimos.pt|join(', ') }}</p>{% endif %}
+        {% if conceito.sinonimos.en %}<p><strong>Inglês:</strong> {{ conceito.sinonimos.en|join(', ') }}</p>{% endif %}
+        {% if conceito.sinonimos.es %}<p><strong>Espanhol:</strong> {{ conceito.sinonimos.es|join(', ') }}</p>{% endif %}
     </div>
     {% endif %}
 
@@ -50,7 +73,7 @@
                 {% set artigo = dados.ANEXOS | selectattr("Número", "equalto", artigo_id|string) | first %}
                 {% if artigo %}
                 <li>
-                    <a href="/anexos#artigo-{{ artigo_id }}">
+                    <a href="/anexos?origem={{ nome|urlencode }}#artigo-{{ artigo_id }}">
                         {{ artigo['Título do Artigo'] }} (Edição {{ artigo['Número da Edição'] }})
                     </a>
                 </li>
@@ -61,6 +84,10 @@
     {% endif %}
 
     <div class="back-link">
-        <a href="/conceitos">← Voltar à lista de conceitos</a>
+        {% if request.args.get('origem') %}
+            <a href="/conceito/{{ request.args.get('origem')|urlencode }}">← Voltar ao conceito anterior</a>
+        {% else %}
+            <a href="/conceitos">← Voltar à lista de conceitos</a>
+        {% endif %}
     </div>
 {% endblock %}

@@ -3,6 +3,10 @@
 {% block content %}
     <h2>Siglas Médicas</h2>
 
+    <div class="actions-bar">
+        <a href="{{ url_for('adicionar_sigla') }}" class="btn-save">Adicionar Nova Sigla</a>
+    </div>
+
     <div class="search-box">
         <form method="get" action="/siglas">
             <input type="text" name="q" placeholder="Digite uma sigla ou parte dela..." value="{{ q|default('') }}" required>

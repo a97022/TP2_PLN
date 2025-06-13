@@ -31,7 +31,7 @@
         </thead>
         <tbody>
             {% for anexo in anexos %}
-            <tr>
+            <tr id="artigo-{{ anexo.Número }}">
                 <td>{{ anexo.Número }}</td>
                 <td>{{ anexo['Título do Artigo'] }}</td>
                 <td>Nº {{ anexo['Número da Edição'] }} ({{ anexo['Mês da Edição'] }})</td>
@@ -40,4 +40,10 @@
             {% endfor %}
         </tbody>
     </table>
+
+    <div class="back-link">
+        {% if request.args.get('origem') %}
+            <a href="/conceito/{{ request.args.get('origem')|urlencode }}">← Voltar ao conceito</a>
+        {% endif %}
+    </div>
 {% endblock %}

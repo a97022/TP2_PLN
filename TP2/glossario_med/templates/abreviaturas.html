@@ -3,6 +3,10 @@
 {% block content %}
     <h2>Abreviaturas</h2>
 
+    <div class="actions-bar">
+        <a href="{{ url_for('adicionar_abreviatura') }}" class="btn-save">Adicionar Nova Abreviatura</a>
+    </div>
+
     <div class="search-box">
         <form method="get" action="/abreviaturas">
             <input type="text" name="q" placeholder="Digite uma abreviatura ou parte dela..." value="{{ q|default('') }}" required>

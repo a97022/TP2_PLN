@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h2>{% if sigla %}Editar{% else %}Adicionar{% endif %} Sigla</h2>
+
+    {% if erro %}
+    <div class="error-message">
+        {{ erro }}
+    </div>
+    {% endif %}
+
+    <div class="form-container">
+        <form method="POST" action="{{ url_for('editar_sigla', sigla=sigla) if sigla else url_for('adicionar_sigla') }}">
+            <div class="form-group">
+                <label for="sigla">Sigla:</label>
+                <input type="text" id="sigla" name="sigla" value="{{ sigla }}" required {% if sigla %}readonly{% endif %}>
+            </div>
+
+            <div class="form-group">
+                <label for="significado">Significado:</label>
+                <textarea id="significado" name="significado" required>{{ significado }}</textarea>
+            </div>
+
+            <div class="form-actions">
+                <button type="submit" class="btn-save">Salvar</button>
+                <a href="/siglas" class="btn-secondary">Cancelar</a>
+            </div>
+        </form>
+    </div>
+{% endblock %} 

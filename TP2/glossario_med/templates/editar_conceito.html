@@ -1,0 +1,110 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h2>{% if nome %}Editar{% else %}Adicionar{% endif %} Conceito</h2>
+
+    {% if erro %}
+    <div class="error-message">
+        {{ erro }}
+    </div>
+    {% endif %}
+
+    <div class="form-container">
+        <form method="POST" action="{{ url_for('editar_conceito', nome=nome) if nome else url_for('adicionar_conceito') }}">
+            <div class="form-group">
+                <label for="nome">Nome do Conceito:</label>
+                <input type="text" id="nome" name="nome" value="{{ nome or '' }}" {% if nome %}readonly{% endif %} {% if not nome %}required{% endif %}>
+            </div>
+
+            <div class="form-group">
+                <label for="definicao">Definição <span style="color:red">*</span>:</label>
+                <textarea id="definicao" name="definicao" required>{{ definicao or '' }}</textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="info_enc">Informações Enciclopédicas:</label>
+                <textarea id="info_enc" name="info_enc">{{ info_enc or '' }}</textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="categoria_lexica">Categoria Léxica (separadas por vírgula):</label>
+                <input type="text" id="categoria_lexica" name="categoria_lexica" value="{{ categoria_lexica or '' }}">
+            </div>
+
+            <div class="form-group">
+                <label for="sigla">Sigla:</label>
+                <input type="text" id="sigla" name="sigla" value="{{ sigla or '' }}">
+            </div>
+
+            <div class="form-group">
+                <label for="cas">CAS:</label>
+                <input type="text" id="cas" name="cas" value="{{ cas or '' }}">
+            </div>
+
+            <div class="form-group">
+                <label for="sinonimos_pt">Sinónimos (Português, separados por vírgula):</label>
+                <input type="text" id="sinonimos_pt" name="sinonimos_pt" value="{{ sinonimos_pt or '' }}">
+            </div>
+            <div class="form-group">
+                <label for="sinonimos_en">Sinónimos (Inglês, separados por vírgula):</label>
+                <input type="text" id="sinonimos_en" name="sinonimos_en" value="{{ sinonimos_en or '' }}">
+            </div>
+            <div class="form-group">
+                <label for="sinonimos_es">Sinónimos (Espanhol, separados por vírgula):</label>
+                <input type="text" id="sinonimos_es" name="sinonimos_es" value="{{ sinonimos_es or '' }}">
+            </div>
+
+            <div class="form-group">
+                <label for="traducoes_ar">Traduções (Árabe, separadas por vírgula):</label>
+                <input type="text" id="traducoes_ar" name="traducoes_ar" value="{{ traducoes_ar or '' }}">
+            </div>
+            <div class="form-group">
+                <label for="traducoes_ca">Traduções (Catalão, separadas por vírgula):</label>
+                <input type="text" id="traducoes_ca" name="traducoes_ca" value="{{ traducoes_ca or '' }}">
+            </div>
+            <div class="form-group">
+                <label for="traducoes_en">Traduções (Inglês, separadas por vírgula):</label>
+                <input type="text" id="traducoes_en" name="traducoes_en" value="{{ traducoes_en or '' }}">
+            </div>
+            <div class="form-group">
+                <label for="traducoes_es">Traduções (Espanhol, separadas por vírgula):</label>
+                <input type="text" id="traducoes_es" name="traducoes_es" value="{{ traducoes_es or '' }}">
+            </div>
+            <div class="form-group">
+                <label for="traducoes_eu">Traduções (Basco, separadas por vírgula):</label>
+                <input type="text" id="traducoes_eu" name="traducoes_eu" value="{{ traducoes_eu or '' }}">
+            </div>
+            <div class="form-group">
+                <label for="traducoes_fr">Traduções (Francês, separadas por vírgula):</label>
+                <input type="text" id="traducoes_fr" name="traducoes_fr" value="{{ traducoes_fr or '' }}">
+            </div>
+            <div class="form-group">
+                <label for="traducoes_gl">Traduções (Galego, separadas por vírgula):</label>
+                <input type="text" id="traducoes_gl" name="traducoes_gl" value="{{ traducoes_gl or '' }}">
+            </div>
+            <div class="form-group">
+                <label for="traducoes_nl">Traduções (Holandês, separadas por vírgula):</label>
+                <input type="text" id="traducoes_nl" name="traducoes_nl" value="{{ traducoes_nl or '' }}">
+            </div>
+            <div class="form-group">
+                <label for="traducoes_oc">Traduções (Occitano, separadas por vírgula):</label>
+                <input type="text" id="traducoes_oc" name="traducoes_oc" value="{{ traducoes_oc or '' }}">
+            </div>
+
+            <div class="form-group">
+                <label for="categoria_area">Categorias (separadas por vírgula):</label>
+                <input type="text" id="categoria_area" name="categoria_area" value="{{ categoria_area or '' }}">
+            </div>
+            
+            <div class="form-group">
+                <label for="artigos">Artigos Relacionados (números separados por vírgula):</label>
+                <input type="text" id="artigos" name="artigos" value="{{ artigos or '' }}">
+            </div>
+
+            <div class="form-actions">
+                <button type="submit" class="btn-save">Salvar</button>
+                <a href="/conceitos" class="btn-secondary">Cancelar</a>
+            </div>
+        </form>
+    </div>
+{% endblock %} 

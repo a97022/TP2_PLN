@@ -11,6 +11,13 @@
             {% endfor %}
         </ul>
     </div>
+
+    <div class="actions-bar">
+        <a href="{{ url_for('editar_abreviatura', abrev=abrev) }}" class="btn-save">Editar</a>
+        <form method="POST" action="{{ url_for('eliminar_abreviatura', abrev=abrev) }}" style="display:inline;" onsubmit="return confirm('Tem a certeza que deseja eliminar esta abreviatura?');">
+            <button type="submit" class="btn-secondary">Eliminar</button>
+        </form>
+    </div>
     
     <div class="back-link">
         {% if request.args.get('origem') %}
