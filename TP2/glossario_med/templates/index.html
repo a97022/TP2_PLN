@@ -5,29 +5,6 @@
         <h2>Bem-vindo ao Glossário Médico</h2>
         <p>Este sistema permite consultar termos médicos, respetivas definições, siglas, abreviaturas e categorias.</p>
         
-        <div class="quick-links">
-            <a href="/conceitos" class="card">
-                <h3>Conceitos</h3>
-                <p>{{ stats.conceitos }} termos médicos</p>
-            </a>
-            <a href="/siglas" class="card">
-                <h3>Siglas</h3>
-                <p>{{ stats.siglas }} siglas</p>
-            </a>
-            <a href="/abreviaturas" class="card">
-                <h3>Abreviaturas</h3>
-                <p>{{ stats.abreviaturas }} abreviaturas</p>
-            </a>
-            <a href="/categorias" class="card">
-                <h3>Categorias</h3>
-                <p>{{ stats.categorias }} categorias</p>
-            </a>
-            <a href="/anexos" class="card">
-                <h3>Anexos</h3>
-                <p>{{ stats.anexos }} artigos</p>
-            </a>
-        </div>
-        
         <div class="search-box">
             <h3>Pesquisa Avançada</h3>
             <form action="/pesquisar" method="GET">
@@ -71,6 +48,30 @@
                 <button type="submit">Buscar</button>
             </form>
         </div>
+
+        <div class="quick-links">
+            <a href="/conceitos" class="card">
+                <h3>Conceitos</h3>
+                <p>{{ stats.conceitos }} termos médicos</p>
+            </a>
+            <a href="/siglas" class="card">
+                <h3>Siglas</h3>
+                <p>{{ stats.siglas }} siglas</p>
+            </a>
+            <a href="/abreviaturas" class="card">
+                <h3>Abreviaturas</h3>
+                <p>{{ stats.abreviaturas }} abreviaturas</p>
+            </a>
+            <a href="/categorias" class="card">
+                <h3>Categorias</h3>
+                <p>{{ stats.categorias }} categorias</p>
+            </a>
+            <a href="/anexos" class="card">
+                <h3>Anexos</h3>
+                <p>{{ stats.anexos }} artigos</p>
+            </a>
+        </div>
+
     </div>
 
 {% endblock %}
