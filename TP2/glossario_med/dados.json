@@ -250,6 +250,9 @@
         ],
         "v tr/intr": [
             "verb transitiu o intransitiu"
+        ],
+        "veg.": [
+            "Semelhante a (termo)"
         ]
     },
     "ANEXOS": [
@@ -22381,15 +22384,17 @@
                 ]
             ],
             "info_enc": "1. L’acalabrutinib s’empra en el tractament de la leucèmia limfocítica crònica i de diversos tipus de limfomes. També s’investiga per a tractar altres tipus de càncer. Se n’ha suggerit l’ús per al tractament de la COVID-19. És d’origen sintètic. 2. La denominació acalabrutinib és la forma catalana corresponent a la DCI.",
-            "sigla": null,
+            "sigla": "",
             "sinonimos": {
+                "en": [],
+                "es": [],
                 "pt": [
                     "acalabrutinibe"
                 ]
             },
             "traducoes": {
                 "ar": [
-                    "بينيتوربلااكأ CAS"
+                    "بينيتوربلااكأ"
                 ],
                 "ca": [
                     "acalabrutinib"

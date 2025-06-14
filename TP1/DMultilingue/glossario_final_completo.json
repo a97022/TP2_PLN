@@ -1899,7 +1899,8 @@
     },
     "bronquiolite": {
       "categoria_lexica": [
-        "s.f."
+        "s.f.",
+        "n f"
       ],
       "sinonimos": {
         "pt": [],
@@ -28199,7 +28200,9 @@
       "artigos": []
     },
     "ACA": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -28219,7 +28222,9 @@
       "artigos": []
     },
     "acalabrutinib": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {
         "pt": [
           "acalabrutinibe"
@@ -28269,7 +28274,9 @@
       "artigos": []
     },
     "ácido desoxirribonucleico": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -28315,7 +28322,9 @@
       "artigos": []
     },
     "ácido ribonucleico": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -28363,7 +28372,9 @@
       "artigos": []
     },
     "ADG20": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -28409,7 +28420,9 @@
       "artigos": []
     },
     "Ad5-nCoV": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -28429,7 +28442,9 @@
       "artigos": []
     },
     "adequació de l’esforç terapèutic": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -28449,7 +28464,9 @@
       "artigos": []
     },
     "limitação terapêutica": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {
         "pt": [
           "limitação de esforço terapêutico"
@@ -28491,7 +28508,9 @@
       "artigos": []
     },
     "ADN": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -28511,7 +28530,9 @@
       "artigos": []
     },
     "aerossol": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -28557,7 +28578,9 @@
       "artigos": []
     },
     "agente biológico": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -28603,7 +28626,9 @@
       "artigos": []
     },
     "ageusia": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -28649,7 +28674,9 @@
       "artigos": []
     },
     "agrupamento": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {
         "pt": [
           "cluster"
@@ -28699,7 +28726,9 @@
       "artigos": []
     },
     "isolamento": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {
         "pt": [
           "isolamento social"
@@ -28747,7 +28776,9 @@
       "artigos": []
     },
     "alta mèdica": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {
         "ca": [
           "alta"
@@ -28782,7 +28813,9 @@
       "artigos": []
     },
     "alunacedase alfa n": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -28828,7 +28861,9 @@
       "artigos": []
     },
     "aïllat": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -28848,7 +28883,9 @@
       "artigos": []
     },
     "isolado": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {
         "pt": [
           "isolado de vírus",
@@ -28902,7 +28939,9 @@
       "artigos": []
     },
     "alta": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -28922,7 +28961,9 @@
       "artigos": []
     },
     "anacinra": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {
         "pt": [
           "anakinra"
@@ -28972,7 +29013,9 @@
       "artigos": []
     },
     "analgésico": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {
         "ca": [
           "antiàlgic"
@@ -29014,7 +29057,9 @@
       "artigos": []
     },
     "ambroxol": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {
         "pt": [
           "cloridrato de ambroxol"
@@ -29064,7 +29109,9 @@
       "artigos": []
     },
     "AMY-101": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {
         "pt": [
           "[BR] molécula AMY-101"
@@ -29109,7 +29156,9 @@
       "artigos": []
     },
     "antiàlgic": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -29129,7 +29178,9 @@
       "artigos": []
     },
     "antibiótico": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -29175,7 +29226,9 @@
       "artigos": []
     },
     "anticorpo": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {
         "pt": [
           "antiálgico"
@@ -29227,7 +29280,9 @@
       "artigos": []
     },
     "anosmia": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -29273,7 +29328,9 @@
       "artigos": []
     },
     "ansiedade de antecipação": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {
         "pt": [
           "ansiedade antecipatória"
@@ -29321,7 +29378,9 @@
       "artigos": []
     },
     "antipirético": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {
         "ca": [
           "antitèrmic"
@@ -29371,7 +29430,9 @@
       "artigos": []
     },
     "antirretroviral ;": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -29417,7 +29478,9 @@
       "artigos": []
     },
     "antigénio": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {
         "pt": [
           "antígeno"
@@ -29467,7 +29530,9 @@
       "artigos": []
     },
     "achatar a curva": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "v intr"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -29513,7 +29578,9 @@
       "artigos": []
     },
     "apremilast": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -29559,7 +29626,9 @@
       "artigos": []
     },
     "antitèrmic": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -29579,7 +29648,9 @@
       "artigos": []
     },
     "antiviral": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {
         "pt": [
           "antivírico"
@@ -29637,7 +29708,9 @@
       "artigos": []
     },
     "apilimod": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {
         "pt": [
           "ASC09F"
@@ -29693,7 +29766,9 @@
       "artigos": []
     },
     "assintomático": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "adj"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -29739,7 +29814,9 @@
       "artigos": []
     },
     "assaig aleatoritzat": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -29768,7 +29845,9 @@
       "artigos": []
     },
     "ARN": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -29788,7 +29867,9 @@
       "artigos": []
     },
     "ARN missatger": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -29808,7 +29889,9 @@
       "artigos": []
     },
     "ARNm": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -29828,7 +29911,9 @@
       "artigos": []
     },
     "arritmia": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -29874,7 +29959,9 @@
       "artigos": []
     },
     "ARV": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -29894,7 +29981,9 @@
       "artigos": []
     },
     "ensaio clínico aleatorizado": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {
         "pt": [
           "ensaio clínico randomizado"
@@ -29941,7 +30030,9 @@
       "artigos": []
     },
     "ensaio clínico em ocultaçao": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {
         "pt": [
           "estudo cego"
@@ -29991,7 +30082,9 @@
       "artigos": []
     },
     "ensaio clínico em dupla ocultação": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {
         "pt": [
           "estudo duplo-cego"
@@ -30041,7 +30134,9 @@
       "artigos": []
     },
     "ensaio clínico em tripla ocultação": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {
         "pt": [
           "estudo triplo-cego",
@@ -30099,7 +30194,9 @@
       "artigos": []
     },
     "assaig d’intervenció comunitària": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -30119,7 +30216,9 @@
       "artigos": []
     },
     "astenia": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -30165,7 +30264,9 @@
       "artigos": []
     },
     "ensaio clínico": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {
         "pt": [
           "ensaio clínico controlado",
@@ -30216,7 +30317,9 @@
       "artigos": []
     },
     "assaig clínic aleatoritzat": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -30236,7 +30339,9 @@
       "artigos": []
     },
     "assaig comunitari": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -30262,7 +30367,9 @@
       "artigos": []
     },
     "tratamento da dor": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {
         "pt": [
           "atenção ao luto"
@@ -30312,7 +30419,9 @@
       "artigos": []
     },
     "cuidados ao domicílio  pl": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {
         "pt": [
           "assistência domiciliar"
@@ -30365,7 +30474,9 @@
       "artigos": []
     },
     "cuidados hospitalares  pl": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {
         "pt": [
           "assistência hospitalar"
@@ -30415,7 +30526,9 @@
       "artigos": []
     },
     "cuidados primários  pl": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {
         "pt": [
           "atenção primária"
@@ -30465,7 +30578,9 @@
       "artigos": []
     },
     "auto-inflamação": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {
         "pt": [
           "autoinflamação"
@@ -30515,7 +30630,9 @@
       "artigos": []
     },
     "auto-amostragem": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {
         "pt": [
           "auto coleta de amostra"
@@ -30565,7 +30682,9 @@
       "artigos": []
     },
     "atibuclimab": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -30611,7 +30730,9 @@
       "artigos": []
     },
     "ATYR1923": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -30657,7 +30778,9 @@
       "artigos": []
     },
     "autoridade de saúde": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {
         "pt": [
           "autoridade sanitária"
@@ -30707,7 +30830,9 @@
       "artigos": []
     },
     "aviptadil": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -30753,7 +30878,9 @@
       "artigos": []
     },
     "azitromicina": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -30799,7 +30926,9 @@
       "artigos": []
     },
     "bastonet": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -30819,7 +30948,9 @@
       "artigos": []
     },
     "bemcentinib": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {
         "pt": [
           "bemcentinibe"
@@ -30869,7 +31000,9 @@
       "artigos": []
     },
     "bamlanivimab": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {
         "pt": [
           "bamlanivimabe"
@@ -30919,7 +31052,9 @@
       "artigos": []
     },
     "baricitinib": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {
         "pt": [
           "baricitinibe"
@@ -30962,7 +31097,9 @@
       "artigos": []
     },
     "bevacizumab": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {
         "pt": [
           "bevacizumabe"
@@ -31012,7 +31149,9 @@
       "artigos": []
     },
     "boceprevir": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -31058,7 +31197,9 @@
       "artigos": []
     },
     "bombolla": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -31078,7 +31219,9 @@
       "artigos": []
     },
     "bolha alargada": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {
         "pt": [
           "bolha social ampliada"
@@ -31128,7 +31271,9 @@
       "artigos": []
     },
     "bombolla de convivència": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -31154,7 +31299,9 @@
       "artigos": []
     },
     "brequinar": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -31200,7 +31347,9 @@
       "artigos": []
     },
     "brincidofovir": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {
         "pt": [
           "bolha ;"
@@ -31256,7 +31405,9 @@
       "artigos": []
     },
     "brensocatib": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {
         "pt": [
           "brensocatibe"
@@ -31306,7 +31457,9 @@
       "artigos": []
     },
     "bromexina": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {
         "pt": [
           "cloridrato de bromexina"
@@ -31356,7 +31509,9 @@
       "artigos": []
     },
     "broncodilatador": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -31402,7 +31557,9 @@
       "artigos": []
     },
     "brônquio": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -31448,7 +31605,9 @@
       "artigos": []
     },
     "bronquíolo": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -31494,7 +31653,9 @@
       "artigos": []
     },
     "budesonida": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -31540,7 +31701,9 @@
       "artigos": []
     },
     "bronquitis capil·lar": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -31560,7 +31723,9 @@
       "artigos": []
     },
     "surto epidêmico": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {
         "pt": [
           "surto epidemiológico",
@@ -31611,7 +31776,9 @@
       "artigos": []
     },
     "cadena de transmissió": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -31631,7 +31798,9 @@
       "artigos": []
     },
     "cadeia de transmissão": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {
         "pt": [
           "cadeia epidemiológica"
@@ -31684,7 +31853,9 @@
       "artigos": []
     },
     "camostat": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {
         "pt": [
           "camostato"
@@ -31734,7 +31905,9 @@
       "artigos": []
     },
     "camrelizumab": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {
         "pt": [
           "camrelizumabe"
@@ -31784,7 +31957,9 @@
       "artigos": []
     },
     "camussa antibaf": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -31812,7 +31987,9 @@
       "artigos": []
     },
     "careta": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -31832,7 +32009,9 @@
       "artigos": []
     },
     "carga antigénica": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {
         "pt": [
           "carga antigênica"
@@ -31882,7 +32061,9 @@
       "artigos": []
     },
     "carga viral": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -31920,7 +32101,9 @@
       "artigos": []
     },
     "canakinumab": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {
         "pt": [
           "canacinumab",
@@ -31971,7 +32154,9 @@
       "artigos": []
     },
     "cànula nasal": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -31991,7 +32176,9 @@
       "artigos": []
     },
     "cápside": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {
         "pt": [
           "capsíde"
@@ -32041,7 +32228,9 @@
       "artigos": []
     },
     "càrrega vírica": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -32061,7 +32250,9 @@
       "artigos": []
     },
     "caso": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -32107,7 +32298,9 @@
       "artigos": []
     },
     "caso confirmado": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -32153,7 +32346,9 @@
       "artigos": []
     },
     "caso descartado": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -32199,7 +32394,9 @@
       "artigos": []
     },
     "caso índice": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {
         "pt": [
           "doente zero , f"
@@ -32252,7 +32449,9 @@
       "artigos": []
     },
     "cas possible": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -32272,7 +32471,9 @@
       "artigos": []
     },
     "capuz": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {
         "pt": [
           "gorro"
@@ -32325,7 +32526,9 @@
       "artigos": []
     },
     "cassete": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {
         "pt": [
           "cassete"
@@ -32375,7 +32578,9 @@
       "artigos": []
     },
     "caso suspeito": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {
         "pt": [
           "caso possível"
@@ -32426,7 +32631,9 @@
       "artigos": []
     },
     "casirivimab": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {
         "pt": [
           "casirivimabe"
@@ -32476,7 +32683,9 @@
       "artigos": []
     },
     "CD24Fc": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -32519,7 +32728,9 @@
       "artigos": []
     },
     "cefalàlgia": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -32539,7 +32750,9 @@
       "artigos": []
     },
     "cefaleia": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -32585,7 +32798,9 @@
       "artigos": []
     },
     "cèl·lula B": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -32605,7 +32820,9 @@
       "artigos": []
     },
     "cèl·lula T": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -32625,7 +32842,9 @@
       "artigos": []
     },
     "cenicriviroc": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -32671,7 +32890,9 @@
       "artigos": []
     },
     "ciclesonida": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -32718,7 +32939,9 @@
       "artigos": []
     },
     "clazacizumab": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {
         "pt": [
           "clazacizumabe"
@@ -32768,7 +32991,9 @@
       "artigos": []
     },
     "quadro clínico": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -32806,7 +33031,9 @@
       "artigos": []
     },
     "citocina": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -32852,7 +33079,9 @@
       "artigos": []
     },
     "civeta": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {
         "pt": [
           "gato-de-algália",
@@ -32907,7 +33136,9 @@
       "artigos": []
     },
     "clofazimina": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -32953,7 +33184,9 @@
       "artigos": []
     },
     "cloroquina": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -32999,7 +33232,9 @@
       "artigos": []
     },
     "coagulopatia": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -33045,7 +33280,9 @@
       "artigos": []
     },
     "cobertura de vacunació": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {
         "ca": [
           "cobertura vacunal"
@@ -33081,7 +33318,9 @@
       "artigos": []
     },
     "col·lapse cardiocirculatori": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -33101,7 +33340,9 @@
       "artigos": []
     },
     "população vulnerável em risco": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {
         "pt": [
           "grupo de risco"
@@ -33151,7 +33392,9 @@
       "artigos": []
     },
     "colchicina": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {
         "pt": [
           "cobertura vacinal",
@@ -33206,7 +33449,9 @@
       "artigos": []
     },
     "cobertura vacunal": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -33226,7 +33471,9 @@
       "artigos": []
     },
     "cobicistat": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {
         "pt": [
           "cobicistate"
@@ -33276,7 +33523,9 @@
       "artigos": []
     },
     "Comirnaty": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -33296,7 +33545,9 @@
       "artigos": []
     },
     "comissão de bioética": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {
         "pt": [
           "comitê de bioética"
@@ -33346,7 +33597,9 @@
       "artigos": []
     },
     "comorbilidade": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {
         "pt": [
           "comorbidade"
@@ -33396,7 +33649,9 @@
       "artigos": []
     },
     "compte hemàtic": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -33416,7 +33671,9 @@
       "artigos": []
     },
     "comunicat mèdic d’alta": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -33436,7 +33693,9 @@
       "artigos": []
     },
     "conestate alfa": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -33482,7 +33741,9 @@
       "artigos": []
     },
     "confinamento": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {
         "pt": [
           "lockdown"
@@ -33524,7 +33785,9 @@
       "artigos": []
     },
     "conjuntivite": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -33570,7 +33833,9 @@
       "artigos": []
     },
     "contacto": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {
         "pt": [
           "contactante"
@@ -33620,7 +33885,9 @@
       "artigos": []
     },
     "contacto próximo": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {
         "pt": [
           "contato próximo"
@@ -33671,7 +33938,9 @@
       "artigos": []
     },
     "cerca sanitária": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {
         "pt": [
           "confinamento perimetral"
@@ -33721,7 +33990,9 @@
       "artigos": []
     },
     "congestão nasal": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -33767,7 +34038,9 @@
       "artigos": []
     },
     "contágio": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -33813,7 +34086,9 @@
       "artigos": []
     },
     "contágio direto": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {
         "pt": [
           "contágio imediato"
@@ -33866,7 +34141,9 @@
       "artigos": []
     },
     "contagi immediat": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -33886,7 +34163,9 @@
       "artigos": []
     },
     "contágio indireto": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {
         "ca": [
           "contagi mediat"
@@ -33936,7 +34215,9 @@
       "artigos": []
     },
     "contagi mediat": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -33956,7 +34237,9 @@
       "artigos": []
     },
     "contagiositat": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -33990,7 +34273,9 @@
       "artigos": []
     },
     "convalescença": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -34036,7 +34321,9 @@
       "artigos": []
     },
     "Convidecia": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -34056,7 +34343,9 @@
       "artigos": []
     },
     "corba de contagis": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -34076,7 +34365,9 @@
       "artigos": []
     },
     "curva de contágio": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {
         "pt": [
           "curva epidêmica",
@@ -34133,7 +34424,9 @@
       "artigos": []
     },
     "contenção": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -34179,7 +34472,9 @@
       "artigos": []
     },
     "controlo": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {
         "pt": [
           "controle"
@@ -34230,7 +34525,9 @@
       "artigos": []
     },
     "CoronaVac": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -34250,7 +34547,9 @@
       "artigos": []
     },
     "coronavírus  pl": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m pl"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -34296,7 +34595,9 @@
       "artigos": []
     },
     "coronavírus 2 da síndrome respiratória aguda": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {
         "pt": [
           "coronavírus responsável pela COVID-19",
@@ -34345,7 +34646,9 @@
       "artigos": []
     },
     "coronavírus SARS": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {
         "pt": [
           "coronavírus responsável pela SARS"
@@ -34398,7 +34701,9 @@
       "artigos": []
     },
     "coronavírus  MERS ;": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {
         "pt": [
           "coronavírus MERS-CoV ;",
@@ -34452,7 +34757,9 @@
       "artigos": []
     },
     "coronavirus de la COVID-19": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -34472,7 +34779,9 @@
       "artigos": []
     },
     "coronavirus de la MERS": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -34492,7 +34801,9 @@
       "artigos": []
     },
     "coronavirus de la SARS": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -34512,7 +34823,9 @@
       "artigos": []
     },
     "covid": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -34532,7 +34845,9 @@
       "artigos": []
     },
     "covid-19": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -34552,7 +34867,9 @@
       "artigos": []
     },
     "doença do coronavírus 2019": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {
         "pt": [
           "COVID-19",
@@ -34606,7 +34923,9 @@
       "artigos": []
     },
     "covid persistent": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -34626,7 +34945,9 @@
       "artigos": []
     },
     "rastreio": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {
         "pt": [
           "triagem"
@@ -34670,7 +34991,9 @@
       "artigos": []
     },
     "cultura": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {
         "pt": [
           "COVID-19 prolongada",
@@ -34728,7 +35051,9 @@
       "artigos": []
     },
     "cribratge": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -34763,7 +35088,9 @@
       "artigos": []
     },
     "CVnCoV": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -34783,7 +35110,9 @@
       "artigos": []
     },
     "dazcapistat": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -34829,7 +35158,9 @@
       "artigos": []
     },
     "defesas  pl": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f pl"
+      ],
       "sinonimos": {
         "pt": [
           "mecanismos de defesa  pl"
@@ -34879,7 +35210,9 @@
       "artigos": []
     },
     "danoprevir": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -34925,7 +35258,9 @@
       "artigos": []
     },
     "darunavir": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -34971,7 +35306,9 @@
       "artigos": []
     },
     "levantamento do desconfinamento": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {
         "pt": [
           "flexibilização de medidas"
@@ -35024,7 +35361,9 @@
       "artigos": []
     },
     "desescalament": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -35044,7 +35383,9 @@
       "artigos": []
     },
     "deshidrodidemnina B": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -35064,7 +35405,9 @@
       "artigos": []
     },
     "desinfetante": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "adj"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -35110,7 +35453,10 @@
       "artigos": []
     },
     "delegado de segurança | delegada": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m",
+        "f"
+      ],
       "sinonimos": {
         "pt": [
           "representante dos empregados"
@@ -35160,7 +35506,9 @@
       "artigos": []
     },
     "desconfinamento": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -35206,7 +35554,9 @@
       "artigos": []
     },
     "diagnosi": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -35226,7 +35576,9 @@
       "artigos": []
     },
     "diagnóstico": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {
         "ca": [
           "diagnosi"
@@ -35276,7 +35628,9 @@
       "artigos": []
     },
     "diarreia": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -35322,7 +35676,9 @@
       "artigos": []
     },
     "destret respiratori de l’adult": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -35342,7 +35698,9 @@
       "artigos": []
     },
     "destret respiratori del nadó": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -35362,7 +35720,9 @@
       "artigos": []
     },
     "deteção precoce": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {
         "pt": [
           "detecção precoce"
@@ -35412,7 +35772,9 @@
       "artigos": []
     },
     "dexametasona": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -35458,7 +35820,9 @@
       "artigos": []
     },
     "D-dímero": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {
         "pt": [
           "dímero D"
@@ -35508,7 +35872,9 @@
       "artigos": []
     },
     "incapacidade": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -35565,7 +35931,9 @@
       "artigos": []
     },
     "disfonia": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -35611,7 +35979,9 @@
       "artigos": []
     },
     "displàsia alveolar congènita": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -35631,7 +36001,9 @@
       "artigos": []
     },
     "dispneia": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {
         "pt": [
           "distanciamento de segurança"
@@ -35686,7 +36058,9 @@
       "artigos": []
     },
     "distanciament físic": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -35706,7 +36080,9 @@
       "artigos": []
     },
     "DNA": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -35726,7 +36102,9 @@
       "artigos": []
     },
     "luto": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {
         "pt": [
           "falta de ar"
@@ -35776,7 +36154,9 @@
       "artigos": []
     },
     "distanàsia": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -35796,7 +36176,9 @@
       "artigos": []
     },
     "distância de segurança": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -35842,7 +36224,9 @@
       "artigos": []
     },
     "distància física": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -35862,7 +36246,9 @@
       "artigos": []
     },
     "distanciament de seguretat": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -35893,7 +36279,9 @@
       "artigos": []
     },
     "dor torácica": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {
         "pt": [
           "dor no peito"
@@ -35946,7 +36334,9 @@
       "artigos": []
     },
     "dose de reforço": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {
         "ca": [
           "dosi de reforç"
@@ -35996,7 +36386,9 @@
       "artigos": []
     },
     "dosi de reforç": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -36024,7 +36416,9 @@
       "artigos": []
     },
     "idadismo": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {
         "pt": [
           "ageísmo",
@@ -36075,7 +36469,9 @@
       "artigos": []
     },
     "efectivitat vacunal": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -36101,7 +36497,9 @@
       "artigos": []
     },
     "eculizumab": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {
         "pt": [
           "eculizumabe"
@@ -36203,7 +36601,9 @@
       "artigos": []
     },
     "eficácia vacinal": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {
         "pt": [
           "eficácia da vacina"
@@ -36253,7 +36653,9 @@
       "artigos": []
     },
     "eficiência vacinal": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {
         "pt": [
           "eficiência da vacina"
@@ -36303,7 +36705,9 @@
       "artigos": []
     },
     "elasomeran n": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {
         "pt": [
           "vacina Moderna"
@@ -36353,7 +36757,9 @@
       "artigos": []
     },
     "embolia pulmonar": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -36399,7 +36805,9 @@
       "artigos": []
     },
     "emergência sanitária": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {
         "pt": [
           "emergência de saúde pública"
@@ -36449,7 +36857,9 @@
       "artigos": []
     },
     "èmesi": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -36469,7 +36879,9 @@
       "artigos": []
     },
     "ELISA": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -36489,7 +36901,9 @@
       "artigos": []
     },
     "emapalumab": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {
         "pt": [
           "emapalumabe"
@@ -36539,7 +36953,9 @@
       "artigos": []
     },
     "envelope viral": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {
         "pt": [
           "envelope"
@@ -36587,7 +37003,9 @@
       "artigos": []
     },
     "emtricitabina": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -36633,7 +37051,9 @@
       "artigos": []
     },
     "emvododstat": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -36679,7 +37099,9 @@
       "artigos": []
     },
     "iniciador": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -36725,7 +37147,9 @@
       "artigos": []
     },
     "endemia": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -36771,7 +37195,10 @@
       "artigos": []
     },
     "enoxaparina": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f",
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -36826,7 +37253,9 @@
       "artigos": []
     },
     "ensovibep": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -36872,7 +37301,9 @@
       "artigos": []
     },
     "enpatoran": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {
         "pt": [
           "ensaio de imunoadsorção enzimática ;",
@@ -36927,7 +37358,9 @@
       "artigos": []
     },
     "EPI": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -36947,7 +37380,9 @@
       "artigos": []
     },
     "epidemia": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -36993,7 +37428,9 @@
       "artigos": []
     },
     "epidemiologia": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -37039,7 +37476,9 @@
       "artigos": []
     },
     "equipamento de proteção individual ;": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {
         "pt": [
           "zaragatoa",
@@ -37095,7 +37534,9 @@
       "artigos": []
     },
     "acontecimento adverso": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {
         "pt": [
           "evento adverso"
@@ -37145,7 +37586,9 @@
       "artigos": []
     },
     "esgotament": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -37167,7 +37610,9 @@
       "artigos": []
     },
     "equip de protecció personal": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -37187,7 +37632,9 @@
       "artigos": []
     },
     "erradicação": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -37233,7 +37680,9 @@
       "artigos": []
     },
     "ERTO": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -37253,7 +37702,9 @@
       "artigos": []
     },
     "escovilló": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {
         "ca": [
           "bastonet"
@@ -37292,7 +37743,9 @@
       "artigos": []
     },
     "esgotament mental": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -37312,7 +37765,9 @@
       "artigos": []
     },
     "esperança de vida": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {
         "pt": [
           "expectativa de vida"
@@ -37362,7 +37817,9 @@
       "artigos": []
     },
     "esperança de vida sem incapacidade": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {
         "pt": [
           "expectativa de vida saudável"
@@ -37412,7 +37869,9 @@
       "artigos": []
     },
     "espícula": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {
         "pt": [
           "peplómero",
@@ -37463,7 +37922,9 @@
       "artigos": []
     },
     "sazonalidade": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -37509,7 +37970,9 @@
       "artigos": []
     },
     "estadi d’incubació": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -37529,7 +37992,9 @@
       "artigos": []
     },
     "estudi d’exploració terapèutica": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -37549,7 +38014,9 @@
       "artigos": []
     },
     "estudi d’ús terapèutic": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -37569,7 +38036,9 @@
       "artigos": []
     },
     "estudi de confirmació terapèutica": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -37589,7 +38058,9 @@
       "artigos": []
     },
     "estudi de farmacologia humana": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -37609,7 +38080,9 @@
       "artigos": []
     },
     "estudo de fase 0": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {
         "pt": [
           "estudo clínico de fase 0"
@@ -37660,7 +38133,9 @@
       "artigos": []
     },
     "estado de alerta": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {
         "pt": [
           "estado de alarme"
@@ -37710,7 +38185,9 @@
       "artigos": []
     },
     "estudo clínico": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {
         "pt": [
           "estudo clínico de fase 2"
@@ -37762,7 +38239,9 @@
       "artigos": []
     },
     "estudo de fase 3": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {
         "pt": [
           "estudo de confirmação",
@@ -37816,7 +38295,9 @@
       "artigos": []
     },
     "estudo de fase 1": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {
         "pt": [
           "estudo farmacológico",
@@ -37868,7 +38349,9 @@
       "artigos": []
     },
     "estudo de fase 2": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {
         "pt": [
           "estudo exploratório"
@@ -37913,7 +38396,9 @@
       "artigos": []
     },
     "estudi de microdosi": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -37933,7 +38418,9 @@
       "artigos": []
     },
     "estudo pré-clínico": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -37979,7 +38466,9 @@
       "artigos": []
     },
     "etesevimab": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {
         "pt": [
           "etesevimabe"
@@ -38029,7 +38518,9 @@
       "artigos": []
     },
     "estudo de fase 4": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {
         "pt": [
           "estudo de vigilância",
@@ -38087,7 +38578,9 @@
       "artigos": []
     },
     "exsudado": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {
         "pt": [
           "exsudato"
@@ -38137,7 +38630,9 @@
       "artigos": []
     },
     "excesso de mortalidade": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {
         "pt": [
           "mortalidade excessiva",
@@ -38191,7 +38686,9 @@
       "artigos": []
     },
     "excés de morts": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -38211,7 +38708,9 @@
       "artigos": []
     },
     "expedient de regulació temporal d’ocupació": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -38249,7 +38748,9 @@
       "artigos": []
     },
     "exsudat bucofaringi": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -38269,7 +38770,9 @@
       "artigos": []
     },
     "exsudat nasofaringi": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -38289,7 +38792,9 @@
       "artigos": []
     },
     "extubação": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {
         "pt": [
           "falha vacinal"
@@ -38345,7 +38850,9 @@
       "artigos": []
     },
     "falha vacinal primária": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -38391,7 +38898,9 @@
       "artigos": []
     },
     "fallada vacunal secundària": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -38429,7 +38938,9 @@
       "artigos": []
     },
     "fator de risco": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -38475,7 +38986,9 @@
       "artigos": []
     },
     "fagocitose": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -38521,7 +39034,9 @@
       "artigos": []
     },
     "fallada vacunal": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -38549,7 +39064,9 @@
       "artigos": []
     },
     "falta de concentração": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -38595,7 +39112,9 @@
       "artigos": []
     },
     "fase de contenção": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {
         "pt": [
           "falha vacinal secundária"
@@ -38647,7 +39166,9 @@
       "artigos": []
     },
     "falso negativo": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -38693,7 +39214,9 @@
       "artigos": []
     },
     "falso positivo": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -38737,7 +39260,9 @@
       "artigos": []
     },
     "fase de mitigação": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -38783,7 +39308,9 @@
       "artigos": []
     },
     "fase IV": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -38803,7 +39330,9 @@
       "artigos": []
     },
     "fadiga": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {
         "pt": [
           "exaustão"
@@ -38856,7 +39385,9 @@
       "artigos": []
     },
     "exaustão mental": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {
         "pt": [
           "cansaço mental"
@@ -38909,7 +39440,9 @@
       "artigos": []
     },
     "fatiga pandèmica": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -38955,7 +39488,9 @@
       "artigos": []
     },
     "febrícula": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -39001,7 +39536,9 @@
       "artigos": []
     },
     "fenofibrato": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {
         "pt": [
           "fadiga pandêmica"
@@ -39053,7 +39590,9 @@
       "artigos": []
     },
     "favipiravir": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -39099,7 +39638,9 @@
       "artigos": []
     },
     "febre": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -39145,7 +39686,9 @@
       "artigos": []
     },
     "fibrose": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -39191,7 +39734,9 @@
       "artigos": []
     },
     "fingolimod": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {
         "pt": [
           "cloridrato de fingolimode"
@@ -39239,7 +39784,9 @@
       "artigos": []
     },
     "ferritina": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -39285,7 +39832,9 @@
       "artigos": []
     },
     "fibrinogénio": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {
         "pt": [
           "fibrinogênio"
@@ -39327,7 +39876,9 @@
       "artigos": []
     },
     "esfregaço": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -39373,7 +39924,9 @@
       "artigos": []
     },
     "fluid bucofaringi": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -39393,7 +39946,9 @@
       "artigos": []
     },
     "fluid nasofaringi": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -39413,7 +39968,9 @@
       "artigos": []
     },
     "fómite": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {
         "pt": [
           "fômite",
@@ -39469,7 +40026,9 @@
       "artigos": []
     },
     "gat d’algàlia": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -39489,7 +40048,9 @@
       "artigos": []
     },
     "GCE": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -39509,7 +40070,9 @@
       "artigos": []
     },
     "gel antisèptic": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -39529,7 +40092,9 @@
       "artigos": []
     },
     "gel desinfectant": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -39549,7 +40114,9 @@
       "artigos": []
     },
     "gel hidroalcohòlic": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {
         "ca": [
           "gel antisèptic"
@@ -39576,7 +40143,9 @@
       "artigos": []
     },
     "galidesivir": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -39622,7 +40191,10 @@
       "artigos": []
     },
     "genoma": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f",
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -39678,7 +40250,9 @@
       "artigos": []
     },
     "gimsilumab": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {
         "pt": [
           "gimsilumabe"
@@ -39728,7 +40302,9 @@
       "artigos": []
     },
     "desinfetante das mãos": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {
         "pt": [
           "álcool gel"
@@ -39783,7 +40359,9 @@
       "artigos": []
     },
     "gel higienitzant": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -39803,7 +40381,9 @@
       "artigos": []
     },
     "gotícula respiratòria": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -39823,7 +40403,9 @@
       "artigos": []
     },
     "grave": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "adj"
+      ],
       "sinonimos": {
         "pt": [
           "agudo"
@@ -39873,7 +40455,9 @@
       "artigos": []
     },
     "goflikicept": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {
         "ca": [
           "bombolla"
@@ -39923,7 +40507,9 @@
       "artigos": []
     },
     "gota de Flügge": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -39943,7 +40529,9 @@
       "artigos": []
     },
     "goteta": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -39963,7 +40551,9 @@
       "artigos": []
     },
     "gotícula respiratória": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {
         "ca": [
           "gota de Flügge"
@@ -40013,7 +40603,9 @@
       "artigos": []
     },
     "luva": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {
         "pt": [
           "luvas",
@@ -40067,7 +40659,9 @@
       "artigos": []
     },
     "grup de convivència": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -40087,7 +40681,9 @@
       "artigos": []
     },
     "grup de convivència ampliada": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -40107,7 +40703,9 @@
       "artigos": []
     },
     "grup de convivència estable": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -40127,7 +40725,9 @@
       "artigos": []
     },
     "grupo de risco": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -40173,7 +40773,9 @@
       "artigos": []
     },
     "hepatotoxicidade": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -40219,7 +40821,9 @@
       "artigos": []
     },
     "hidroxicloroquina": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {
         "pt": [
           "sulfato de hidroxicloroquina"
@@ -40269,7 +40873,9 @@
       "artigos": []
     },
     "hemograma": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {
         "pt": [
           "contagem sanguínea"
@@ -40322,7 +40928,9 @@
       "artigos": []
     },
     "heparina": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {
         "pt": [
           "higiene das mãos"
@@ -40374,7 +40982,9 @@
       "artigos": []
     },
     "hipoestèsia gustativa": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -40394,7 +41004,9 @@
       "artigos": []
     },
     "hipoestèsia olfactòria": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -40414,7 +41026,9 @@
       "artigos": []
     },
     "hipogeusia": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {
         "pt": [
           "hipoestesia gustativa"
@@ -40467,7 +41081,9 @@
       "artigos": []
     },
     "saúde pública": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {
         "pt": [
           "higiene"
@@ -40520,7 +41136,9 @@
       "artigos": []
     },
     "hipoxia": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {
         "pt": [
           "hipóxia"
@@ -40573,7 +41191,9 @@
       "artigos": []
     },
     "história clínica": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {
         "pt": [
           "histórico clínico"
@@ -40623,7 +41243,9 @@
       "artigos": []
     },
     "hiposmia": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {
         "pt": [
           "hipoestesia olfativa"
@@ -40676,7 +41298,9 @@
       "artigos": []
     },
     "hipòsmia": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -40696,7 +41320,9 @@
       "artigos": []
     },
     "hipoxemia": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -40742,7 +41368,9 @@
       "artigos": []
     },
     "hipòxia": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -40780,7 +41408,9 @@
       "artigos": []
     },
     "hostatger": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -40800,7 +41430,9 @@
       "artigos": []
     },
     "hospedeiro": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {
         "pt": [
           "espécie hospedeira"
@@ -40853,7 +41485,9 @@
       "artigos": []
     },
     "hospedeiro intermédio": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {
         "pt": [
           "hospedeiro intermediário",
@@ -40909,7 +41543,9 @@
       "artigos": []
     },
     "IECA": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -40929,7 +41565,9 @@
       "artigos": []
     },
     "imdevimab": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {
         "pt": [
           "imdevimabe"
@@ -40979,7 +41617,9 @@
       "artigos": []
     },
     "IA": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -41003,7 +41643,9 @@
       "artigos": []
     },
     "ibuprofeno": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -41049,7 +41691,9 @@
       "artigos": []
     },
     "imunidade": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -41097,7 +41741,9 @@
       "artigos": []
     },
     "imunidade ativa": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -41143,7 +41789,9 @@
       "artigos": []
     },
     "immunitat adaptativa": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {
         "ca": [
           "immunitat específica"
@@ -41173,7 +41821,9 @@
       "artigos": []
     },
     "imune": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "adj"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -41219,7 +41869,9 @@
       "artigos": []
     },
     "immune": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "adj"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -41239,7 +41891,9 @@
       "artigos": []
     },
     "imunitário": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "adj"
+      ],
       "sinonimos": {
         "pt": [
           "imune"
@@ -41292,7 +41946,9 @@
       "artigos": []
     },
     "imunidade coletiva": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {
         "pt": [
           "imunidade comunitária",
@@ -41344,7 +42000,9 @@
       "artigos": []
     },
     "immunitat específica": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -41364,7 +42022,9 @@
       "artigos": []
     },
     "imunidade adaptativa ;": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {
         "pt": [
           "imunidade adquirida"
@@ -41418,7 +42078,9 @@
       "artigos": []
     },
     "immunitat adquirida": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -41438,7 +42100,9 @@
       "artigos": []
     },
     "immunitat col·lectiva": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -41458,7 +42122,9 @@
       "artigos": []
     },
     "immunitat congènita": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -41478,7 +42144,9 @@
       "artigos": []
     },
     "immunitat de comunitat": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -41498,7 +42166,9 @@
       "artigos": []
     },
     "imunidade específica natural": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {
         "pt": [
           "imunidade específica espontânea"
@@ -41539,7 +42209,9 @@
       "artigos": []
     },
     "immunitat específica no intencionada": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -41559,7 +42231,9 @@
       "artigos": []
     },
     "imunidade específica passiva": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -41605,7 +42279,9 @@
       "artigos": []
     },
     "imunidade específica artificial": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {
         "pt": [
           "imunidade específica intencional"
@@ -41646,7 +42322,9 @@
       "artigos": []
     },
     "immunitat específica espontània": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -41666,7 +42344,9 @@
       "artigos": []
     },
     "immunitat específica intencionada": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -41686,7 +42366,9 @@
       "artigos": []
     },
     "immunitat específica natural": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {
         "ca": [
           "immunitat específica espontània"
@@ -41725,7 +42407,9 @@
       "artigos": []
     },
     "imunização ativa": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {
         "pt": [
           "imunização"
@@ -41775,7 +42459,9 @@
       "artigos": []
     },
     "immunització activa": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -41795,7 +42481,9 @@
       "artigos": []
     },
     "imunocromatografia": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -41841,7 +42529,9 @@
       "artigos": []
     },
     "immunogen -ògena": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "adj"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -41873,7 +42563,9 @@
       "artigos": []
     },
     "imunidade congénita": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {
         "ca": [
           "immunitat congènita"
@@ -41923,7 +42615,9 @@
       "artigos": []
     },
     "immunitat natural": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -41943,7 +42637,9 @@
       "artigos": []
     },
     "imunoglobulina G": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -41986,7 +42682,9 @@
       "artigos": []
     },
     "imunoglobulina M": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {
         "pt": [
           "imunogénico",
@@ -42040,7 +42738,9 @@
       "artigos": []
     },
     "imunogenicidade": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -42086,7 +42786,9 @@
       "artigos": []
     },
     "imunoglobulina": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -42132,7 +42834,9 @@
       "artigos": []
     },
     "incapacitação permanente": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {
         "pt": [
           "incapacidade permanente"
@@ -42182,7 +42886,9 @@
       "artigos": []
     },
     "incapacitat temporal": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -42219,7 +42925,9 @@
       "artigos": []
     },
     "immunològic -a": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "adj"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -42239,7 +42947,9 @@
       "artigos": []
     },
     "imunológico": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "adj"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -42285,7 +42995,9 @@
       "artigos": []
     },
     "incubação": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -42331,7 +43043,9 @@
       "artigos": []
     },
     "índex de letalitat": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -42351,7 +43065,9 @@
       "artigos": []
     },
     "índex de mortalitat": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -42371,7 +43087,9 @@
       "artigos": []
     },
     "infeção": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {
         "pt": [
           "infecção"
@@ -42421,7 +43139,9 @@
       "artigos": []
     },
     "incapacidade temporária ;": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -42455,7 +43175,9 @@
       "artigos": []
     },
     "incidência": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -42501,7 +43223,9 @@
       "artigos": []
     },
     "incidência acumulada ;": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -42547,7 +43271,9 @@
       "artigos": []
     },
     "infeciologia": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {
         "pt": [
           "infectologia"
@@ -42597,7 +43323,9 @@
       "artigos": []
     },
     "infiltrado": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -42643,7 +43371,9 @@
       "artigos": []
     },
     "infeção associada aos cuidados de": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {
         "pt": [
           "infecção hospitalar"
@@ -42695,7 +43425,9 @@
       "artigos": []
     },
     "infecció nosocomial": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -42715,7 +43447,9 @@
       "artigos": []
     },
     "infeção por gotículas": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {
         "pt": [
           "infecção por gotículas",
@@ -42773,7 +43507,9 @@
       "artigos": []
     },
     "insónia": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {
         "pt": [
           "insônia",
@@ -42829,7 +43565,9 @@
       "artigos": []
     },
     "infodemia": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -42875,7 +43613,9 @@
       "artigos": []
     },
     "interferão beta n": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {
         "pt": [
           "IFN-beta"
@@ -42919,7 +43659,9 @@
       "artigos": []
     },
     "intubação": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -42965,7 +43707,9 @@
       "artigos": []
     },
     "IP": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -42985,7 +43729,9 @@
       "artigos": []
     },
     "IT": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -43005,7 +43751,9 @@
       "artigos": []
     },
     "inteligência artificial ;": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -43051,7 +43799,9 @@
       "artigos": []
     },
     "interferão": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {
         "pt": [
           "interferon"
@@ -43101,7 +43851,9 @@
       "artigos": []
     },
     "interferó beta": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -43130,7 +43882,9 @@
       "artigos": []
     },
     "justiça distributiva": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {
         "pt": [
           "lanadelumab",
@@ -43185,7 +43939,9 @@
       "artigos": []
     },
     "latência": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -43231,7 +43987,9 @@
       "artigos": []
     },
     "LDH": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -43251,7 +44009,9 @@
       "artigos": []
     },
     "desidrogenase láctica": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {
         "pt": [
           "desidrogenase lática"
@@ -43301,7 +44061,9 @@
       "artigos": []
     },
     "lanadelumab": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -43333,7 +44095,9 @@
       "artigos": []
     },
     "LET": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -43353,7 +44117,9 @@
       "artigos": []
     },
     "linfócito": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -43399,7 +44165,9 @@
       "artigos": []
     },
     "limfòcit B": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {
         "ca": [
           "cèl·lula B"
@@ -43432,7 +44200,9 @@
       "artigos": []
     },
     "lenzilumab": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {
         "pt": [
           "lenzilumabe"
@@ -43482,7 +44252,9 @@
       "artigos": []
     },
     "leronlimab": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {
         "pt": [
           "leronlimabe",
@@ -43537,7 +44309,9 @@
       "artigos": []
     },
     "célula de memória": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {
         "pt": [
           "linfócito de memória"
@@ -43587,7 +44361,9 @@
       "artigos": []
     },
     "célula T": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {
         "ca": [
           "cèl·lula T"
@@ -43634,7 +44410,9 @@
       "artigos": []
     },
     "limfocitopènia": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -43654,7 +44432,9 @@
       "artigos": []
     },
     "linfopenia": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {
         "pt": [
           "linfocitopenia"
@@ -43707,7 +44487,9 @@
       "artigos": []
     },
     "limitació de l’esforç terapèutic": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -43727,7 +44509,9 @@
       "artigos": []
     },
     "lopinavir": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {
         "pt": [
           "marcador inflamatório"
@@ -43780,7 +44564,9 @@
       "artigos": []
     },
     "tonturas  pl": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {
         "pt": [
           "tontura"
@@ -43830,7 +44616,9 @@
       "artigos": []
     },
     "màscara": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {
         "ca": [
           "careta"
@@ -43866,7 +44654,9 @@
       "artigos": []
     },
     "macrófago": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -43912,7 +44702,9 @@
       "artigos": []
     },
     "mal de cap": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -43932,7 +44724,9 @@
       "artigos": []
     },
     "mal de costat": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -43952,7 +44746,9 @@
       "artigos": []
     },
     "mal de pit": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -43972,7 +44768,9 @@
       "artigos": []
     },
     "malaltia del coronavirus 2019": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -43992,7 +44790,9 @@
       "artigos": []
     },
     "marcador inflamatori": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -44027,7 +44827,9 @@
       "artigos": []
     },
     "máscara autofiltrante": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {
         "pt": [
           "máscara com filtragem de partículas",
@@ -44086,7 +44888,9 @@
       "artigos": []
     },
     "máscara": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {
         "ca": [
           "careta"
@@ -44136,7 +44940,9 @@
       "artigos": []
     },
     "màscara amb filtre de partícules": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -44156,7 +44962,9 @@
       "artigos": []
     },
     "màscara mèdica": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -44176,7 +44984,9 @@
       "artigos": []
     },
     "máscara cirúrgica": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {
         "ca": [
           "màscara mèdica"
@@ -44226,7 +45036,9 @@
       "artigos": []
     },
     "mascareta": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -44246,7 +45058,9 @@
       "artigos": []
     },
     "mascareta higiènica": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -44266,7 +45080,9 @@
       "artigos": []
     },
     "mascareta quirúrgica": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -44286,7 +45102,9 @@
       "artigos": []
     },
     "MEDI 3506": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -44340,7 +45158,9 @@
       "artigos": []
     },
     "màscara FFP": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -44360,7 +45180,9 @@
       "artigos": []
     },
     "máscara comunitária": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {
         "pt": [
           "máscara higiênica",
@@ -44417,7 +45239,9 @@
       "artigos": []
     },
     "memória imunológica": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {
         "pt": [
           "memória imunitária"
@@ -44467,7 +45291,9 @@
       "artigos": []
     },
     "medicalizar": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "v tr"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -44513,7 +45339,9 @@
       "artigos": []
     },
     "medicina avaluadora": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -44551,7 +45379,9 @@
       "artigos": []
     },
     "metilprednisolona": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -44597,7 +45427,9 @@
       "artigos": []
     },
     "mialgia": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {
         "pt": [
           "meplazumab",
@@ -44653,7 +45485,9 @@
       "artigos": []
     },
     "MERS": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -44673,7 +45507,9 @@
       "artigos": []
     },
     "MERS-CoV": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -44693,7 +45529,9 @@
       "artigos": []
     },
     "medida de contenção": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -44739,7 +45577,9 @@
       "artigos": []
     },
     "montelukast": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -44782,7 +45622,9 @@
       "artigos": []
     },
     "morte digna": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -44828,7 +45670,9 @@
       "artigos": []
     },
     "mortalitat": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -44866,7 +45710,9 @@
       "artigos": []
     },
     "molnupiravir": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -44912,7 +45758,9 @@
       "artigos": []
     },
     "monitorização": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {
         "pt": [
           "monitoramento",
@@ -44965,7 +45813,9 @@
       "artigos": []
     },
     "mostra bucofaríngia": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -44985,7 +45835,9 @@
       "artigos": []
     },
     "amostra nasofaríngea": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {
         "pt": [
           "exsudado nasofaríngeo"
@@ -45038,7 +45890,9 @@
       "artigos": []
     },
     "amostra orofaríngea": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {
         "pt": [
           "exsudado orofaríngeo"
@@ -45091,7 +45945,9 @@
       "artigos": []
     },
     "mostra rinofaríngia": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -45111,7 +45967,9 @@
       "artigos": []
     },
     "mRNA": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -45131,7 +45989,9 @@
       "artigos": []
     },
     "mupadolimab": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -45177,7 +46037,9 @@
       "artigos": []
     },
     "muriac": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -45197,7 +46059,9 @@
       "artigos": []
     },
     "muricec": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -45217,7 +46081,9 @@
       "artigos": []
     },
     "mutação": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -45263,7 +46129,9 @@
       "artigos": []
     },
     "nebulização": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -45309,7 +46177,9 @@
       "artigos": []
     },
     "nebulizador": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -45355,7 +46225,9 @@
       "artigos": []
     },
     "nafamostat": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {
         "pt": [
           "mesilato de nafamostato"
@@ -45405,7 +46277,9 @@
       "artigos": []
     },
     "náuseas  pl": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {
         "pt": [
           "náusea"
@@ -45453,7 +46327,9 @@
       "artigos": []
     },
     "NVX-CoV2373": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {
         "ca": [
           "vacuna NovaVax"
@@ -45503,7 +46379,9 @@
       "artigos": []
     },
     "abstenção de tratamento": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -45549,7 +46427,9 @@
       "artigos": []
     },
     "nombre reproductiu bàsic": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -45569,7 +46449,9 @@
       "artigos": []
     },
     "novo normal": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {
         "pt": [
           "vaga",
@@ -45628,7 +46510,9 @@
       "artigos": []
     },
     "OP-101": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -45674,7 +46558,9 @@
       "artigos": []
     },
     "obstinação terapêutica": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {
         "pt": [
           "distanásia"
@@ -45727,7 +46613,9 @@
       "artigos": []
     },
     "ofec": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -45747,7 +46635,9 @@
       "artigos": []
     },
     "OMS": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -45767,7 +46657,9 @@
       "artigos": []
     },
     "onada": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -45787,7 +46679,9 @@
       "artigos": []
     },
     "onada epidèmica": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {
         "ca": [
           "onada"
@@ -45813,7 +46707,9 @@
       "artigos": []
     },
     "oseltamivir": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {
         "pt": [
           "fosfato de oseltamivir"
@@ -45863,7 +46759,9 @@
       "artigos": []
     },
     "otilimab": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -45901,7 +46799,9 @@
       "artigos": []
     },
     "opaganib": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {
         "pt": [
           "opaganibe"
@@ -45951,7 +46851,9 @@
       "artigos": []
     },
     "Organização Mundial de Saúde": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {
         "pt": [
           "Organização Mundial da Saúde"
@@ -46003,7 +46905,9 @@
       "artigos": []
     },
     "oxigenação": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -46049,7 +46953,9 @@
       "artigos": []
     },
     "oxigenoterapia": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {
         "pt": [
           "tratamento com oxigénio"
@@ -46100,7 +47006,9 @@
       "artigos": []
     },
     "viseira": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {
         "pt": [
           "face shield"
@@ -46153,7 +47061,9 @@
       "artigos": []
     },
     "parasita": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -46197,7 +47107,9 @@
       "artigos": []
     },
     "pacient zero": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -46217,7 +47129,9 @@
       "artigos": []
     },
     "pandemia": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -46263,7 +47177,9 @@
       "artigos": []
     },
     "pangolim": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -46309,7 +47225,9 @@
       "artigos": []
     },
     "passaport immunològic": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -46329,7 +47247,9 @@
       "artigos": []
     },
     "patogénico": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "adj"
+      ],
       "sinonimos": {
         "pt": [
           "patogênico"
@@ -46379,7 +47299,9 @@
       "artigos": []
     },
     "patogenicidade": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -46425,7 +47347,9 @@
       "artigos": []
     },
     "passaport d’immunitat": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -46445,7 +47369,9 @@
       "artigos": []
     },
     "certificado de imunidade": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {
         "pt": [
           "certificado COVID",
@@ -46504,7 +47430,9 @@
       "artigos": []
     },
     "eritema pérnio": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {
         "pt": [
           "frieira"
@@ -46557,7 +47485,9 @@
       "artigos": []
     },
     "peplòmer": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -46577,7 +47507,9 @@
       "artigos": []
     },
     "calendário de vacinação": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {
         "pt": [
           "esquema de vacinação"
@@ -46627,7 +47559,9 @@
       "artigos": []
     },
     "pauta vacunal": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -46647,7 +47581,9 @@
       "artigos": []
     },
     "PCR": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -46667,7 +47603,9 @@
       "artigos": []
     },
     "pemziviptadil": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -46701,7 +47639,9 @@
       "artigos": []
     },
     "període de latència": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -46721,7 +47661,9 @@
       "artigos": []
     },
     "període de reacció": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -46741,7 +47683,9 @@
       "artigos": []
     },
     "període latent": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -46761,7 +47705,9 @@
       "artigos": []
     },
     "perícia médica": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {
         "pt": [
           "perícia médico-legal"
@@ -46811,7 +47757,9 @@
       "artigos": []
     },
     "pernió": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -46831,7 +47779,9 @@
       "artigos": []
     },
     "fase de incubação": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {
         "pt": [
           "período de incubação"
@@ -46884,7 +47834,9 @@
       "artigos": []
     },
     "período de infeção": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {
         "pt": [
           "período de transmissibilidade"
@@ -46932,7 +47884,9 @@
       "artigos": []
     },
     "persona especialment sensible a la COVID-19": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -46952,7 +47906,9 @@
       "artigos": []
     },
     "persona vulnerable a la COVID-19": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -46972,7 +47928,9 @@
       "artigos": []
     },
     "pic de contagis": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -46992,7 +47950,9 @@
       "artigos": []
     },
     "pico de contágio": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {
         "pt": [
           "pico epidêmico"
@@ -47045,7 +48005,9 @@
       "artigos": []
     },
     "picnocàrdia": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -47065,7 +48027,9 @@
       "artigos": []
     },
     "pla de contingència contra la COVID-19": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -47097,7 +48061,9 @@
       "artigos": []
     },
     "perniosi": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -47117,7 +48083,9 @@
       "artigos": []
     },
     "pessoa com maior risco de contrair": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {
         "ca": [
           "persona especialment sensible"
@@ -47167,7 +48135,9 @@
       "artigos": []
     },
     "plitidepsina": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {
         "pt": [
           "desidrodidemnina B"
@@ -47220,7 +48190,9 @@
       "artigos": []
     },
     "pneumonia": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {
         "pt": [
           "plano de contingência para",
@@ -47277,7 +48249,9 @@
       "artigos": []
     },
     "placebo": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {
         "pt": [
           "população sentinela",
@@ -47334,7 +48308,9 @@
       "artigos": []
     },
     "polaina": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {
         "pt": [
           "propés"
@@ -47384,7 +48360,9 @@
       "artigos": []
     },
     "pneumònia d’aspiració congènita": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -47404,7 +48382,9 @@
       "artigos": []
     },
     "população-alvo": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -47450,7 +48430,9 @@
       "artigos": []
     },
     "població objectiu": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -47470,7 +48452,9 @@
       "artigos": []
     },
     "població sentinella": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -47496,7 +48480,9 @@
       "artigos": []
     },
     "vacinação primária": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {
         "pt": [
           "primo vacinação"
@@ -47549,7 +48535,9 @@
       "artigos": []
     },
     "princípio da beneficência": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {
         "pt": [
           "beneficência"
@@ -47597,7 +48585,9 @@
       "artigos": []
     },
     "policàrdia": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -47617,7 +48607,9 @@
       "artigos": []
     },
     "prednisolona": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -47663,7 +48655,9 @@
       "artigos": []
     },
     "prevalência": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {
         "pt": [
           "princípio da precaução"
@@ -47717,7 +48711,9 @@
       "artigos": []
     },
     "priorização": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -47763,7 +48759,9 @@
       "artigos": []
     },
     "princípio da não-maleficência": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {
         "pt": [
           "não maleficência"
@@ -47813,7 +48811,9 @@
       "artigos": []
     },
     "proteína estrutural": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -47861,7 +48861,9 @@
       "artigos": []
     },
     "proteína S": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {
         "pt": [
           "proteína spike",
@@ -47912,7 +48914,9 @@
       "artigos": []
     },
     "pródromo": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -47958,7 +48962,9 @@
       "artigos": []
     },
     "profilàctica": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -47978,7 +48984,9 @@
       "artigos": []
     },
     "proteína C-reativa": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {
         "pt": [
           "proteína C reativa"
@@ -48025,7 +49033,9 @@
       "artigos": []
     },
     "proteïna de l’espícula": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -48045,7 +49055,9 @@
       "artigos": []
     },
     "proteïna espícula": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -48065,7 +49077,9 @@
       "artigos": []
     },
     "teste combinado": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {
         "pt": [
           "teste de amostras combinadas"
@@ -48115,7 +49129,9 @@
       "artigos": []
     },
     "prova diagnòstica amb ELISA": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -48135,7 +49151,9 @@
       "artigos": []
     },
     "prova diagnòstica amb PCR": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {
         "ca": [
           "prova PCR"
@@ -48168,7 +49186,9 @@
       "artigos": []
     },
     "prova antigènica": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -48188,7 +49208,9 @@
       "artigos": []
     },
     "teste de antigénio": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {
         "pt": [
           "teste de antígeno"
@@ -48241,7 +49263,9 @@
       "artigos": []
     },
     "prova de mostres agrupades": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -48261,7 +49285,9 @@
       "artigos": []
     },
     "teste rápido": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {
         "pt": [
           "teste de diagnóstico rápido"
@@ -48305,7 +49331,9 @@
       "artigos": []
     },
     "teste serológico": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {
         "pt": [
           "prova sorológica",
@@ -48365,7 +49393,9 @@
       "artigos": []
     },
     "prova diagnòstica ràpida": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -48385,7 +49415,9 @@
       "artigos": []
     },
     "prova immunològica": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -48405,7 +49437,9 @@
       "artigos": []
     },
     "prova PCR": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -48425,7 +49459,9 @@
       "artigos": []
     },
     "prova ràpida": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {
         "ca": [
           "prova diagnòstica ràpida"
@@ -48464,7 +49500,9 @@
       "artigos": []
     },
     "pulmó de xoc": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -48484,7 +49522,9 @@
       "artigos": []
     },
     "pulmonia": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -48504,7 +49544,9 @@
       "artigos": []
     },
     "local de injeção": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {
         "pt": [
           "local da aplicação"
@@ -48557,7 +49599,9 @@
       "artigos": []
     },
     "punt d’inoculació": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -48577,7 +49621,9 @@
       "artigos": []
     },
     "ficar em quarentena": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "v tr"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -48623,7 +49669,9 @@
       "artigos": []
     },
     "colocado em quarentena": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "adj"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -48669,7 +49717,9 @@
       "artigos": []
     },
     "QV": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -48689,7 +49739,9 @@
       "artigos": []
     },
     "qualidade de vida ;": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -48735,7 +49787,9 @@
       "artigos": []
     },
     "quarentena": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -48781,7 +49835,9 @@
       "artigos": []
     },
     "rapamicina": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -48801,7 +49857,9 @@
       "artigos": []
     },
     "raspallet": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -48821,7 +49879,9 @@
       "artigos": []
     },
     "rastreio de contactos": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {
         "pt": [
           "rastreamento de contatos"
@@ -48874,7 +49934,9 @@
       "artigos": []
     },
     "RAC": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -48894,7 +49956,9 @@
       "artigos": []
     },
     "radiografia": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -48940,7 +50004,9 @@
       "artigos": []
     },
     "radiómica": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {
         "pt": [
           "radiômica"
@@ -48990,7 +50056,9 @@
       "artigos": []
     },
     "ratpenat": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -49010,7 +50078,9 @@
       "artigos": []
     },
     "morcego-de-ferradura-pequeno": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {
         "pt": [
           "morcego de ferradura pequeno"
@@ -49060,7 +50130,9 @@
       "artigos": []
     },
     "RAV": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -49080,7 +50152,10 @@
       "artigos": []
     },
     "rastreador | rastreadora , f": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m",
+        "f"
+      ],
       "sinonimos": {
         "pt": [
           "rastreador de contato | rastreadora de"
@@ -49130,7 +50205,9 @@
       "artigos": []
     },
     "ratapenada": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -49150,7 +50227,9 @@
       "artigos": []
     },
     "morcego": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {
         "ca": [
           "muriac"
@@ -49200,7 +50279,9 @@
       "artigos": []
     },
     "reação em cadeia da polimerase ;": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -49246,7 +50327,9 @@
       "artigos": []
     },
     "reacció general": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -49272,7 +50355,9 @@
       "artigos": []
     },
     "ravulizumab": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {
         "pt": [
           "ravulizumabe"
@@ -49322,7 +50407,9 @@
       "artigos": []
     },
     "reação adversa à vacina": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {
         "pt": [
           "RAV"
@@ -49374,7 +50461,9 @@
       "artigos": []
     },
     "rebrotada epidèmica": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -49394,7 +50483,9 @@
       "artigos": []
     },
     "recaída": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {
         "pt": [
           "recidiva"
@@ -49444,7 +50535,9 @@
       "artigos": []
     },
     "recepció, acollida i classificació": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -49464,7 +50557,9 @@
       "artigos": []
     },
     "recerca de contactes": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -49484,7 +50579,9 @@
       "artigos": []
     },
     "reação geral": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {
         "pt": [
           "reação sistémica",
@@ -49538,7 +50635,9 @@
       "artigos": []
     },
     "reação local": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -49584,7 +50683,9 @@
       "artigos": []
     },
     "reacció sistèmica": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -49604,7 +50705,9 @@
       "artigos": []
     },
     "nova vaga epidémica": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {
         "ca": [
           "rebrotada epidèmica"
@@ -49646,7 +50749,9 @@
       "artigos": []
     },
     "reabilitação respiratória": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {
         "pt": [
           "fisioterapia respiratória"
@@ -49696,7 +50801,9 @@
       "artigos": []
     },
     "reinfeção": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {
         "pt": [
           "reinfecção",
@@ -49750,7 +50857,9 @@
       "artigos": []
     },
     "recrudescência": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {
         "pt": [
           "exacerbação"
@@ -49800,7 +50909,9 @@
       "artigos": []
     },
     "regdanvimab": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {
         "pt": [
           "regdanvimabe"
@@ -49850,7 +50961,9 @@
       "artigos": []
     },
     "respiração artificial": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {
         "pt": [
           "respiração assistida"
@@ -49903,7 +51016,9 @@
       "artigos": []
     },
     "ventilador": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {
         "pt": [
           "ventilador mecânico"
@@ -49945,7 +51060,9 @@
       "artigos": []
     },
     "remdesivir": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -49991,7 +51108,9 @@
       "artigos": []
     },
     "rentada de mans": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -50011,7 +51130,9 @@
       "artigos": []
     },
     "rentat de mans": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -50031,7 +51152,9 @@
       "artigos": []
     },
     "reservatório": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -50077,7 +51200,9 @@
       "artigos": []
     },
     "revaccinació": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -50097,7 +51222,9 @@
       "artigos": []
     },
     "revacinação": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {
         "ca": [
           "revaccinació"
@@ -50147,7 +51274,9 @@
       "artigos": []
     },
     "ribavirina": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -50195,7 +51324,9 @@
       "artigos": []
     },
     "resposta imunitária": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {
         "pt": [
           "resposta imune"
@@ -50245,7 +51376,9 @@
       "artigos": []
     },
     "retrovírus": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -50289,7 +51422,9 @@
       "artigos": []
     },
     "ritonavir": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -50335,7 +51470,9 @@
       "artigos": []
     },
     "RNA": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -50355,7 +51492,9 @@
       "artigos": []
     },
     "ARN mensageiro": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {
         "pt": [
           "ácido ribonucleico mensageiro"
@@ -50408,7 +51547,9 @@
       "artigos": []
     },
     "ruxolitinib": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {
         "pt": [
           "ruxolitinibe"
@@ -50458,7 +51599,9 @@
       "artigos": []
     },
     "serviço nacional de saúde": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {
         "pt": [
           "saúde pública"
@@ -50508,7 +51651,9 @@
       "artigos": []
     },
     "uso de locais ou espaços públicos": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -50554,7 +51699,9 @@
       "artigos": []
     },
     "salto entre espécies": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {
         "pt": [
           "salto de espécie"
@@ -50604,7 +51751,9 @@
       "artigos": []
     },
     "saúde ocupacional": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {
         "pt": [
           "medicina do trabalho",
@@ -50658,7 +51807,9 @@
       "artigos": []
     },
     "sedação": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -50698,7 +51849,9 @@
       "artigos": []
     },
     "selinexor": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -50744,7 +51897,9 @@
       "artigos": []
     },
     "semiologia": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -50764,7 +51919,9 @@
       "artigos": []
     },
     "sarilumab": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {
         "pt": [
           "sarilumabe"
@@ -50814,7 +51971,9 @@
       "artigos": []
     },
     "SARS": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -50834,7 +51993,9 @@
       "artigos": []
     },
     "SARS-CoV": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -50854,7 +52015,9 @@
       "artigos": []
     },
     "SARS-CoV-2": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -50874,7 +52037,9 @@
       "artigos": []
     },
     "SDRA": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -50894,7 +52059,9 @@
       "artigos": []
     },
     "serologia": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {
         "pt": [
           "sorologia"
@@ -50941,7 +52108,9 @@
       "artigos": []
     },
     "seroprevalência": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {
         "pt": [
           "soroprevalência"
@@ -50991,7 +52160,9 @@
       "artigos": []
     },
     "seroterapia": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {
         "pt": [
           "soroterapia antiveneno"
@@ -51033,7 +52204,9 @@
       "artigos": []
     },
     "sepsia": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {
         "pt": [
           "sepse"
@@ -51083,7 +52256,9 @@
       "artigos": []
     },
     "sequela": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -51129,7 +52304,9 @@
       "artigos": []
     },
     "serviço de prevenção": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -51176,7 +52353,9 @@
       "artigos": []
     },
     "sinal": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -51219,7 +52398,9 @@
       "artigos": []
     },
     "siltuximab": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {
         "pt": [
           "siltuximabe"
@@ -51270,7 +52451,9 @@
       "artigos": []
     },
     "sorotipo": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {
         "ca": [
           "serotipus"
@@ -51320,7 +52503,9 @@
       "artigos": []
     },
     "serotipus": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -51340,7 +52525,9 @@
       "artigos": []
     },
     "serovar": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -51360,7 +52547,9 @@
       "artigos": []
     },
     "servei d’atenció de salut a domicili": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -51380,7 +52569,9 @@
       "artigos": []
     },
     "sintomatologia": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {
         "pt": [
           "semiologia"
@@ -51418,7 +52609,9 @@
       "artigos": []
     },
     "sincropèxia": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -51438,7 +52631,9 @@
       "artigos": []
     },
     "sindemia": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -51484,7 +52679,9 @@
       "artigos": []
     },
     "síndrome del destret respiratori agut": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -51504,7 +52701,9 @@
       "artigos": []
     },
     "síndrome del destret respiratori de l’adult": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {
         "ca": [
           "destret respiratori de l’adult"
@@ -51536,7 +52735,9 @@
       "artigos": []
     },
     "sintoma": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -51582,7 +52783,9 @@
       "artigos": []
     },
     "simptomatologia": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {
         "ca": [
           "semiologia"
@@ -51624,7 +52827,9 @@
       "artigos": []
     },
     "síndrome de dificuldade respiratória": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {
         "pt": [
           "síndrome da angústia respiratória em",
@@ -51685,7 +52890,9 @@
       "artigos": []
     },
     "síndrome respiratória": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {
         "pt": [
           "síndrome respiratória"
@@ -51735,7 +52942,9 @@
       "artigos": []
     },
     "rapamicina ;": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {
         "ca": [
           "rapamicina"
@@ -51783,7 +52992,9 @@
       "artigos": []
     },
     "síndrome post COVID-19": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -51803,7 +53014,9 @@
       "artigos": []
     },
     "síndrome respiratória aguda grave ;": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {
         "pt": [
           "pneumonia por coronavírus SARS-CoV"
@@ -51855,7 +53068,9 @@
       "artigos": []
     },
     "sonda": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {
         "ca": [
           "sonda molecular"
@@ -51905,7 +53120,9 @@
       "artigos": []
     },
     "sonda molecular": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -51925,7 +53142,9 @@
       "artigos": []
     },
     "sotrovimab": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {
         "pt": [
           "sotrovimabe"
@@ -51984,7 +53203,9 @@
       "artigos": []
     },
     "cepa": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -52030,7 +53251,9 @@
       "artigos": []
     },
     "socialização": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -52070,7 +53293,9 @@
       "artigos": []
     },
     "superdisseminador": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "adj"
+      ],
       "sinonimos": {
         "pt": [
           "supercontagiador"
@@ -52120,7 +53345,9 @@
       "artigos": []
     },
     "superpropagador -a": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "adj"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -52140,7 +53367,9 @@
       "artigos": []
     },
     "Spikevax": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -52160,7 +53389,9 @@
       "artigos": []
     },
     "Sputnik V": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -52180,7 +53411,9 @@
       "artigos": []
     },
     "SRAG": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -52200,7 +53433,9 @@
       "artigos": []
     },
     "subasumstat": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {
         "pt": [
           "suporte vital",
@@ -52255,7 +53490,9 @@
       "artigos": []
     },
     "suscetível": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "adj"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -52301,7 +53538,9 @@
       "artigos": []
     },
     "taquicardia": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {
         "pt": [
           "taquisistolia"
@@ -52354,7 +53593,9 @@
       "artigos": []
     },
     "taquisistòlia": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -52374,7 +53615,9 @@
       "artigos": []
     },
     "taxa bruta de mortalitat": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -52394,7 +53637,9 @@
       "artigos": []
     },
     "taxa de contágio": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {
         "pt": [
           "taxa de transmissão"
@@ -52442,7 +53687,9 @@
       "artigos": []
     },
     "talidomida": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -52488,7 +53735,9 @@
       "artigos": []
     },
     "tapament": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -52508,7 +53757,9 @@
       "artigos": []
     },
     "telemedicina": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -52554,7 +53805,9 @@
       "artigos": []
     },
     "trabalho remoto": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {
         "pt": [
           "teletrabalho",
@@ -52608,7 +53861,9 @@
       "artigos": []
     },
     "taxa de letalidade": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -52654,7 +53909,9 @@
       "artigos": []
     },
     "taxa de mortalidade": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -52700,7 +53957,9 @@
       "artigos": []
     },
     "temps de Quick": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -52720,7 +53979,9 @@
       "artigos": []
     },
     "tempo de recuperação": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {
         "pt": [
           "tempo de convalescença"
@@ -52773,7 +54034,9 @@
       "artigos": []
     },
     "tenofovir": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {
         "pt": [
           "fumarato de tenofovir desoproxila"
@@ -52821,7 +54084,9 @@
       "artigos": []
     },
     "tempestade de citocinas": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -52867,7 +54132,9 @@
       "artigos": []
     },
     "temps de convalescència": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -52887,7 +54154,9 @@
       "artigos": []
     },
     "tempo de protrombina": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {
         "pt": [
           "tempo de Quick"
@@ -52938,7 +54207,9 @@
       "artigos": []
     },
     "test per agrupament de mostres": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -52958,7 +54229,9 @@
       "artigos": []
     },
     "test per combinació de mostres": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -52978,7 +54251,9 @@
       "artigos": []
     },
     "test ràpid": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -52998,7 +54273,9 @@
       "artigos": []
     },
     "test serològic": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -53018,7 +54295,9 @@
       "artigos": []
     },
     "testagem em massa": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -53064,7 +54343,9 @@
       "artigos": []
     },
     "título de anticorpos": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {
         "pt": [
           "titulação de anticorpos"
@@ -53108,7 +54389,9 @@
       "artigos": []
     },
     "teste de anticorpos": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {
         "pt": [
           "análise de anticorpos"
@@ -53158,7 +54441,9 @@
       "artigos": []
     },
     "test d’antígens": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -53178,7 +54463,9 @@
       "artigos": []
     },
     "test immunològic": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -53198,7 +54485,9 @@
       "artigos": []
     },
     "test PCR": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -53218,7 +54507,9 @@
       "artigos": []
     },
     "tocilizumab": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {
         "pt": [
           "tocilizumabe"
@@ -53268,7 +54559,9 @@
       "artigos": []
     },
     "tos": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -53302,7 +54595,9 @@
       "artigos": []
     },
     "tixagevimab": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {
         "pt": [
           "tixagevimabe"
@@ -53352,7 +54647,9 @@
       "artigos": []
     },
     "recolher obrigatório": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {
         "pt": [
           "toque de recolher"
@@ -53402,7 +54699,9 @@
       "artigos": []
     },
     "pano antiembaciamento": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {
         "pt": [
           "lenço antiembaçamento"
@@ -53455,7 +54754,9 @@
       "artigos": []
     },
     "tozinameran": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {
         "pt": [
           "vacina contra a COVID-19 da Pfizer/",
@@ -53510,7 +54811,9 @@
       "artigos": []
     },
     "tosse produtiva": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -53556,7 +54859,9 @@
       "artigos": []
     },
     "tosse seca": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {
         "pt": [
           "tratamento em ambulatório",
@@ -53609,7 +54914,9 @@
       "artigos": []
     },
     "transmissível": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "adj"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -53655,7 +54962,9 @@
       "artigos": []
     },
     "transmissão": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -53701,7 +55010,9 @@
       "artigos": []
     },
     "vacina da Pfizer": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -53735,7 +55046,9 @@
       "artigos": []
     },
     "rastreabilidade": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -53781,7 +55094,9 @@
       "artigos": []
     },
     "tractament amb oxigen": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -53801,7 +55116,9 @@
       "artigos": []
     },
     "transmissão vertical": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -53851,7 +55168,9 @@
       "artigos": []
     },
     "traqueotomia": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -53897,7 +55216,9 @@
       "artigos": []
     },
     "treball a distància": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -53917,7 +55238,9 @@
       "artigos": []
     },
     "transmissão comunitária": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {
         "ca": [
           "recepció, acollida i classificació"
@@ -53967,7 +55290,9 @@
       "artigos": []
     },
     "transmissão horizontal": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -54013,7 +55338,9 @@
       "artigos": []
     },
     "transmissió vertical": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -54038,7 +55365,9 @@
       "artigos": []
     },
     "trombus": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -54058,7 +55387,9 @@
       "artigos": []
     },
     "TRV027": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {
         "pt": [
           "triagem"
@@ -54114,7 +55445,9 @@
       "artigos": []
     },
     "trombo": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {
         "ca": [
           "trombus"
@@ -54164,7 +55497,9 @@
       "artigos": []
     },
     "trombose": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -54208,7 +55543,9 @@
       "artigos": []
     },
     "unidade de cuidados intensivos": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {
         "pt": [
           "centro de terapia intensiva"
@@ -54258,7 +55595,9 @@
       "artigos": []
     },
     "UCI": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -54278,7 +55617,9 @@
       "artigos": []
     },
     "cânula nasal": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f pl"
+      ],
       "sinonimos": {
         "ca": [
           "cànula nasal"
@@ -54328,7 +55669,9 @@
       "artigos": []
     },
     "umifenovir": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -54374,7 +55717,9 @@
       "artigos": []
     },
     "UVI": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -54394,7 +55739,9 @@
       "artigos": []
     },
     "unitat de vigilància intensiva": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -54414,7 +55761,9 @@
       "artigos": []
     },
     "urticária": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -54460,7 +55809,9 @@
       "artigos": []
     },
     "uso compassivo": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {
         "pt": [
           "uso humanitário"
@@ -54510,7 +55861,9 @@
       "artigos": []
     },
     "vacuna antivírica": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -54530,7 +55883,9 @@
       "artigos": []
     },
     "vacina AstraZeneca": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {
         "pt": [
           "vacina Oxford",
@@ -54584,7 +55939,9 @@
       "artigos": []
     },
     "vaccí": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -54604,7 +55961,9 @@
       "artigos": []
     },
     "vaccinació": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -54624,7 +55983,9 @@
       "artigos": []
     },
     "vacina": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {
         "ca": [
           "vaccí"
@@ -54674,7 +56035,9 @@
       "artigos": []
     },
     "vacina COVID-19": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -54715,7 +56078,9 @@
       "artigos": []
     },
     "vacuna contra la COVID-19": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -54735,7 +56100,9 @@
       "artigos": []
     },
     "zorecimeran": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {
         "pt": [
           "CVnCoV"
@@ -54785,7 +56152,9 @@
       "artigos": []
     },
     "vacuna d’ARN missatger": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -54805,7 +56174,9 @@
       "artigos": []
     },
     "vacuna d’ARNm": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -54825,7 +56196,9 @@
       "artigos": []
     },
     "vacina BBIBP-CorV": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {
         "pt": [
           "vacina da Sinopharm"
@@ -54875,7 +56248,9 @@
       "artigos": []
     },
     "vacina CanSino": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {
         "pt": [
           "vacina Convidecia n"
@@ -54925,7 +56300,9 @@
       "artigos": []
     },
     "vacina Janssen": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {
         "pt": [
           "vacina da Janssen"
@@ -54975,7 +56352,9 @@
       "artigos": []
     },
     "vacuna Johnson &amp; Johnson": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -54995,7 +56374,9 @@
       "artigos": []
     },
     "vacuna Moderna": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -55015,7 +56396,9 @@
       "artigos": []
     },
     "vacuna NovaVax": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -55035,7 +56418,9 @@
       "artigos": []
     },
     "vacuna Oxford-AstraZeneca": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -55055,7 +56440,9 @@
       "artigos": []
     },
     "vacuna d’mRNA": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -55075,7 +56462,9 @@
       "artigos": []
     },
     "vacina de RNA mensageiro": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {
         "pt": [
           "vacina ARNm"
@@ -55128,7 +56517,9 @@
       "artigos": []
     },
     "vacuna de Wuhan": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -55148,7 +56539,9 @@
       "artigos": []
     },
     "vacuna Gamaleya": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -55170,7 +56563,9 @@
       "artigos": []
     },
     "vacina de Wuhan": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {
         "ca": [
           "vacuna de Wuhan"
@@ -55220,7 +56615,9 @@
       "artigos": []
     },
     "vacina antiviral": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {
         "ca": [
           "vacuna antivírica"
@@ -55262,7 +56659,9 @@
       "artigos": []
     },
     "vacuna Pfizer/BioNTech": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -55282,7 +56681,9 @@
       "artigos": []
     },
     "vacina preventiva": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {
         "pt": [
           "vacina profilática"
@@ -55335,7 +56736,9 @@
       "artigos": []
     },
     "vacuna profilàctica": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -55355,7 +56758,9 @@
       "artigos": []
     },
     "vacina CoronaVac": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {
         "pt": [
           "vacina Sinovac",
@@ -55409,7 +56814,9 @@
       "artigos": []
     },
     "variante": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {
         "pt": [
           "vacina de vírus"
@@ -55464,7 +56871,9 @@
       "artigos": []
     },
     "vacinação": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {
         "pt": [
           "imunização"
@@ -55517,7 +56926,9 @@
       "artigos": []
     },
     "vacunació primària": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -55537,7 +56948,9 @@
       "artigos": []
     },
     "vafidemstat": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -55572,7 +56985,9 @@
       "artigos": []
     },
     "variante de preocupação": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {
         "ca": [
           "variant de preocupació"
@@ -55622,7 +57037,9 @@
       "artigos": []
     },
     "variant vírica": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -55642,7 +57059,9 @@
       "artigos": []
     },
     "variante de interesse": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -55688,7 +57107,9 @@
       "artigos": []
     },
     "variant de preocupació": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -55716,7 +57137,9 @@
       "artigos": []
     },
     "taxa de reprodução empírica": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -55759,7 +57182,9 @@
       "artigos": []
     },
     "ventilação": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -55797,7 +57222,9 @@
       "artigos": []
     },
     "Vaxzevria": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -55817,7 +57244,9 @@
       "artigos": []
     },
     "velocitat reproductiva bàsica": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {
         "ca": [
           "nombre reproductiu bàsic"
@@ -55886,7 +57315,9 @@
       "artigos": []
     },
     "número efetivo de reprodução": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {
         "pt": [
           "taxa de reprodução efetiva"
@@ -55928,7 +57359,9 @@
       "artigos": []
     },
     "viricida": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -55974,7 +57407,9 @@
       "artigos": []
     },
     "partícula viral": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {
         "pt": [
           "vírion"
@@ -56026,7 +57461,9 @@
       "artigos": []
     },
     "ventilació mecànica": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -56046,7 +57483,9 @@
       "artigos": []
     },
     "via de administração": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -56092,7 +57531,9 @@
       "artigos": []
     },
     "vidofludimus": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -56138,7 +57579,9 @@
       "artigos": []
     },
     "virulência": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -56184,7 +57627,9 @@
       "artigos": []
     },
     "vírus": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -56230,7 +57675,9 @@
       "artigos": []
     },
     "virus de la COVID-19": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -56250,7 +57697,9 @@
       "artigos": []
     },
     "visera de protecció": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -56270,7 +57719,9 @@
       "artigos": []
     },
     "VOC": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -56290,7 +57741,9 @@
       "artigos": []
     },
     "VOI": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n f"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -56310,7 +57763,9 @@
       "artigos": []
     },
     "voliac": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [
@@ -56330,7 +57785,9 @@
       "artigos": []
     },
     "vômito": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {
         "pt": [
           "emese"
@@ -56380,7 +57837,9 @@
       "artigos": []
     },
     "vorapaxar": {
-      "categoria_lexica": [],
+      "categoria_lexica": [
+        "n m"
+      ],
       "sinonimos": {},
       "traducoes": {
         "ca": [

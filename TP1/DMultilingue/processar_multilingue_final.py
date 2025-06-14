@@ -34,6 +34,15 @@ def adicionar_multilingue(glossario_existente):
             if denominacao_catala:
                 denominacao_catala = denominacao_catala.strip()
 
+
+            categoria_raw = conceito.get('categoria_lexica') or ""
+            if categoria_raw:
+                # separa por espaços, vírgulas, etc.
+                categorias = [c.strip() for c in re.split(r'[,;]+', categoria_raw) if c.strip()]
+            else:
+                categorias = []
+
+
             # Obter todas as traduções em português
             traducoes_pt = []
             if 'traducao' in conceito and 'pt' in conceito['traducao']:
@@ -73,6 +82,11 @@ def adicionar_multilingue(glossario_existente):
                         conceito_existente['traducoes']['ca'] = []
                     if denominacao_catala not in conceito_existente['traducoes']['ca']:
                         conceito_existente['traducoes']['ca'].append(denominacao_catala)
+
+                # Atualizar categoria_lexica existente
+                for cat in categorias:
+                    if cat not in conceito_existente['categoria_lexica']:
+                        conceito_existente['categoria_lexica'].append(cat)
 
                 # C. Adicionar sinônimos em catalão
                 sinonimos_ca = conceito.get('sinonimos_complementares', [])
@@ -128,6 +142,8 @@ def adicionar_multilingue(glossario_existente):
                         else:
                             conceito_existente['info_enc'] = nota_texto
 
+
+
             else:
                 # Criar NOVO conceito
                 novo_conceito = {
@@ -141,6 +157,10 @@ def adicionar_multilingue(glossario_existente):
                     "info_enc": None,
                     "artigos": []
                 }
+
+                # D1. Preencher categoria_lexica no novo conceito
+                novo_conceito['categoria_lexica'] = categorias.copy()
+
 
                 # Preencher campos básicos
                 if conceito.get('area_tematica'):

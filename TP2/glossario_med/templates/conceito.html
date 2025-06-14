@@ -21,6 +21,11 @@
             </a>
         </p>
         {% endif %}
+
+        {% if conceito.CAS %}
+         <p><strong>Número CAS:</strong> {{ conceito.CAS }}</p>
+        {% endif %}
+
     </div>
 
     {% if definicoes_processadas %}
@@ -49,12 +54,13 @@
     </div>
     {% endif %}
 
-    {% if conceito.sinonimos.pt or conceito.sinonimos.en or conceito.sinonimos.es %}
+    {% if conceito.sinonimos.pt or conceito.sinonimos.en or conceito.sinonimos.es or conceito.sinonimos.ca%}
     <div class="info-box">
         <h3>Sinónimos</h3>
         {% if conceito.sinonimos.pt %}<p><strong>Português:</strong> {{ conceito.sinonimos.pt|join(', ') }}</p>{% endif %}
         {% if conceito.sinonimos.en %}<p><strong>Inglês:</strong> {{ conceito.sinonimos.en|join(', ') }}</p>{% endif %}
         {% if conceito.sinonimos.es %}<p><strong>Espanhol:</strong> {{ conceito.sinonimos.es|join(', ') }}</p>{% endif %}
+        {% if conceito.sinonimos.ca %}<p><strong>Espanhol Catalão:</strong> {{ conceito.sinonimos.ca|join(', ') }}</p>{% endif %}
     </div>
     {% endif %}
 
@@ -64,6 +70,18 @@
         <div>{{ info_enc_processada }}</div>
     </div>
     {% endif %}
+
+    {% if conceito.categoria_area %}
+    <div class="info-box">
+        <h3>Categoria(s) de Área</h3>
+        <ul>
+            {% for categoria in conceito.categoria_area %}
+            <li>{{ categoria }}</li>
+            {% endfor %}
+        </ul>
+    </div>
+    {% endif %}
+
     
     {% if conceito.artigos %}
     <div class="info-box">
