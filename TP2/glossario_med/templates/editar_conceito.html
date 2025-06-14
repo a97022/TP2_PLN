@@ -92,8 +92,16 @@
             </div>
 
             <div class="form-group">
-                <label for="categoria_area">Categorias (separadas por vírgula):</label>
-                <input type="text" id="categoria_area" name="categoria_area" value="{{ categoria_area or '' }}">
+                <label for="categoria_area">Categorias:</label>
+                <select id="categoria_area" name="categoria_area" multiple size="10">
+                    {% for categoria in todas_categorias %}
+                    <option value="{{ categoria }}"
+                        {% if categoria_area and categoria in categoria_area %}selected{% endif %}>
+                        {{ categoria }}
+                    </option>
+                    {% endfor %}
+                </select>
+                <small>Segure Ctrl (Windows) ou Cmd (Mac) para selecionar múltiplas categorias</small>
             </div>
             
             <div class="form-group">

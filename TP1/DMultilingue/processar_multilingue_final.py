@@ -136,7 +136,7 @@ def adicionar_multilingue(glossario_existente):
                 if conceito.get('nota'):
                     notas = [nota.strip() for nota in conceito['nota'] if nota.strip()]
                     if notas:
-                        nota_texto = " ".join(notas)
+                        nota_texto = "\n".join(notas)
                         if conceito_existente['info_enc']:
                             conceito_existente['info_enc'] += "\n" + nota_texto
                         else:
@@ -176,7 +176,7 @@ def adicionar_multilingue(glossario_existente):
                 if conceito.get('nota'):
                     notas = [nota.strip() for nota in conceito['nota'] if nota.strip()]
                     if notas:
-                        novo_conceito['info_enc'] = " ".join(notas)
+                        novo_conceito['info_enc'] = "\n".join(notas)
 
                 # A. Adicionar sinônimos em português (demais traduções)
                 if len(traducoes_pt) > 1:

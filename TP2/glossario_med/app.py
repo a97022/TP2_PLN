@@ -41,17 +41,29 @@ def processar_links(texto, origem=None):
             link = f'<a href="/sigla/{sigla}?origem={origem_url}" class="tooltip" title="{significado}">{sigla}</a>'
         else:
             link = f'<a href="/sigla/{sigla}" class="tooltip" title="{significado}">{sigla}</a>'
-        texto = re.sub(rf'\b{re.escape(sigla)}\b(?=\s|$)', link, texto) #Assegura que a sigla seja seguida por espaço ou fim de linha, para evitar capturas parciais.
+        texto = re.sub(rf'(?<!\w){re.escape(sigla)}(?!\w)', link, texto) #Assegura que a sigla seja seguida por espaço ou fim de linha, para evitar capturas parciais.
 
     # Abreviaturas
     for abrev, significados in dados['ABREVS'].items():
         significado = ', '.join(significados)
-        if origem:
-            origem_url = urllib.parse.quote(origem)
-            link = f'<a href="/abreviatura/{abrev}?origem={origem_url}" class="tooltip" title="{significado}">{abrev}</a>'
-        else:
-            link = f'<a href="/abreviatura/{abrev}" class="tooltip" title="{significado}">{abrev}</a>'
-        texto = re.sub(rf'\b{re.escape(abrev)}\b(?=\s|$)', link, texto)
+        # Regex: começa e acaba em “word‐boundary” e aceita um ponto opcional
+        pattern = rf'(?<!\w)({re.escape(abrev)})(\.?)(?!\w)'
+
+        def _abreviatura_repl(match):
+            texto_abrev = match.group(1)  # ex: "veg"
+            ponto = match.group(2)  # ex: "." ou ""
+            # Construir URL escapando nome de origem se houver
+            url = f"/abreviatura/{urllib.parse.quote(texto_abrev)}"
+            if origem:
+                url += f"?origem={urllib.parse.quote(origem)}"
+            # Recriar o link incluindo o ponto
+            return f'<a href="{url}" class="tooltip" title="{significado}">{texto_abrev}{ponto}</a>'
+
+        texto = re.sub(
+            pattern,
+            _abreviatura_repl,
+            texto,
+        )
 
     return Markup(texto)
 
@@ -383,7 +395,6 @@ def pesquisar():
                            tipo=tipo,
                            exata=exata)
 
-
 @app.route('/siglas/adicionar', methods=['GET', 'POST'])
 def adicionar_sigla():
     if request.method == 'POST':
@@ -468,6 +479,9 @@ def eliminar_abreviatura(abrev):
 
 @app.route('/conceitos/adicionar', methods=['GET', 'POST'])
 def adicionar_conceito():
+    # Obter todas as categorias existentes
+    todas_categorias = list(dados['CATEGORIAS'].keys())
+
     if request.method == 'POST':
         nome = request.form['nome'].strip()
         definicao = request.form['definicao'].strip()
@@ -487,13 +501,16 @@ def adicionar_conceito():
         traducoes_gl = [t.strip() for t in request.form.get('traducoes_gl', '').split(',') if t.strip()]
         traducoes_nl = [t.strip() for t in request.form.get('traducoes_nl', '').split(',') if t.strip()]
         traducoes_oc = [t.strip() for t in request.form.get('traducoes_oc', '').split(',') if t.strip()]
-        categoria_area = [c.strip() for c in request.form.get('categoria_area', '').split(',') if c.strip()]
+
+        # Obter categorias selecionadas do formulário
+        categorias_selecionadas = request.form.getlist('categoria_area')
+
         artigos_input = [a.strip() for a in request.form.get('artigos', '').split(',') if a.strip()]
 
         # Validar artigos relacionados
         anexos_validos = {anexo['Número'] for anexo in dados['ANEXOS']}
         artigos_validos = [artigo for artigo in artigos_input if artigo in anexos_validos]
-        
+
         if not definicao:
             return redirect(url_for('adicionar_conceito', erro='A definição é obrigatória.'))
         if not nome:
@@ -505,8 +522,9 @@ def adicionar_conceito():
         novo_conceito = {
             'CAS': cas,
             'artigos': artigos_validos,
-            'categoria_area': categoria_area,
-            'categoria_lexica': [c.strip() for c in categoria_lexica.split(',') if c.strip()] if categoria_lexica else [],
+            'categoria_area': categorias_selecionadas,
+            'categoria_lexica': [c.strip() for c in categoria_lexica.split(',') if
+                                 c.strip()] if categoria_lexica else [],
             'definicoes': [[definicao, 'Utilizador']],
             'info_enc': info_enc,
             'sigla': sigla,
@@ -531,8 +549,12 @@ def adicionar_conceito():
         dados['CONCEITOS'][nome] = novo_conceito
         salvar_dados(dados)
         return redirect(url_for('listar_conceitos', sucesso='Conceito adicionado com sucesso!'))
+
     erro = request.args.get('erro')
-    return render_template('editar_conceito.html', erro=erro)
+    # Passar todas as categorias para o template
+    return render_template('editar_conceito.html',
+                           erro=erro,
+                           todas_categorias=todas_categorias)
 
 @app.route('/conceitos/editar/<nome>', methods=['GET', 'POST'])
 def editar_conceito(nome):
@@ -572,6 +594,8 @@ def editar_conceito(nome):
             conceito['definicoes'][0][0] = definicao
         else:
             conceito['definicoes'] = [[definicao, 'Utilizador']]
+
+        categoria_area = ', '.join(conceito.get('categoria_area', []))
 
         # Atualizar os campos na ordem correta
         conceito_atualizado = {
