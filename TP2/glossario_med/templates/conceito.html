@@ -87,7 +87,7 @@
         {% if request.args.get('origem') %}
             <a href="/conceito/{{ request.args.get('origem')|urlencode }}">← Voltar ao conceito anterior</a>
         {% else %}
-            <a href="/conceitos">← Voltar à lista de conceitos</a>
+        <a href="/conceitos">← Voltar à lista de conceitos</a>
         {% endif %}
     </div>
 {% endblock %}

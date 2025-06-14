@@ -8,11 +8,13 @@ app = Flask(__name__)
 
 # Carregar dados do JSON
 def carregar_dados():
-    with open('TP2_PLN/TP2/glossario_med/dados.json', 'r', encoding='utf-8') as f:
+    #with open('TP2_PLN/TP2/glossario_med/dados.json', 'r', encoding='utf-8') as f:
+    with open('dados.json', 'r', encoding='utf-8') as f:
         return json.load(f)
 
 def salvar_dados(dados):
-    with open('TP2_PLN/TP2/glossario_med/dados.json', 'w', encoding='utf-8') as f:
+    #with open('TP2_PLN/TP2/glossario_med/dados.json', 'w', encoding='utf-8') as f:
+    with open('dados.json', 'w', encoding='utf-8') as f:
         json.dump(dados, f, ensure_ascii=False, indent=4)
 
 # Carregar dados iniciais
@@ -30,7 +32,7 @@ def processar_links(texto, origem=None):
             link = f'<a href="/conceito/{termo}?origem={origem_url}">{termo}</a>'
         else:
             link = f'<a href="/conceito/{termo}">{termo}</a>'
-        texto = re.sub(rf'\b{re.escape(termo)}\b', link, texto)
+        texto = re.sub(rf'\b{re.escape(termo)}\b(?=\s|$)', link, texto, flags=re.IGNORECASE)
 
     # Siglas (ex: FAPESP)
     for sigla, significado in dados['SIGLAS'].items():
@@ -39,7 +41,7 @@ def processar_links(texto, origem=None):
             link = f'<a href="/sigla/{sigla}?origem={origem_url}" class="tooltip" title="{significado}">{sigla}</a>'
         else:
             link = f'<a href="/sigla/{sigla}" class="tooltip" title="{significado}">{sigla}</a>'
-        texto = re.sub(rf'\b{re.escape(sigla)}\b', link, texto)
+        texto = re.sub(rf'\b{re.escape(sigla)}\b(?=\s|$)', link, texto, flags=re.IGNORECASE) #Assegura que a sigla seja seguida por espaço ou fim de linha, para evitar capturas parciais.
 
     # Abreviaturas (ex: et al.)
     for abrev, significados in dados['ABREVS'].items():
@@ -49,7 +51,7 @@ def processar_links(texto, origem=None):
             link = f'<a href="/abreviatura/{abrev}?origem={origem_url}" class="tooltip" title="{significado}">{abrev}</a>'
         else:
             link = f'<a href="/abreviatura/{abrev}" class="tooltip" title="{significado}">{abrev}</a>'
-        texto = re.sub(rf'\b{re.escape(abrev)}\b', link, texto)
+        texto = re.sub(rf'\b{re.escape(abrev)}\b(?=\s|$)', link, texto, flags=re.IGNORECASE)
 
     return Markup(texto)
 
@@ -145,7 +147,7 @@ def listar_abreviaturas():
 
 
 # Rota para detalhe de abreviatura
-@app.route('/abreviatura/<abrev>')
+@app.route('/abreviatura/<path:abrev>')
 def detalhe_abreviatura(abrev):
     significados = dados['ABREVS'].get(abrev)
     if not significados:

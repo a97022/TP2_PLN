@@ -133,6 +133,7 @@ footer {
     padding: 10px;
     border: 1px solid #ddd;
     border-radius: 4px;
+    box-sizing: border-box;
 }
 
 .search-box button {
@@ -402,10 +403,14 @@ footer {
     min-width: 110px;
     padding: 0.5em 1.2em;
     border-radius: 4px;
-    font-size: 1em;
+    font-size: 16px;
     display: inline-block;
     text-align: center;
     box-sizing: border-box;
+    outline: none;
+    margin: 0;
+    vertical-align: middle;
+    line-height: 1;
 }
 
 .btn-save {
@@ -430,6 +435,8 @@ footer {
     cursor: pointer;
     text-decoration: none;
     transition: background 0.2s, border 0.2s, color 0.2s;
+    font-size: 1em;
+    text-transform: none;
 }
 
 .btn-secondary:hover {

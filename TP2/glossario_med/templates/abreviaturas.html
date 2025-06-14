@@ -34,7 +34,7 @@
         <tbody>
             {% for abrev, significados in abreviaturas.items() %}
             <tr>
-                <td><a href="/abreviatura/{{ abrev }}">{{ abrev }}</a></td>
+                <td><a href="{{ url_for('detalhe_abreviatura', abrev=abrev) }}">{{ abrev }}</a></td>
                 <td>{{ significados|join(', ') }}</td>
             </tr>
             {% endfor %}
