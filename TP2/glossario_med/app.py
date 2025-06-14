@@ -634,5 +634,125 @@ def eliminar_conceito(nome):
         return redirect(url_for('listar_conceitos', sucesso='Conceito eliminado com sucesso!'))
     return redirect(url_for('listar_conceitos', erro='Conceito não encontrado.'))
 
+@app.route('/anexos/adicionar', methods=['GET', 'POST'])
+def adicionar_anexo():
+    if request.method == 'POST':
+        numero = request.form['numero'].strip()
+        titulo = request.form['titulo'].strip()
+        numero_edicao = request.form['numero_edicao'].strip()
+        mes_edicao = request.form['mes_edicao'].strip()
+        ano_edicao = request.form['ano_edicao'].strip()
+        
+        if not all([numero, titulo, numero_edicao, mes_edicao, ano_edicao]):
+            return redirect(url_for('adicionar_anexo', erro='Todos os campos são obrigatórios.'))
+        
+        # Verificar se o número já existe
+        if any(anexo['Número'] == numero for anexo in dados['ANEXOS']):
+            return redirect(url_for('adicionar_anexo', erro='Este número de anexo já existe.'))
+        
+        novo_anexo = {
+            'Número': numero,
+            'Título do Artigo': titulo,
+            'Número da Edição': numero_edicao,
+            'Mês da Edição': mes_edicao,
+            'Ano da Edição': ano_edicao
+        }
+        
+        dados['ANEXOS'].append(novo_anexo)
+        salvar_dados(dados)
+        return redirect(url_for('listar_anexos', sucesso='Anexo adicionado com sucesso!'))
+    
+    erro = request.args.get('erro')
+    return render_template('editar_anexo.html', erro=erro)
+
+@app.route('/anexos/editar/<numero>', methods=['GET', 'POST'])
+def editar_anexo(numero):
+    anexo = next((a for a in dados['ANEXOS'] if a['Número'] == numero), None)
+    if not anexo:
+        return redirect(url_for('listar_anexos', erro='Anexo não encontrado.'))
+    
+    if request.method == 'POST':
+        titulo = request.form['titulo'].strip()
+        numero_edicao = request.form['numero_edicao'].strip()
+        mes_edicao = request.form['mes_edicao'].strip()
+        ano_edicao = request.form['ano_edicao'].strip()
+        
+        if not all([titulo, numero_edicao, mes_edicao, ano_edicao]):
+            return redirect(url_for('editar_anexo', numero=numero, erro='Todos os campos são obrigatórios.'))
+        
+        anexo['Título do Artigo'] = titulo
+        anexo['Número da Edição'] = numero_edicao
+        anexo['Mês da Edição'] = mes_edicao
+        anexo['Ano da Edição'] = ano_edicao
+        
+        salvar_dados(dados)
+        return redirect(url_for('listar_anexos', sucesso='Anexo atualizado com sucesso!'))
+    
+    erro = request.args.get('erro')
+    return render_template('editar_anexo.html', anexo=anexo, erro=erro)
+
+@app.route('/anexos/eliminar/<numero>', methods=['POST'])
+def eliminar_anexo(numero):
+    anexo = next((a for a in dados['ANEXOS'] if a['Número'] == numero), None)
+    if anexo:
+        dados['ANEXOS'].remove(anexo)
+        salvar_dados(dados)
+        return redirect(url_for('listar_anexos', sucesso='Anexo eliminado com sucesso!'))
+    return redirect(url_for('listar_anexos', erro='Anexo não encontrado.'))
+
+@app.route('/categorias/adicionar', methods=['GET', 'POST'])
+def adicionar_categoria():
+    if request.method == 'POST':
+        nome = request.form['nome'].strip()
+        definicao = request.form['definicao'].strip()
+        subcategorias = [s.strip() for s in request.form['subcategorias'].split('\n') if s.strip()]
+        
+        if not nome or not definicao:
+            return redirect(url_for('adicionar_categoria', erro='Nome e definição são obrigatórios.'))
+        
+        if nome in dados['CATEGORIAS']:
+            return redirect(url_for('adicionar_categoria', erro='Esta categoria já existe.'))
+        
+        dados['CATEGORIAS'][nome] = {
+            'definicao': definicao,
+            'subcategorias': subcategorias
+        }
+        
+        salvar_dados(dados)
+        return redirect(url_for('listar_categorias', sucesso='Categoria adicionada com sucesso!'))
+    
+    erro = request.args.get('erro')
+    return render_template('editar_categoria.html', erro=erro)
+
+@app.route('/categorias/editar/<nome>', methods=['GET', 'POST'])
+def editar_categoria(nome):
+    categoria = dados['CATEGORIAS'].get(nome)
+    if not categoria:
+        return redirect(url_for('listar_categorias', erro='Categoria não encontrada.'))
+    
+    if request.method == 'POST':
+        definicao = request.form['definicao'].strip()
+        subcategorias = [s.strip() for s in request.form['subcategorias'].split('\n') if s.strip()]
+        
+        if not definicao:
+            return redirect(url_for('editar_categoria', nome=nome, erro='A definição é obrigatória.'))
+        
+        categoria['definicao'] = definicao
+        categoria['subcategorias'] = subcategorias
+        
+        salvar_dados(dados)
+        return redirect(url_for('listar_categorias', sucesso='Categoria atualizada com sucesso!'))
+    
+    erro = request.args.get('erro')
+    return render_template('editar_categoria.html', categoria={'nome': nome, **categoria}, erro=erro)
+
+@app.route('/categorias/eliminar/<nome>', methods=['POST'])
+def eliminar_categoria(nome):
+    if nome in dados['CATEGORIAS']:
+        del dados['CATEGORIAS'][nome]
+        salvar_dados(dados)
+        return redirect(url_for('listar_categorias', sucesso='Categoria eliminada com sucesso!'))
+    return redirect(url_for('listar_categorias', erro='Categoria não encontrada.'))
+
 if __name__ == '__main__':
     app.run(debug=True)

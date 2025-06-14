@@ -1,63 +1,69 @@
 {% extends "base.html" %}
 
 {% block content %}
-    <h2>Conceitos Médicos</h2>
+    <h2>Conceitos</h2>
 
-    {% if erro %}
-    <div class="error-message">
-        {{ erro }}
-    </div>
-    {% endif %}
-
-    {% if sucesso %}
-    <div class="success-message">
-        {{ sucesso }}
-    </div>
-    {% endif %}
-
-    <div class="actions-bar">
-        <a href="{{ url_for('adicionar_conceito') }}" class="btn-save">Adicionar Novo Conceito</a>
+    <div class="action-buttons">
+        <a href="/conceitos/adicionar" class="btn-save">Adicionar Conceito</a>
     </div>
 
     <div class="search-box">
-        <form method="get" action="/conceitos">
-            <input type="text" name="q" placeholder="Digite um termo médico..." value="{{ q|default('') }}" required>
-            <div class="search-options" style="margin: 0.5em 0;">
-                <label>
-                    <input type="checkbox" name="exata" value="true" {% if exata %}checked{% endif %}>
-                    Pesquisa exata (palavra completa)
-                </label>
-            </div>
-            <button type="submit">Procurar</button>
-        </form>
+        <input type="text" id="searchInput" placeholder="Digite para pesquisar conceitos..." value="{{ q|default('') }}">
+        <div class="search-options" style="margin: 0.5em 0;">
+            <label>
+                <input type="checkbox" id="exactMatch" {% if exata %}checked{% endif %}>
+                Pesquisa exata (palavra completa)
+            </label>
+        </div>
     </div>
 
-    {% if q %}
-        <p style="margin-top: 1em;">Resultados para: <strong>{{ q }}</strong>{% if exata %} (exato){% endif %}</p>
+    {% if sucesso %}
+        <div class="success-message">{{ sucesso }}</div>
     {% endif %}
 
-    <table>
-        <thead>
-            <tr>
-                <th>Termo</th>
-                <th>Categoria Léxica</th>
-                <th>Definição Resumida</th>
-            </tr>
-        </thead>
-        <tbody>
-            {% for termo, info in conceitos.items() %}
-            <tr>
-                <td><a href="/conceito/{{ termo }}">{{ termo }}</a></td>
-                <td>{{ info.categoria_lexica[0] if info.categoria_lexica else '-' }}</td>
-                <td>
-                    {% if info.definicoes and info.definicoes[0] and info.definicoes[0][0] %}
-                        {{ info.definicoes[0][0][:100] }}...
-                    {% else %}
-                        (Sem definição disponível)
-                    {% endif %}
-                </td>
-            </tr>
-            {% endfor %}
-        </tbody>
-    </table>
+    {% if erro %}
+        <div class="error-message">{{ erro }}</div>
+    {% endif %}
+
+    <div id="conceitos-container">
+        {% for nome, info in conceitos.items() %}
+        <div class="conceito-card" data-nome="{{ nome|lower }}">
+            <h3><a href="/conceito/{{ nome|urlencode }}">{{ nome }}</a></h3>
+            <p class="definicao">{{ info.definicoes[0][0][:200] if info.definicoes else '' }}...</p>
+            <div class="card-actions">
+                <a href="/conceito/{{ nome|urlencode }}" class="ver-mais">Ver detalhes →</a>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const searchInput = document.getElementById('searchInput');
+            const exactMatch = document.getElementById('exactMatch');
+            const conceitosContainer = document.getElementById('conceitos-container');
+            const conceitoCards = conceitosContainer.getElementsByClassName('conceito-card');
+
+            function filterConceitos() {
+                const searchTerm = searchInput.value.toLowerCase();
+                const isExactMatch = exactMatch.checked;
+
+                Array.from(conceitoCards).forEach(card => {
+                    const nome = card.getAttribute('data-nome');
+                    let shouldShow = false;
+
+                    if (isExactMatch) {
+                        shouldShow = nome === searchTerm || nome.split(' ').includes(searchTerm);
+                    } else {
+                        shouldShow = nome.includes(searchTerm);
+                    }
+
+                    card.style.display = shouldShow || searchTerm === '' ? 'block' : 'none';
+                });
+            }
+
+            searchInput.addEventListener('input', filterConceitos);
+            exactMatch.addEventListener('change', filterConceitos);
+        });
+    </script>
 {% endblock %}

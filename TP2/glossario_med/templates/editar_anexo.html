@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h2>{% if anexo %}Editar{% else %}Adicionar{% endif %} Anexo</h2>
+
+    {% if erro %}
+        <div class="error-message">{{ erro }}</div>
+    {% endif %}
+
+    <div class="form-container">
+        <form method="post" class="edit-form">
+            <div class="form-group">
+                <label for="numero">Número <span style="color:red">*</span>:</label>
+                <input type="text" id="numero" name="numero" value="{{ anexo.Número if anexo else '' }}" {% if anexo %}readonly{% endif %} {% if not anexo %}required{% endif %}>
+            </div>
+
+            <div class="form-group">
+                <label for="titulo">Título do Artigo <span style="color:red">*</span>:</label>
+                <input type="text" id="titulo" name="titulo" value="{{ anexo['Título do Artigo'] if anexo else '' }}" required>
+            </div>
+
+            <div class="form-group">
+                <label for="numero_edicao">Número da Edição <span style="color:red">*</span>:</label>
+                <input type="number" id="numero_edicao" name="numero_edicao" value="{{ anexo['Número da Edição'] if anexo else '' }}" required>
+            </div>
+
+            <div class="form-group">
+                <label for="mes_edicao">Mês da Edição <span style="color:red">*</span>:</label>
+                <input type="text" id="mes_edicao" name="mes_edicao" value="{{ anexo['Mês da Edição'] if anexo else '' }}" required>
+            </div>
+
+            <div class="form-group">
+                <label for="ano_edicao">Ano da Edição <span style="color:red">*</span>:</label>
+                <input type="number" id="ano_edicao" name="ano_edicao" value="{{ anexo['Ano da Edição'] if anexo else '' }}" required>
+            </div>
+
+            <div class="form-actions">
+                <button type="submit" class="btn-save">Salvar</button>
+                <a href="/anexos" class="btn-secondary">Cancelar</a>
+            </div>
+        </form>
+    </div>
+{% endblock %} 

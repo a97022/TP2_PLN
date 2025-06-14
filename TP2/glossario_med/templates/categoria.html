@@ -3,6 +3,13 @@
 {% block content %}
     <h2>{{ nome }}</h2>
 
+    <div class="actions-bar">
+        <a href="{{ url_for('editar_categoria', nome=nome) }}" class="btn-save">Editar</a>
+        <form method="POST" action="{{ url_for('eliminar_categoria', nome=nome) }}" style="display:inline;" onsubmit="return confirm('Tem a certeza que deseja eliminar esta categoria?');">
+            <button type="submit" class="btn-secondary">Eliminar</button>
+        </form>
+    </div>
+
     <div class="info-box">
         <h3>Definição</h3>
         <p>{{ categoria.definicao }}</p>

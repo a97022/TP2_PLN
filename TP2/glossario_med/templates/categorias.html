@@ -3,6 +3,10 @@
 {% block content %}
     <h2>Categorias Médicas</h2>
 
+    <div class="action-buttons">
+        <a href="/categorias/adicionar" class="btn-save">Adicionar Categoria</a>
+    </div>
+
     <div class="search-box">
         <form method="get" action="/categorias">
             <input type="text" name="q" placeholder="Digite o nome da categoria ou subcategoria..." value="{{ q|default('') }}" required>
@@ -27,6 +31,14 @@
 
     {% if q %}
         <p style="margin-top: 1em;">Resultados para: <strong>{{ q }}</strong>{% if exata %} (exato){% endif %} {% if campo == 'subcategoria' %}(em subcategorias){% else %}(em categorias){% endif %}</p>
+    {% endif %}
+
+    {% if sucesso %}
+        <div class="success-message">{{ sucesso }}</div>
+    {% endif %}
+
+    {% if erro %}
+        <div class="error-message">{{ erro }}</div>
     {% endif %}
 
     <div class="categorias-container">

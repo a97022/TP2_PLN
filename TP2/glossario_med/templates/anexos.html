@@ -3,6 +3,10 @@
 {% block content %}
     <h2>Anexos</h2>
 
+    <div class="action-buttons">
+        <a href="/anexos/adicionar" class="btn-save">Adicionar Anexo</a>
+    </div>
+
     <div class="search-box">
         <form method="get" action="/anexos">
             <input type="text" name="q" placeholder="Digite o título do artigo..." value="{{ q|default('') }}" required>
@@ -20,6 +24,14 @@
         <p style="margin-top: 1em;">Resultados para: <strong>{{ q }}</strong>{% if exata %} (exato){% endif %}</p>
     {% endif %}
 
+    {% if sucesso %}
+        <div class="success-message">{{ sucesso }}</div>
+    {% endif %}
+
+    {% if erro %}
+        <div class="error-message">{{ erro }}</div>
+    {% endif %}
+
     <table>
         <thead>
             <tr>
@@ -27,6 +39,7 @@
                 <th>Título do Artigo</th>
                 <th>Edição</th>
                 <th>Ano</th>
+                <th>Ações</th>
             </tr>
         </thead>
         <tbody>
@@ -36,6 +49,12 @@
                 <td>{{ anexo['Título do Artigo'] }}</td>
                 <td>Nº {{ anexo['Número da Edição'] }} ({{ anexo['Mês da Edição'] }})</td>
                 <td>{{ anexo['Ano da Edição'] }}</td>
+                <td class="actions">
+                    <a href="/anexos/editar/{{ anexo.Número }}" class="btn-save">Editar</a>
+                    <form method="post" action="/anexos/eliminar/{{ anexo.Número }}" style="display: inline;">
+                        <button type="submit" class="btn-secondary" onclick="return confirm('Tem a certeza que deseja eliminar este anexo?')">Eliminar</button>
+                    </form>
+                </td>
             </tr>
             {% endfor %}
         </tbody>

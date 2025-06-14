@@ -5,6 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Glossário Médico</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <!-- Botão para voltar ao topo -->
+    <style> 
+        .scroll-up {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #557bd4;
+            color: white;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 40px;
+            cursor: pointer;
+            display: none;
+            border: none;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+            transition: opacity 0.3s;
+        }
+        .scroll-up:hover {
+            background-color: #54a3e5;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -23,8 +46,30 @@
         {% block content %}{% endblock %}
     </main>
 
+    <button class="scroll-up" onclick="scrollToTop()" title="Voltar ao topo">↑</button>
+
     <footer>
         <p>TP2 PLN | André Sousa PG52564 Beatriz Macedo PG55820 Maria Vale PG56144</p>
     </footer>
+
+    <script>
+        // Mostrar/esconder o botão baseado na posição do scroll
+        window.onscroll = function() {
+            var scrollButton = document.querySelector('.scroll-up');
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                scrollButton.style.display = "block";
+            } else {
+                scrollButton.style.display = "none";
+            }
+        };
+
+        // Função para rolar suavemente até o topo
+        function scrollToTop() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        }
+    </script>
 </body>
 </html>
