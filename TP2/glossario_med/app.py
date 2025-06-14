@@ -34,16 +34,16 @@ def processar_links(texto, origem=None):
             link = f'<a href="/conceito/{termo}">{termo}</a>'
         texto = re.sub(rf'\b{re.escape(termo)}\b(?=\s|$)', link, texto, flags=re.IGNORECASE)
 
-    # Siglas (ex: FAPESP)
+    # Siglas
     for sigla, significado in dados['SIGLAS'].items():
         if origem:
             origem_url = urllib.parse.quote(origem) #para garantir que o nome do conceito (caso tenha espaços, acentos ou caracteres especiais) não cause problemas na URL
             link = f'<a href="/sigla/{sigla}?origem={origem_url}" class="tooltip" title="{significado}">{sigla}</a>'
         else:
             link = f'<a href="/sigla/{sigla}" class="tooltip" title="{significado}">{sigla}</a>'
-        texto = re.sub(rf'\b{re.escape(sigla)}\b(?=\s|$)', link, texto, flags=re.IGNORECASE) #Assegura que a sigla seja seguida por espaço ou fim de linha, para evitar capturas parciais.
+        texto = re.sub(rf'\b{re.escape(sigla)}\b(?=\s|$)', link, texto) #Assegura que a sigla seja seguida por espaço ou fim de linha, para evitar capturas parciais.
 
-    # Abreviaturas (ex: et al.)
+    # Abreviaturas
     for abrev, significados in dados['ABREVS'].items():
         significado = ', '.join(significados)
         if origem:
@@ -51,7 +51,7 @@ def processar_links(texto, origem=None):
             link = f'<a href="/abreviatura/{abrev}?origem={origem_url}" class="tooltip" title="{significado}">{abrev}</a>'
         else:
             link = f'<a href="/abreviatura/{abrev}" class="tooltip" title="{significado}">{abrev}</a>'
-        texto = re.sub(rf'\b{re.escape(abrev)}\b(?=\s|$)', link, texto, flags=re.IGNORECASE)
+        texto = re.sub(rf'\b{re.escape(abrev)}\b(?=\s|$)', link, texto)
 
     return Markup(texto)
 

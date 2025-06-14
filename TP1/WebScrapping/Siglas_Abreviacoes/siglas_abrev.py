@@ -3,7 +3,7 @@ import requests
 from bs4 import BeautifulSoup
 
 # Carregar JSON existente
-with open('../glossario_final_completo.json', 'r', encoding='utf-8') as f:
+with open('../../DMultilingue/glossario_final_completo.json', 'r', encoding='utf-8') as f:
     data = json.load(f)
 
 # Acessar a página
@@ -13,9 +13,6 @@ soup = BeautifulSoup(response.content, 'html.parser')
 
 # Encontrar todos os grupos (accordions)
 accordion_items = soup.select('.elementor-accordion-item')
-
-if accordion_items:
-    print("top")
 
 for item in accordion_items:
     # Verificar se é o grupo de símbolos
