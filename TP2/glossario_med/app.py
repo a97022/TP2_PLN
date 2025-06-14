@@ -95,28 +95,58 @@ def listar_conceitos():
     return render_template('conceitos.html', conceitos=conceitos, q=q, exata=exata)
 
 
+from markupsafe import Markup
+
 @app.route('/conceito/<nome>')
 def detalhe_conceito(nome):
     conceito = dados['CONCEITOS'].get(nome)
     if not conceito:
         return "Conceito não encontrado", 404
 
-    # Processar definições (lidando com listas vazias)
     definicoes_processadas = []
     for definicao, fonte in conceito.get('definicoes', []):
-        definicoes_processadas.append([processar_links(definicao, origem=nome), fonte])
+        definicoes_processadas.append([
+            processar_links(definicao, origem=nome),
+            fonte
+        ])
 
-    # Processar informações enciclopédicas
     info_enc = conceito.get('info_enc', '')
     info_enc_processada = processar_links(info_enc, origem=nome) if info_enc else ""
 
-    return render_template('conceito.html',
-                           nome=nome,
-                           conceito=conceito,
-                           definicoes_processadas=definicoes_processadas,
-                           info_enc_processada=info_enc_processada,
-                           categorias=dados['CATEGORIAS'],
-                           dados=dados)
+    categoria_lexica_processada = []
+    for cat in conceito.get('categoria_lexica', []):
+        categoria_lexica_processada.append(
+            Markup(processar_links(cat, origem=nome))
+        )
+
+    traducoes_processadas = {}
+    for lingua, lista in conceito.get('traducoes', {}).items():
+        traduzidos = []
+        for trad in lista:
+            traduzidos.append(processar_links(trad, origem=nome))
+        if traduzidos:
+            traducoes_processadas[lingua] = traduzidos
+
+    sinonimos_processados = {}
+    for lingua, lista in conceito.get('sinonimos', {}).items():
+        sinos = []
+        for sin in lista:
+            sinos.append(processar_links(sin, origem=nome))
+        if sinos:
+            sinonimos_processados[lingua] = sinos
+
+    return render_template(
+        'conceito.html',
+        nome=nome,
+        conceito=conceito,
+        definicoes_processadas=definicoes_processadas,
+        info_enc_processada=info_enc_processada,
+        categoria_lexica_processada=categoria_lexica_processada,
+        traducoes_processadas=traducoes_processadas,
+        sinonimos_processados=sinonimos_processados,
+        categorias=dados['CATEGORIAS'],
+        dados=dados
+    )
 
 
 @app.route('/siglas')
